@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Balor
+  m_EditorClassIdentifier: 
+  title: Balor
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/175/1000/1000/636252761612038117.jpeg
+  properties:
+  - name: subtitle
+    value: Huge fiend, chaotic evil
+    category: general
+  - name: Armor class
+    value: 19 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 262 (21d12 + 126)
+    category: stats
+  - name: Speed
+    value: 40 ft., fly 80 ft.
+    category: stats
+  - name: STR
+    value: 26
+    category: abilities
+  - name: DEX
+    value: 15
+    category: abilities
+  - name: CON
+    value: 22
+    category: abilities
+  - name: INT
+    value: 20
+    category: abilities
+  - name: WIS
+    value: 16
+    category: abilities
+  - name: CHA
+    value: 22
+    category: abilities
+  - name: Saving Throws
+    value: STR +14, CON +12, WIS +9, CHA +12
+    category: stats
+  - name: Damage Immunities
+    value: Fire, Poison
+    category: stats
+  - name: Damage Resistances
+    value: Cold, Lightning; Bludgeoning, Piercing, and Slashing from Nonmagical Attacks
+    category: stats
+  - name: Senses
+    value: Truesight 120 ft.,  Passive Perception 13
+    category: stats
+  - name: Condition Immunities
+    value: Poisoned
+    category: stats
+  - name: Languages
+    value: Abyssal, Telepathy 120 ft.
+    category: stats
+  - name: Challenge
+    value: 19 (22,000 XP)
+    category: stats
+  - name: Death Throes.
+    value: ' When the balor dies, it explodes, and each creature within 30 feet of
+      it must make a DC 20 Dexterity saving throw, taking 70 (20d6) fire damage on
+      a failed save, or half as much damage on a successful one. The explosion ignites
+      flammable objects in that area that aren''t being worn or carried, and it destroys
+      the balor''s weapons. '
+    category: Traits
+  - name: Fire Aura.
+    value: ' At the start of each of the balor''s turns, each creature within 5 feet
+      of it takes 10 (3d6) fire damage, and flammable objects in the aura that aren''t
+      being worn or carried ignite. A creature that touches the balor or hits it
+      with a melee attack while within 5 feet of it takes 10 (3d6) fire damage. '
+    category: Traits
+  - name: Magic Resistance.
+    value: ' The balor has advantage on saving throws against spells and other magical
+      effects. '
+    category: Traits
+  - name: Magic Weapons.
+    value: ' The balor''s weapon attacks are magical.'
+    category: Traits
+  - name: Multiattack.
+    value: ' The balor makes two attacks: one with its longsword and one with its
+      whip. '
+    category: Actions
+  - name: Longsword.
+    value: ' Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 21 (3d8
+      + 8) slashing damage plus 13 (3d8) lightning damage. If the balor scores a
+      critical hit, it rolls damage dice three times, instead of twice. '
+    category: Actions
+  - name: Whip.
+    value: ' Melee Weapon Attack: +14 to hit, reach 30 ft., one target. Hit: 15 (2d6
+      + 8) slashing damage plus 10 (3d6) fire damage, and the target must succeed
+      on a DC 20 Strength saving throw or be pulled up to 25 feet toward the balor. '
+    category: Actions
+  - name: Teleport.
+    value: ' The balor magically teleports, along with any equipment it is wearing
+      or carrying, up to 120 feet to an unoccupied space it can see.'
+    category: Actions

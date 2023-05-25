@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Stone Golem
+  m_EditorClassIdentifier: 
+  title: Stone Golem
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/107/315/315/636252743780112834.jpeg
+  properties:
+  - name: subtitle
+    value: Large construct, unaligned
+    category: general
+  - name: Armor class
+    value: 17 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 178 (17d10 + 85)
+    category: stats
+  - name: Speed
+    value: 30 ft.
+    category: stats
+  - name: STR
+    value: 22
+    category: abilities
+  - name: DEX
+    value: 9
+    category: abilities
+  - name: CON
+    value: 20
+    category: abilities
+  - name: INT
+    value: 3
+    category: abilities
+  - name: WIS
+    value: 11
+    category: abilities
+  - name: CHA
+    value: 1
+    category: abilities
+  - name: Damage Immunities
+    value: Poison, Psychic; Bludgeoning, Piercing, and Slashing from Nonmagical Attacks
+      that aren't Adamantine
+    category: stats
+  - name: Senses
+    value: Darkvision 120 ft.,  Passive Perception 10
+    category: stats
+  - name: Condition Immunities
+    value: Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned
+    category: stats
+  - name: Languages
+    value: Understands the languages of its creator but can't speak
+    category: stats
+  - name: Challenge
+    value: 10 (5,900 XP)
+    category: stats
+  - name: Immutable Form.
+    value: ' The golem is immune to any spell or effect that would alter its form. '
+    category: Traits
+  - name: Magic Resistance.
+    value: ' The golem has advantage on saving throws against spells and other magical
+      effects. '
+    category: Traits
+  - name: Magic Weapons.
+    value: ' The golem''s weapon attacks are magical.'
+    category: Traits
+  - name: Multiattack.
+    value: ' The golem makes two slam attacks. '
+    category: Actions
+  - name: Slam.
+    value: ' Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 19 (3d8
+      + 6) bludgeoning damage. '
+    category: Actions
+  - name: "Slow (Recharge 5\u20136)."
+    value: ' The golem targets one or more creatures it can see within 10 feet of
+      it. Each target must make a DC 17 Wisdom saving throw against this magic. On
+      a failed save, a target can''t use reactions, its speed is halved, and it can''t
+      make more than one attack on its turn. In addition, the target can take either
+      an action or a bonus action on its turn, not both. These effects last for 1
+      minute. A target can repeat the saving throw at the end of each of its turns,
+      ending the effect on itself on a success.'
+    category: Actions

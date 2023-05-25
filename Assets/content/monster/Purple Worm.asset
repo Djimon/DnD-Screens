@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Purple Worm
+  m_EditorClassIdentifier: 
+  title: Purple Worm
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/275/315/315/636252769846436684.jpeg
+  properties:
+  - name: subtitle
+    value: Gargantuan monstrosity, unaligned
+    category: general
+  - name: Armor class
+    value: 18 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 247 (15d20 + 90)
+    category: stats
+  - name: Speed
+    value: 50 ft., burrow 30 ft.
+    category: stats
+  - name: STR
+    value: 28
+    category: abilities
+  - name: DEX
+    value: 7
+    category: abilities
+  - name: CON
+    value: 22
+    category: abilities
+  - name: INT
+    value: 1
+    category: abilities
+  - name: WIS
+    value: 8
+    category: abilities
+  - name: CHA
+    value: 4
+    category: abilities
+  - name: Saving Throws
+    value: CON +11, WIS +4
+    category: stats
+  - name: Senses
+    value: Blindsight 30 ft., Tremorsense 60 ft.,  Passive Perception 9
+    category: stats
+  - name: Languages
+    value: --
+    category: stats
+  - name: Challenge
+    value: 15 (13,000 XP)
+    category: stats
+  - name: Tunneler.
+    value: ' The worm can burrow through solid rock at half its burrow speed and
+      leaves a 10-foot-diameter tunnel in its wake.'
+    category: Traits
+  - name: Multiattack.
+    value: ' The worm makes two attacks: one with its bite and one with its stinger. '
+    category: Actions
+  - name: Bite.
+    value: ' Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 22 (3d8
+      + 9) piercing damage. If the target is a Large or smaller creature, it must
+      succeed on a DC 19 Dexterity saving throw or be swallowed by the worm. A swallowed
+      creature is blinded and restrained, it has total cover against attacks and
+      other effects outside the worm, and it takes 21 (6d6) acid damage at the start
+      of each of the worm''s turns.'
+    category: Actions
+  - name: other
+    value: 'f the worm takes 30 damage or more on a single turn from a creature inside
+      it, the worm must succeed on a DC 21 Constitution saving throw at the end of
+      that turn or regurgitate all swallowed creatures, which fall prone in a space
+      within 10 feet of the worm. If the worm dies, a swallowed creature is no longer
+      restrained by it and can escape from the corpse by using 20 feet of movement,
+      exiting prone. '
+    category: Actions
+  - name: Tail Stinger.
+    value: ' Melee Weapon Attack: +9 to hit, reach 10 ft., one creature. Hit: 19
+      (3d6 + 9) piercing damage, and the target must make a DC 19 Constitution saving
+      throw, taking 42 (12d6) poison damage on a failed save, or half as much damage
+      on a successful one.'
+    category: Actions

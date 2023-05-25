@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Invisible Stalker
+  m_EditorClassIdentifier: 
+  title: Invisible Stalker
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/367/315/315/636252779159282339.jpeg
+  properties:
+  - name: subtitle
+    value: Medium elemental, neutral
+    category: general
+  - name: Armor class
+    value: 14
+    category: stats
+  - name: Hit points
+    value: 104 (16d8 + 32)
+    category: stats
+  - name: Speed
+    value: 50 ft., fly 50 ft. (hover)
+    category: stats
+  - name: STR
+    value: 16
+    category: abilities
+  - name: DEX
+    value: 19
+    category: abilities
+  - name: CON
+    value: 14
+    category: abilities
+  - name: INT
+    value: 10
+    category: abilities
+  - name: WIS
+    value: 15
+    category: abilities
+  - name: CHA
+    value: 11
+    category: abilities
+  - name: Skills
+    value: Perception +8, Stealth +10
+    category: stats
+  - name: Damage Immunities
+    value: Poison
+    category: stats
+  - name: Damage Resistances
+    value: Bludgeoning, Piercing, and Slashing from Nonmagical Attacks
+    category: stats
+  - name: Senses
+    value: Darkvision 60 ft.,  Passive Perception 18
+    category: stats
+  - name: Condition Immunities
+    value: Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained,
+      Unconscious
+    category: stats
+  - name: Languages
+    value: Auran  Understands Common but doesn't speak it
+    category: stats
+  - name: Challenge
+    value: 6 (2,300 XP)
+    category: stats
+  - name: Invisibility.
+    value: ' The stalker is invisible. '
+    category: Traits
+  - name: Faultless Tracker.
+    value: ' The stalker is given a quarry by its summoner. The stalker knows the
+      direction and distance to its quarry as long as the two of them are on the
+      same plane of existence. The stalker also knows the location of its summoner.'
+    category: Traits
+  - name: Multiattack.
+    value: ' The stalker makes two slam attacks. '
+    category: Actions
+  - name: Slam.
+    value: ' Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6
+      + 3) bludgeoning damage.'
+    category: Actions

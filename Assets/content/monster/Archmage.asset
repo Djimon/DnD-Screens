@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Archmage
+  m_EditorClassIdentifier: 
+  title: Archmage
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/167/315/315/636252760213195530.jpeg
+  properties:
+  - name: subtitle
+    value: Medium humanoid, any
+    category: general
+  - name: Armor class
+    value: 12 (15 With Mage Armor)
+    category: stats
+  - name: Hit points
+    value: 99 (18d8 + 18)
+    category: stats
+  - name: Speed
+    value: 30 ft.
+    category: stats
+  - name: STR
+    value: 10
+    category: abilities
+  - name: DEX
+    value: 14
+    category: abilities
+  - name: CON
+    value: 12
+    category: abilities
+  - name: INT
+    value: 20
+    category: abilities
+  - name: WIS
+    value: 15
+    category: abilities
+  - name: CHA
+    value: 16
+    category: abilities
+  - name: Saving Throws
+    value: INT +9, WIS +6
+    category: stats
+  - name: Skills
+    value: Arcana +13, History +13
+    category: stats
+  - name: Senses
+    value: Passive Perception 12
+    category: stats
+  - name: Languages
+    value: Any six languages
+    category: stats
+  - name: Challenge
+    value: 12 (8,400 XP)
+    category: stats
+  - name: Magic Resistance.
+    value: ' The archmage has advantage on saving throws against spells and other
+      magical effects.'
+    category: Traits
+  - name: Spellcasting.
+    value: ' The archmage is an 18th-level spellcaster. Its spellcasting ability
+      is Intelligence (spell save DC 17, +9 to hit with spell attacks). The archmage
+      can cast disguise self and invisibility at will and has the following wizard
+      spells prepared:'
+    category: Traits
+  - name: other
+    value: 'antrips (at will): fire bolt, light, mage hand, prestidigitation, shocking
+      grasp'
+    category: Traits
+  - name: other
+    value: 'st level (4 slots): detect magic, identify, mage armor, magic missile'
+    category: Traits
+  - name: other
+    value: 'nd level (3 slots): detect thoughts, mirror image, misty step'
+    category: Traits
+  - name: other
+    value: 'rd level (3 slots): counterspell, fly, lightning bolt'
+    category: Traits
+  - name: other
+    value: 'th level (3 slots): banishment, fire shield, stoneskin'
+    category: Traits
+  - name: other
+    value: 'th level (3 slots): cone of cold, scrying, wall of force'
+    category: Traits
+  - name: other
+    value: 'th level (1 slot): globe of invulnerability'
+    category: Traits
+  - name: other
+    value: 'th level (1 slot): teleport'
+    category: Traits
+  - name: other
+    value: 'th level (1 slot): mind blank'
+    category: Traits
+  - name: other
+    value: 'th level (1 slot): time stop'
+    category: Traits
+  - name: other
+    value: The archmage casts mind blank, stoneskin and mage armor spells on itself
+      before combat.
+    category: Traits
+  - name: Dagger.
+    value: ' Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60
+      ft., one target. Hit: 4 (1d4 + 2) piercing damage.'
+    category: Actions

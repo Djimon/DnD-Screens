@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Rat
+  m_EditorClassIdentifier: 
+  title: Rat
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/541/1000/1000/636376335435407571.jpeg
+  properties:
+  - name: subtitle
+    value: Tiny beast, unaligned
+    category: general
+  - name: Armor class
+    value: 10
+    category: stats
+  - name: Hit points
+    value: 1 (1d4 - 1)
+    category: stats
+  - name: Speed
+    value: 20 ft.
+    category: stats
+  - name: STR
+    value: 2
+    category: abilities
+  - name: DEX
+    value: 11
+    category: abilities
+  - name: CON
+    value: 9
+    category: abilities
+  - name: INT
+    value: 2
+    category: abilities
+  - name: WIS
+    value: 10
+    category: abilities
+  - name: CHA
+    value: 4
+    category: abilities
+  - name: Senses
+    value: Darkvision 30 ft.,  Passive Perception 10
+    category: stats
+  - name: Languages
+    value: --
+    category: stats
+  - name: Challenge
+    value: 0 (10 XP)
+    category: stats
+  - name: Keen Smell.
+    value: ' The rat has advantage on Wisdom (Perception) checks that rely on smell.'
+    category: Traits
+  - name: Bite.
+    value: ' Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing
+      damage.'
+    category: Actions

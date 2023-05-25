@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Triceratops
+  m_EditorClassIdentifier: 
+  title: Triceratops
+  icon: imp-laugh
+  backgroundImage: //media-waterdeep.cursecdn.com/attachments/2/648/beast.jpg
+  properties:
+  - name: subtitle
+    value: Huge beast, unaligned
+    category: general
+  - name: Armor class
+    value: 13 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 95 (10d12 + 30)
+    category: stats
+  - name: Speed
+    value: 50 ft.
+    category: stats
+  - name: STR
+    value: 22
+    category: abilities
+  - name: DEX
+    value: 9
+    category: abilities
+  - name: CON
+    value: 17
+    category: abilities
+  - name: INT
+    value: 2
+    category: abilities
+  - name: WIS
+    value: 11
+    category: abilities
+  - name: CHA
+    value: 5
+    category: abilities
+  - name: Senses
+    value: Passive Perception 10
+    category: stats
+  - name: Languages
+    value: --
+    category: stats
+  - name: Challenge
+    value: 5 (1,800 XP)
+    category: stats
+  - name: Trampling Charge.
+    value: ' If the triceratops moves at least 20 feet straight toward a creature
+      and then hits it with a gore attack on the same turn, that target must succeed
+      on a DC 13 Strength saving throw or be knocked prone. If the target is prone,
+      the triceratops can make one stomp attack against it as a bonus action.'
+    category: Traits
+  - name: Gore.
+    value: ' Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 24 (4d8
+      + 6) piercing damage. '
+    category: Actions
+  - name: Stomp.
+    value: ' Melee Weapon Attack: +9 to hit, reach 5 ft., one prone creature. Hit:
+      22 (3d10 + 6) bludgeoning damage.'
+    category: Actions

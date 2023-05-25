@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Couatl
+  m_EditorClassIdentifier: 
+  title: Couatl
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/257/315/315/636252768143323827.jpeg
+  properties:
+  - name: subtitle
+    value: Medium celestial, lawful good
+    category: general
+  - name: Armor class
+    value: 19 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 97 (13d8 + 39)
+    category: stats
+  - name: Speed
+    value: 30 ft., fly 90 ft.
+    category: stats
+  - name: STR
+    value: 16
+    category: abilities
+  - name: DEX
+    value: 20
+    category: abilities
+  - name: CON
+    value: 17
+    category: abilities
+  - name: INT
+    value: 18
+    category: abilities
+  - name: WIS
+    value: 20
+    category: abilities
+  - name: CHA
+    value: 18
+    category: abilities
+  - name: Saving Throws
+    value: CON +5, WIS +7, CHA +6
+    category: stats
+  - name: Damage Immunities
+    value: Psychic; Bludgeoning, Piercing, and Slashing from Nonmagical Attacks
+    category: stats
+  - name: Damage Resistances
+    value: Radiant
+    category: stats
+  - name: Senses
+    value: Truesight 120 ft.,  Passive Perception 15
+    category: stats
+  - name: Languages
+    value: All, Telepathy 120 ft.
+    category: stats
+  - name: Challenge
+    value: 4 (1,100 XP)
+    category: stats
+  - name: Innate Spellcasting.
+    value: ' The couatl''s spellcasting ability is Charisma (spell save DC 14). It
+      can innately cast the following spells, requiring only verbal components: '
+    category: Traits
+  - name: other
+    value: 't will: detect evil and good, detect magic, detect thoughts '
+    category: Traits
+  - name: other
+    value: '/day each: bless, create food and water, cure wounds, lesser restoration,
+      protection from poison, sanctuary, shield '
+    category: Traits
+  - name: other
+    value: '/day each: dream, greater restoration, scrying '
+    category: Traits
+  - name: Magic Weapons.
+    value: ' The couatl''s weapon attacks are magical. '
+    category: Traits
+  - name: Shielded Mind.
+    value: ' The couatl is immune to scrying and to any effect that would sense its
+      emotions, read its thoughts, or detect its location.'
+    category: Traits
+  - name: Bite.
+    value: ' Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 8 (1d6
+      + 5) piercing damage, and the target must succeed on a DC 13 Constitution saving
+      throw or be poisoned for 24 hours. Until this poison ends, the target is unconscious.
+      Another creature can use an action to shake the target awake. '
+    category: Actions
+  - name: Constrict.
+    value: ' Melee Weapon Attack: +6 to hit, reach 10 ft., one Medium or smaller
+      creature. Hit: 10 (2d6 + 3) bludgeoning damage, and the target is grappled
+      (escape DC 15). Until this grapple ends, the target is restrained, and the
+      couatl can''t constrict another target. '
+    category: Actions
+  - name: Change Shape.
+    value: ' The couatl magically polymorphs into a humanoid or beast that has a
+      challenge rating equal to or less than its own, or back into its true form.
+      It reverts to its true form if it dies. Any equipment it is wearing or carrying
+      is absorbed or borne by the new form (the couatl''s choice).'
+    category: Actions
+  - name: other
+    value: n a new form, the couatl retains its game statistics and ability to speak,
+      but its AC, movement modes, Strength, Dexterity, and other actions are replaced
+      by those of the new form, and it gains any statistics and capabilities (except
+      class features, legendary actions, and lair actions) that the new form has
+      but that it lacks. If the new form has a bite attack, the couatl can use its
+      bite in that form.
+    category: Actions

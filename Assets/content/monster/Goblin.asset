@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Goblin
+  m_EditorClassIdentifier: 
+  title: Goblin
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/351/315/315/636252777818652432.jpeg
+  properties:
+  - name: subtitle
+    value: Small humanoid, neutral evil
+    category: general
+  - name: Armor class
+    value: 15 (Leather Armor, Shield)
+    category: stats
+  - name: Hit points
+    value: 7 (2d6)
+    category: stats
+  - name: Speed
+    value: 30 ft.
+    category: stats
+  - name: STR
+    value: 8
+    category: abilities
+  - name: DEX
+    value: 14
+    category: abilities
+  - name: CON
+    value: 10
+    category: abilities
+  - name: INT
+    value: 10
+    category: abilities
+  - name: WIS
+    value: 8
+    category: abilities
+  - name: CHA
+    value: 8
+    category: abilities
+  - name: Skills
+    value: Stealth +6
+    category: stats
+  - name: Senses
+    value: Darkvision 60 ft.,  Passive Perception 9
+    category: stats
+  - name: Languages
+    value: Common, Goblin
+    category: stats
+  - name: Challenge
+    value: 1/4 (50 XP)
+    category: stats
+  - name: Nimble Escape.
+    value: ' The goblin can take the Disengage or Hide action as a bonus action on
+      each of its turns.'
+    category: Traits
+  - name: Scimitar.
+    value: ' Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6
+      + 2) slashing damage. '
+    category: Actions
+  - name: Shortbow.
+    value: ' Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit:
+      5 (1d6 + 2) piercing damage.'
+    category: Actions

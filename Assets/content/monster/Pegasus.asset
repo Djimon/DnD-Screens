@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Pegasus
+  m_EditorClassIdentifier: 
+  title: Pegasus
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/18/303/1000/1000/636379808797059368.png
+  properties:
+  - name: subtitle
+    value: Large celestial, chaotic good
+    category: general
+  - name: Armor class
+    value: 12
+    category: stats
+  - name: Hit points
+    value: 59 (7d10 + 21)
+    category: stats
+  - name: Speed
+    value: 60 ft., fly 90 ft.
+    category: stats
+  - name: STR
+    value: 18
+    category: abilities
+  - name: DEX
+    value: 15
+    category: abilities
+  - name: CON
+    value: 16
+    category: abilities
+  - name: INT
+    value: 10
+    category: abilities
+  - name: WIS
+    value: 15
+    category: abilities
+  - name: CHA
+    value: 13
+    category: abilities
+  - name: Saving Throws
+    value: DEX +4, WIS +4, CHA +3
+    category: stats
+  - name: Skills
+    value: Perception +6
+    category: stats
+  - name: Senses
+    value: Passive Perception 16
+    category: stats
+  - name: Languages
+    value: Celestial, Common, Elvish  and Sylvan but can't speak
+    category: stats
+  - name: Challenge
+    value: 2 (450 XP)
+    category: stats
+  - name: Hooves.
+    value: ' Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6
+      + 4) bludgeoning damage.'
+    category: Actions

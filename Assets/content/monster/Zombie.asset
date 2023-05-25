@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Zombie
+  m_EditorClassIdentifier: 
+  title: Zombie
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/71/315/315/636252733510786769.jpeg
+  properties:
+  - name: subtitle
+    value: Medium undead, neutral evil
+    category: general
+  - name: Armor class
+    value: 8
+    category: stats
+  - name: Hit points
+    value: 22 (3d8 + 9)
+    category: stats
+  - name: Speed
+    value: 20 ft.
+    category: stats
+  - name: STR
+    value: 13
+    category: abilities
+  - name: DEX
+    value: 6
+    category: abilities
+  - name: CON
+    value: 16
+    category: abilities
+  - name: INT
+    value: 3
+    category: abilities
+  - name: WIS
+    value: 6
+    category: abilities
+  - name: CHA
+    value: 5
+    category: abilities
+  - name: Saving Throws
+    value: WIS +0
+    category: stats
+  - name: Damage Immunities
+    value: Poison
+    category: stats
+  - name: Senses
+    value: Darkvision 60 ft.,  Passive Perception 8
+    category: stats
+  - name: Condition Immunities
+    value: Poisoned
+    category: stats
+  - name: Languages
+    value: Understands the languages of its creator but can't speak
+    category: stats
+  - name: Challenge
+    value: 1/4 (50 XP)
+    category: stats
+  - name: Undead Fortitude.
+    value: ' If damage reduces the zombie to 0 hit points, it must make a Constitution
+      saving throw with a DC of 5 + the damage taken, unless the damage is radiant
+      or from a critical hit. On a success, the zombie drops to 1 hit point instead.'
+    category: Traits
+  - name: Slam.
+    value: ' Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6
+      + 1) bludgeoning damage.'
+    category: Actions

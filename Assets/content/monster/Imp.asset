@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Imp
+  m_EditorClassIdentifier: 
+  title: Imp
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/361/315/315/636252778560366227.jpeg
+  properties:
+  - name: subtitle
+    value: Tiny fiend, lawful evil
+    category: general
+  - name: Armor class
+    value: 13
+    category: stats
+  - name: Hit points
+    value: 10 (3d4 + 3)
+    category: stats
+  - name: Speed
+    value: 20 ft., fly 40 ft.
+    category: stats
+  - name: STR
+    value: 6
+    category: abilities
+  - name: DEX
+    value: 17
+    category: abilities
+  - name: CON
+    value: 13
+    category: abilities
+  - name: INT
+    value: 11
+    category: abilities
+  - name: WIS
+    value: 12
+    category: abilities
+  - name: CHA
+    value: 14
+    category: abilities
+  - name: Skills
+    value: Deception +4, Insight +3, Persuasion +4, Stealth +5
+    category: stats
+  - name: Damage Immunities
+    value: Fire, Poison
+    category: stats
+  - name: Damage Resistances
+    value: Cold; Bludgeoning, Piercing, and Slashing from Nonmagical Attacks that
+      aren't Silvered
+    category: stats
+  - name: Senses
+    value: Darkvision 120 ft.,  Passive Perception 11
+    category: stats
+  - name: Condition Immunities
+    value: Poisoned
+    category: stats
+  - name: Languages
+    value: Common, Infernal
+    category: stats
+  - name: Challenge
+    value: 1 (200 XP)
+    category: stats
+  - name: Shapechanger.
+    value: ' The imp can use its action to polymorph into a beast form that resembles
+      a rat (speed 20 ft.), a raven (20 ft., fly 60 ft.), or a spider (20 ft., climb
+      20 ft.), or back into its true form. Its statistics are the same in each form,
+      except for the speed changes noted. Any equipment it is wearing or carrying
+      isn''t transformed. It reverts to its true form if it dies. '
+    category: Traits
+  - name: Devil's Sight.
+    value: ' Magical darkness doesn''t impede the imp''s darkvision. '
+    category: Traits
+  - name: Magic Resistance.
+    value: ' The imp has advantage on saving throws against spells and other magical
+      effects.'
+    category: Traits
+  - name: Sting (Bite in Beast Form).
+    value: ' Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4
+      + 3) piercing damage, and the target must make on a DC 11 Constitution saving
+      throw, taking 10 (3d6) poison damage on a failed save, or half as much damage
+      on a successful one. '
+    category: Actions
+  - name: Invisibility.
+    value: ' The imp magically turns invisible until it attacks or until its concentration
+      ends (as if concentrating on a spell). Any equipment the imp wears or carries
+      is invisible with it.'
+    category: Actions

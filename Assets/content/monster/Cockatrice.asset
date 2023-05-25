@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Cockatrice
+  m_EditorClassIdentifier: 
+  title: Cockatrice
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/251/315/315/636252767744669874.jpeg
+  properties:
+  - name: subtitle
+    value: Small monstrosity, unaligned
+    category: general
+  - name: Armor class
+    value: 11
+    category: stats
+  - name: Hit points
+    value: 27 (6d6 + 6)
+    category: stats
+  - name: Speed
+    value: 20 ft., fly 40 ft.
+    category: stats
+  - name: STR
+    value: 6
+    category: abilities
+  - name: DEX
+    value: 12
+    category: abilities
+  - name: CON
+    value: 12
+    category: abilities
+  - name: INT
+    value: 2
+    category: abilities
+  - name: WIS
+    value: 13
+    category: abilities
+  - name: CHA
+    value: 5
+    category: abilities
+  - name: Senses
+    value: Darkvision 60 ft.,  Passive Perception 11
+    category: stats
+  - name: Languages
+    value: --
+    category: stats
+  - name: Challenge
+    value: 1/2 (100 XP)
+    category: stats
+  - name: Bite.
+    value: ' Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 3 (1d4
+      + 1) piercing damage, and the target must succeed on a DC 11 Constitution saving
+      throw against being magically petrified. On a failed save, the creature begins
+      to turn to stone and is restrained. It must repeat the saving throw at the
+      end of its next turn. On a success, the effect ends. On a failure, the creature
+      is petrified for 24 hours.'
+    category: Actions

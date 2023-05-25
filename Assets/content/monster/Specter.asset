@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Specter
+  m_EditorClassIdentifier: 
+  title: Specter
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/119/315/315/636252747399435720.jpeg
+  properties:
+  - name: subtitle
+    value: Medium undead, chaotic evil
+    category: general
+  - name: Armor class
+    value: 12
+    category: stats
+  - name: Hit points
+    value: 22 (5d8)
+    category: stats
+  - name: Speed
+    value: 0 ft., fly 50 ft. (hover)
+    category: stats
+  - name: STR
+    value: 1
+    category: abilities
+  - name: DEX
+    value: 14
+    category: abilities
+  - name: CON
+    value: 11
+    category: abilities
+  - name: INT
+    value: 10
+    category: abilities
+  - name: WIS
+    value: 10
+    category: abilities
+  - name: CHA
+    value: 11
+    category: abilities
+  - name: Damage Immunities
+    value: Necrotic, Poison
+    category: stats
+  - name: Damage Resistances
+    value: Acid, Cold, Fire, Lightning, Thunder; Bludgeoning, Piercing, and Slashing
+      from Nonmagical Attacks
+    category: stats
+  - name: Senses
+    value: Darkvision 60 ft.,  Passive Perception 10
+    category: stats
+  - name: Condition Immunities
+    value: Charmed, Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone,
+      Restrained, Unconscious
+    category: stats
+  - name: Languages
+    value: Understands all languages it knew in life but can't speak
+    category: stats
+  - name: Challenge
+    value: 1 (200 XP)
+    category: stats
+  - name: Incorporeal Movement.
+    value: ' The specter can move through other creatures and objects as if they
+      were difficult terrain. It takes 5 (1d10) force damage if it ends its turn
+      inside an object. '
+    category: Traits
+  - name: Sunlight Sensitivity.
+    value: ' While in sunlight, the specter has disadvantage on attack rolls, as
+      well as on Wisdom (Perception) checks that rely on sight.'
+    category: Traits
+  - name: Life Drain.
+    value: ' Melee Spell Attack: +4 to hit, reach 5 ft., one creature. Hit: 10 (3d6)
+      necrotic damage. The target must succeed on a DC 10 Constitution saving throw
+      or its hit point maximum is reduced by an amount equal to the damage taken.
+      This reduction lasts until the creature finishes a long rest. The target dies
+      if this effect reduces its hit point maximum to 0.'
+    category: Actions

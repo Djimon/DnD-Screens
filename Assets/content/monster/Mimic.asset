@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Mimic
+  m_EditorClassIdentifier: 
+  title: Mimic
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/211/315/315/636252764731637373.jpeg
+  properties:
+  - name: subtitle
+    value: Medium monstrosity, neutral
+    category: general
+  - name: Armor class
+    value: 12 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 58 (9d8 + 18)
+    category: stats
+  - name: Speed
+    value: 15 ft.
+    category: stats
+  - name: STR
+    value: 17
+    category: abilities
+  - name: DEX
+    value: 12
+    category: abilities
+  - name: CON
+    value: 15
+    category: abilities
+  - name: INT
+    value: 5
+    category: abilities
+  - name: WIS
+    value: 13
+    category: abilities
+  - name: CHA
+    value: 8
+    category: abilities
+  - name: Skills
+    value: Stealth +5
+    category: stats
+  - name: Damage Immunities
+    value: Acid
+    category: stats
+  - name: Senses
+    value: Darkvision 60 ft.,  Passive Perception 11
+    category: stats
+  - name: Condition Immunities
+    value: Prone
+    category: stats
+  - name: Languages
+    value: --
+    category: stats
+  - name: Challenge
+    value: 2 (450 XP)
+    category: stats
+  - name: Shapechanger.
+    value: ' The mimic can use its action to polymorph into an object or back into
+      its true, amorphous form. Its statistics are the same in each form. Any equipment
+      it is wearing or carrying isn''t transformed. It reverts to its true form if
+      it dies. '
+    category: Traits
+  - name: Adhesive (Object Form Only).
+    value: ' The mimic adheres to anything that touches it. A Huge or smaller creature
+      adhered to the mimic is also grappled by it (escape DC 13). Ability checks
+      made to escape this grapple have disadvantage. '
+    category: Traits
+  - name: False Appearance (Object Form Only).
+    value: ' While the mimic remains motionless, it is indistinguishable from an
+      ordinary object. '
+    category: Traits
+  - name: Grappler.
+    value: ' The mimic has advantage on attack rolls against any creature grappled
+      by it.'
+    category: Traits
+  - name: Pseudopod.
+    value: ' Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8
+      + 3) bludgeoning damage. If the mimic is in object form, the target is subjected
+      to its Adhesive trait. '
+    category: Actions
+  - name: Bite.
+    value: ' Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8
+      + 3) piercing damage plus 4 (1d8) acid damage.'
+    category: Actions

@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Giant Scorpion
+  m_EditorClassIdentifier: 
+  title: Giant Scorpion
+  icon: imp-laugh
+  backgroundImage: //media-waterdeep.cursecdn.com/attachments/2/648/beast.jpg
+  properties:
+  - name: subtitle
+    value: Large beast, unaligned
+    category: general
+  - name: Armor class
+    value: 15 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 52 (7d10 + 14)
+    category: stats
+  - name: Speed
+    value: 40 ft.
+    category: stats
+  - name: STR
+    value: 15
+    category: abilities
+  - name: DEX
+    value: 13
+    category: abilities
+  - name: CON
+    value: 15
+    category: abilities
+  - name: INT
+    value: 1
+    category: abilities
+  - name: WIS
+    value: 9
+    category: abilities
+  - name: CHA
+    value: 3
+    category: abilities
+  - name: Senses
+    value: Blindsight 60 ft.,  Passive Perception 9
+    category: stats
+  - name: Languages
+    value: --
+    category: stats
+  - name: Challenge
+    value: 3 (700 XP)
+    category: stats
+  - name: Multiattack.
+    value: ' The scorpion makes three attacks: two with its claws and one with its
+      sting. '
+    category: Actions
+  - name: Claw.
+    value: ' Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8
+      + 2) bludgeoning damage, and the target is grappled (escape DC 12). The scorpion
+      has two claws, each of which can grapple only one target. '
+    category: Actions
+  - name: Sting.
+    value: ' Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10
+      + 2) piercing damage, and the target must make a DC 12 Constitution saving
+      throw, taking 22 (4d10) poison damage on a failed save, or half as much damage
+      on a successful one.'
+    category: Actions

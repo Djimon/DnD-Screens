@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Violet Fungus
+  m_EditorClassIdentifier: 
+  title: Violet Fungus
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/573/315/315/636376357964412799.jpeg
+  properties:
+  - name: subtitle
+    value: Medium plant, unaligned
+    category: general
+  - name: Armor class
+    value: 5
+    category: stats
+  - name: Hit points
+    value: 18 (4d8)
+    category: stats
+  - name: Speed
+    value: 5 ft.
+    category: stats
+  - name: STR
+    value: 3
+    category: abilities
+  - name: DEX
+    value: 1
+    category: abilities
+  - name: CON
+    value: 10
+    category: abilities
+  - name: INT
+    value: 1
+    category: abilities
+  - name: WIS
+    value: 3
+    category: abilities
+  - name: CHA
+    value: 1
+    category: abilities
+  - name: Senses
+    value: Blindsight 30 ft.,  Passive Perception 6
+    category: stats
+  - name: Condition Immunities
+    value: Blinded, Deafened, Frightened
+    category: stats
+  - name: Languages
+    value: --
+    category: stats
+  - name: Challenge
+    value: 1/4 (50 XP)
+    category: stats
+  - name: False Appearance.
+    value: ' While the violet fungus remains motionless, it is indistinguishable
+      from an ordinary fungus.'
+    category: Traits
+  - name: Multiattack.
+    value: ' The fungus makes 1d4 Rotting Touch attacks.'
+    category: Actions
+  - name: Rotting Touch.
+    value: ' Melee Weapon Attack: +2 to hit, reach 10 ft., one creature. Hit: 4 (1d8)
+      necrotic damage.'
+    category: Actions

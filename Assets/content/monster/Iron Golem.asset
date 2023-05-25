@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Iron Golem
+  m_EditorClassIdentifier: 
+  title: Iron Golem
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/371/315/315/636252779460570049.jpeg
+  properties:
+  - name: subtitle
+    value: Large construct, unaligned
+    category: general
+  - name: Armor class
+    value: 20 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 210 (20d10 + 100)
+    category: stats
+  - name: Speed
+    value: 30 ft.
+    category: stats
+  - name: STR
+    value: 24
+    category: abilities
+  - name: DEX
+    value: 9
+    category: abilities
+  - name: CON
+    value: 20
+    category: abilities
+  - name: INT
+    value: 3
+    category: abilities
+  - name: WIS
+    value: 11
+    category: abilities
+  - name: CHA
+    value: 1
+    category: abilities
+  - name: Damage Immunities
+    value: Fire, Poison, Psychic; Bludgeoning, Piercing, and Slashing from Nonmagical
+      Attacks that aren't Adamantine
+    category: stats
+  - name: Senses
+    value: Darkvision 120 ft.,  Passive Perception 10
+    category: stats
+  - name: Condition Immunities
+    value: Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned
+    category: stats
+  - name: Languages
+    value: Understands the languages of its creator but can't speak
+    category: stats
+  - name: Challenge
+    value: 16 (15,000 XP)
+    category: stats
+  - name: Fire Absorption.
+    value: ' Whenever the golem is subjected to fire damage, it takes no damage and
+      instead regains a number of hit points equal to the fire damage dealt. '
+    category: Traits
+  - name: Immutable Form.
+    value: ' The golem is immune to any spell or effect that would alter its form. '
+    category: Traits
+  - name: Magic Resistance.
+    value: ' The golem has advantage on saving throws against spells and other magical
+      effects. '
+    category: Traits
+  - name: Magic Weapons.
+    value: ' The golem''s weapon attacks are magical.'
+    category: Traits
+  - name: Multiattack.
+    value: ' The golem makes two melee attacks. '
+    category: Actions
+  - name: Slam.
+    value: ' Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 20 (3d8
+      + 7) bludgeoning damage. '
+    category: Actions
+  - name: Sword.
+    value: ' Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 23 (3d10
+      + 7) slashing damage. '
+    category: Actions
+  - name: Poison Breath (Recharge 6).
+    value: ' The golem exhales poisonous gas in a 15-foot cone. Each creature in
+      that area must make a DC 19 Constitution saving throw, taking 45 (10d8) poison
+      damage on a failed save, or half as much damage on a successful one.'
+    category: Actions

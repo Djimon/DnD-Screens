@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Planetar
+  m_EditorClassIdentifier: 
+  title: Planetar
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/303/1000/1000/636252771762002496.jpeg
+  properties:
+  - name: subtitle
+    value: Large celestial, lawful good
+    category: general
+  - name: Armor class
+    value: 19 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 200 (16d10 + 112)
+    category: stats
+  - name: Speed
+    value: 40 ft., fly 120 ft.
+    category: stats
+  - name: STR
+    value: 24
+    category: abilities
+  - name: DEX
+    value: 20
+    category: abilities
+  - name: CON
+    value: 24
+    category: abilities
+  - name: INT
+    value: 19
+    category: abilities
+  - name: WIS
+    value: 22
+    category: abilities
+  - name: CHA
+    value: 25
+    category: abilities
+  - name: Saving Throws
+    value: CON +12, WIS +11, CHA +12
+    category: stats
+  - name: Skills
+    value: Perception +11
+    category: stats
+  - name: Damage Resistances
+    value: Radiant; Bludgeoning, Piercing, and Slashing from Nonmagical Attacks
+    category: stats
+  - name: Senses
+    value: Truesight 120 ft.,  Passive Perception 21
+    category: stats
+  - name: Condition Immunities
+    value: Charmed, Exhaustion, Frightened
+    category: stats
+  - name: Languages
+    value: All, Telepathy 120 ft.
+    category: stats
+  - name: Challenge
+    value: 16 (15,000 XP)
+    category: stats
+  - name: Angelic Weapons.
+    value: ' The planetar''s weapon attacks are magical. When the planetar hits with
+      any weapon, the weapon deals an extra 5d8 radiant damage (included in the attack). '
+    category: Traits
+  - name: Divine Awareness.
+    value: ' The planetar knows if it hears a lie. '
+    category: Traits
+  - name: Innate Spellcasting.
+    value: ' The planetar''s spellcasting ability is Charisma (spell save DC 20).
+      The planetar can innately cast the following spells, requiring no material
+      components: '
+    category: Traits
+  - name: other
+    value: 't will: detect evil and good, invisibility (self only) '
+    category: Traits
+  - name: other
+    value: '/day each: blade barrier, dispel evil and good, flame strike, raise dead '
+    category: Traits
+  - name: other
+    value: '/day each: commune, control weather, insect plague '
+    category: Traits
+  - name: Magic Resistance.
+    value: ' The planetar has advantage on saving throws against spells and other
+      magical effects.'
+    category: Traits
+  - name: Multiattack.
+    value: ' The planetar makes two melee attacks. '
+    category: Actions
+  - name: Greatsword.
+    value: ' Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 21 (4d6
+      + 7) slashing damage plus 22 (5d8) radiant damage. '
+    category: Actions
+  - name: Healing Touch
+    value: ' (4/Day). The planetar touches another creature. The target magically
+      regains 30 (6d8 + 3) hit points and is freed from any curse, disease, poison,
+      blindness, or deafness.'
+    category: Actions

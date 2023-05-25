@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Scorpion
+  m_EditorClassIdentifier: 
+  title: Scorpion
+  icon: imp-laugh
+  backgroundImage: //media-waterdeep.cursecdn.com/attachments/2/648/beast.jpg
+  properties:
+  - name: subtitle
+    value: Tiny beast, unaligned
+    category: general
+  - name: Armor class
+    value: 11 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 1 (1d4 - 1)
+    category: stats
+  - name: Speed
+    value: 10 ft.
+    category: stats
+  - name: STR
+    value: 2
+    category: abilities
+  - name: DEX
+    value: 11
+    category: abilities
+  - name: CON
+    value: 8
+    category: abilities
+  - name: INT
+    value: 1
+    category: abilities
+  - name: WIS
+    value: 8
+    category: abilities
+  - name: CHA
+    value: 2
+    category: abilities
+  - name: Senses
+    value: Blindsight 10 ft.,  Passive Perception 9
+    category: stats
+  - name: Languages
+    value: --
+    category: stats
+  - name: Challenge
+    value: 0 (10 XP)
+    category: stats
+  - name: Sting.
+    value: ' Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 1 piercing
+      damage, and the target must make a DC 9 Constitution saving throw, taking 4
+      (1d8) poison damage on a failed save, or half as much damage on a successful
+      one.'
+    category: Actions

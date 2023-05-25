@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Adult Green Dragon
+  m_EditorClassIdentifier: 
+  title: Adult Green Dragon
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/26/1000/1000/636238962276510242.jpeg
+  properties:
+  - name: subtitle
+    value: Huge dragon, lawful evil
+    category: general
+  - name: Armor class
+    value: 19 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 207 (18d12 + 90)
+    category: stats
+  - name: Speed
+    value: 40 ft., fly 80 ft., swim 40 ft.
+    category: stats
+  - name: STR
+    value: 23
+    category: abilities
+  - name: DEX
+    value: 12
+    category: abilities
+  - name: CON
+    value: 21
+    category: abilities
+  - name: INT
+    value: 18
+    category: abilities
+  - name: WIS
+    value: 15
+    category: abilities
+  - name: CHA
+    value: 17
+    category: abilities
+  - name: Saving Throws
+    value: DEX +6, CON +10, WIS +7, CHA +8
+    category: stats
+  - name: Skills
+    value: Deception +8, Insight +7, Perception +12, Persuasion +8, Stealth +6
+    category: stats
+  - name: Damage Immunities
+    value: Poison
+    category: stats
+  - name: Senses
+    value: Blindsight 60 ft., Darkvision 120 ft.,  Passive Perception 22
+    category: stats
+  - name: Condition Immunities
+    value: Poisoned
+    category: stats
+  - name: Languages
+    value: Common, Draconic
+    category: stats
+  - name: Challenge
+    value: 15 (13,000 XP)
+    category: stats
+  - name: Amphibious.
+    value: ' The dragon can breathe air and water. '
+    category: Traits
+  - name: Legendary Resistance (3/Day).
+    value: ' If the dragon fails a saving throw, it can choose to succeed instead.'
+    category: Traits
+  - name: Multiattack.
+    value: ' The dragon can use its Frightful Presence. It then makes three attacks:
+      one with its bite and two with its claws. '
+    category: Actions
+  - name: Bite.
+    value: ' Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 17 (2d10
+      + 6) piercing damage plus 7 (2d6) poison damage. '
+    category: Actions
+  - name: Claw.
+    value: ' Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 13 (2d6
+      + 6) slashing damage. '
+    category: Actions
+  - name: Tail.
+    value: ' Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 15 (2d8
+      + 6) bludgeoning damage. '
+    category: Actions
+  - name: Frightful Presence.
+    value: ' Each creature of the dragon''s choice that is within 120 feet of the
+      dragon and aware of it must succeed on a DC 16 Wisdom saving throw or become
+      frightened for 1 minute. A creature can repeat the saving throw at the end
+      of each of its turns, ending the effect on itself on a success. If a creature''s
+      saving throw is successful or the effect ends for it, the creature is immune
+      to the dragon''s Frightful Presence for the next 24 hours. '
+    category: Actions
+  - name: "Poison Breath (Recharge 5\u20136)."
+    value: ' The dragon exhales poisonous gas in a 60-foot cone. Each creature in
+      that area must make a DC 18 Constitution saving throw, taking 56 (16d6) poison
+      damage on a failed save, or half as much damage on a successful one.'
+    category: Actions
+  - name: other
+    value: 'The dragon can take 3 legendary actions, choosing from the options below.
+      Only one legendary action option can be used at a time and only at the end
+      of another creature''s turn. The dragon regains spent legendary actions at
+      the start of its turn. '
+    category: Legendary Actions
+  - name: Detect.
+    value: ' The dragon makes a Wisdom (Perception) check. '
+    category: Legendary Actions
+  - name: Tail Attack.
+    value: ' The dragon makes a tail attack. '
+    category: Legendary Actions
+  - name: Wing Attack (Costs 2 Actions).
+    value: ' The dragon beats its wings. Each creature within 10 feet of the dragon
+      must succeed on a DC 19 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning
+      damage and be knocked prone. The dragon can then fly up to half its flying
+      speed.'
+    category: Legendary Actions

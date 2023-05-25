@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Wight
+  m_EditorClassIdentifier: 
+  title: Wight
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/56/315/315/636252726349692861.jpeg
+  properties:
+  - name: subtitle
+    value: Medium undead, neutral evil
+    category: general
+  - name: Armor class
+    value: 14 (Studded Leather)
+    category: stats
+  - name: Hit points
+    value: 45 (6d8 + 18)
+    category: stats
+  - name: Speed
+    value: 30 ft.
+    category: stats
+  - name: STR
+    value: 15
+    category: abilities
+  - name: DEX
+    value: 14
+    category: abilities
+  - name: CON
+    value: 16
+    category: abilities
+  - name: INT
+    value: 10
+    category: abilities
+  - name: WIS
+    value: 13
+    category: abilities
+  - name: CHA
+    value: 15
+    category: abilities
+  - name: Skills
+    value: Perception +3, Stealth +4
+    category: stats
+  - name: Damage Immunities
+    value: Poison
+    category: stats
+  - name: Damage Resistances
+    value: Necrotic; Bludgeoning, Piercing, and Slashing from Nonmagical Attacks
+      that aren't Silvered
+    category: stats
+  - name: Senses
+    value: Darkvision 60 ft.,  Passive Perception 13
+    category: stats
+  - name: Condition Immunities
+    value: Exhaustion, Poisoned
+    category: stats
+  - name: Languages
+    value: The languages it knew in life
+    category: stats
+  - name: Challenge
+    value: 3 (700 XP)
+    category: stats
+  - name: Sunlight Sensitivity.
+    value: ' While in sunlight, the wight has disadvantage on attack rolls, as well
+      as on Wisdom (Perception) checks that rely on sight.'
+    category: Traits
+  - name: Multiattack.
+    value: ' The wight makes two longsword attacks or two longbow attacks. It can
+      use its Life Drain in place of one longsword attack. '
+    category: Actions
+  - name: Life Drain.
+    value: ' Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6
+      + 2) necrotic damage. The target must succeed on a DC 13 Constitution saving
+      throw or its hit point maximum is reduced by an amount equal to the damage
+      taken. This reduction lasts until the target finishes a long rest. The target
+      dies if this effect reduces its hit point maximum to 0.'
+    category: Actions
+  - name: other
+    value: ' humanoid slain by this attack rises 24 hours later as a zombie under
+      the wight''s control, unless the humanoid is restored to life or its body is
+      destroyed. The wight can have no more than twelve zombies under its control
+      at one time. '
+    category: Actions
+  - name: Longsword.
+    value: ' Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8
+      + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with two hands. '
+    category: Actions
+  - name: Longbow.
+    value: ' Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit:
+      6 (1d8 + 2) piercing damage.'
+    category: Actions

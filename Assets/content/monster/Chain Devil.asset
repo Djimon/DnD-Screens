@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Chain Devil
+  m_EditorClassIdentifier: 
+  title: Chain Devil
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/235/1000/1000/636252766618069332.jpeg
+  properties:
+  - name: subtitle
+    value: Medium fiend, lawful evil
+    category: general
+  - name: Armor class
+    value: 16 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 85 (10d8 + 40)
+    category: stats
+  - name: Speed
+    value: 30 ft.
+    category: stats
+  - name: STR
+    value: 18
+    category: abilities
+  - name: DEX
+    value: 15
+    category: abilities
+  - name: CON
+    value: 18
+    category: abilities
+  - name: INT
+    value: 11
+    category: abilities
+  - name: WIS
+    value: 12
+    category: abilities
+  - name: CHA
+    value: 14
+    category: abilities
+  - name: Saving Throws
+    value: CON +7, WIS +4, CHA +5
+    category: stats
+  - name: Damage Immunities
+    value: Fire, Poison
+    category: stats
+  - name: Damage Resistances
+    value: Cold; Bludgeoning, Piercing, and Slashing from Nonmagical Attacks that
+      aren't Silvered
+    category: stats
+  - name: Senses
+    value: Darkvision 120 ft.,  Passive Perception 11
+    category: stats
+  - name: Condition Immunities
+    value: Poisoned
+    category: stats
+  - name: Languages
+    value: Infernal, Telepathy 120 ft.
+    category: stats
+  - name: Challenge
+    value: 8 (3,900 XP)
+    category: stats
+  - name: Devil's Sight.
+    value: ' Magical darkness doesn''t impede the devil''s darkvision. '
+    category: Traits
+  - name: Magic Resistance.
+    value: ' The devil has advantage on saving throws against spells and other magical
+      effects.'
+    category: Traits
+  - name: Multiattack.
+    value: ' The devil makes two attacks with its chains. '
+    category: Actions
+  - name: Chain.
+    value: ' Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 11 (2d6
+      + 4) slashing damage. The target is grappled (escape DC 14) if the devil isn''t
+      already grappling a creature. Until this grapple ends, the target is restrained
+      and takes 7 (2d6) piercing damage at the start of each of its turns. '
+    category: Actions
+  - name: Animate Chains (Recharges after a Short or Long Rest).
+    value: " Up to four chains the devil can see within 60 feet of it magically sprout
+      razor-\xADedged barbs and animate under the devil's control, provided that
+      the chains aren't being worn or carried. "
+    category: Actions
+  - name: other
+    value: ach animated chain is an object with AC 20, 20 hit points, resistance
+      to piercing damage, and immunity to psychic and thunder damage. When the devil
+      uses multiattack on its turn, it can use each animated chain to make one additional
+      chain attack. An animated chain can grapple one creature of its own but can't
+      make attacks while grappling. An animated chain reverts to its inanimate state
+      if reduced to 0 hit points or if the devil is incapacitated or dies.
+    category: Actions
+  - name: Unnerving Mask.
+    value: ' When a creature the devil can see starts its turn within 30 feet of
+      the devil, the devil can create the illusion that it looks like one of the
+      creature''s departed loved ones or bitter enemies. If the creature can see
+      the devil, it must succeed on a DC 14 Wisdom saving throw or be frightened
+      until the end of its turn.'
+    category: Reactions

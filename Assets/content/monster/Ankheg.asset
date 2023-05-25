@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Ankheg
+  m_EditorClassIdentifier: 
+  title: Ankheg
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/161/1000/1000/636252759871983921.jpeg
+  properties:
+  - name: subtitle
+    value: Large monstrosity, unaligned
+    category: general
+  - name: Armor class
+    value: 14 (Natural Armor), 11 While Prone
+    category: stats
+  - name: Hit points
+    value: 39 (6d10 + 6)
+    category: stats
+  - name: Speed
+    value: 30 ft., burrow 10 ft.
+    category: stats
+  - name: STR
+    value: 17
+    category: abilities
+  - name: DEX
+    value: 11
+    category: abilities
+  - name: CON
+    value: 13
+    category: abilities
+  - name: INT
+    value: 1
+    category: abilities
+  - name: WIS
+    value: 13
+    category: abilities
+  - name: CHA
+    value: 6
+    category: abilities
+  - name: Senses
+    value: Darkvision 60 ft., Tremorsense 60 ft.,  Passive Perception 11
+    category: stats
+  - name: Languages
+    value: --
+    category: stats
+  - name: Challenge
+    value: 2 (450 XP)
+    category: stats
+  - name: Bite.
+    value: ' Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6
+      + 3) slashing damage plus 3 (1d6) acid damage. If the target is a Large or
+      smaller creature, it is grappled (escape DC 13). Until this grapple ends, the
+      ankheg can bite only the grappled creature and has advantage on attack rolls
+      to do so. '
+    category: Actions
+  - name: Acid Spray (Recharge 6).
+    value: ' The ankheg spits acid in a line that is 30 feet long and 5 feet wide,
+      provided that it has no creature grappled. Each creature in that line must
+      make a DC 13 Dexterity saving throw, taking 10 (3d6) acid damage on a failed
+      save, or half as much damage on a successful one.'
+    category: Actions

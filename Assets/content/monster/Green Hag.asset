@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Green Hag
+  m_EditorClassIdentifier: 
+  title: Green Hag
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/365/315/315/636252778948574879.jpeg
+  properties:
+  - name: subtitle
+    value: Medium fey, neutral evil
+    category: general
+  - name: Armor class
+    value: 17 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 82 (11d8 + 33)
+    category: stats
+  - name: Speed
+    value: 30 ft.
+    category: stats
+  - name: STR
+    value: 18
+    category: abilities
+  - name: DEX
+    value: 12
+    category: abilities
+  - name: CON
+    value: 16
+    category: abilities
+  - name: INT
+    value: 13
+    category: abilities
+  - name: WIS
+    value: 14
+    category: abilities
+  - name: CHA
+    value: 14
+    category: abilities
+  - name: Skills
+    value: Arcana +3, Deception +4, Perception +4, Stealth +3
+    category: stats
+  - name: Senses
+    value: Darkvision 60 ft.,  Passive Perception 14
+    category: stats
+  - name: Languages
+    value: Common, Draconic, Sylvan
+    category: stats
+  - name: Challenge
+    value: 3 (700 XP)
+    category: stats
+  - name: Amphibious.
+    value: ' The hag can breathe air and water. '
+    category: Traits
+  - name: Innate Spellcasting.
+    value: ' The hag''s innate spellcasting ability is Charisma (spell save DC 12).
+      She can innately cast the following spells, requiring no material components: '
+    category: Traits
+  - name: other
+    value: 't will: dancing lights, minor illusion, vicious mockery '
+    category: Traits
+  - name: Mimicry.
+    value: ' The hag can mimic animal sounds and humanoid voices. A creature that
+      hears the sounds can tell they are imitations with a successful DC 14 Wisdom
+      (Insight) check.'
+    category: Traits
+  - name: Claws.
+    value: ' Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8
+      + 4) slashing damage. '
+    category: Actions
+  - name: Illusory Appearance.
+    value: ' The hag covers herself and anything she is wearing or carrying with
+      a magical illusion that makes her look like another creature of her general
+      size and humanoid shape. The illusion ends if the hag takes a bonus action
+      to end it or if she dies.'
+    category: Actions
+  - name: other
+    value: 'he changes wrought by this effect fail to hold up to physical inspection.
+      For example, the hag could appear to have smooth skin, but someone touching
+      her would feel her rough flesh. Otherwise, a creature must take an action to
+      visually inspect the illusion and succeed on a DC 20 Intelligence (Investigation)
+      check to discern that the hag is disguised. '
+    category: Actions
+  - name: Invisible Passage.
+    value: ' The hag magically turns invisible until she attacks or casts a spell,
+      or until her concentration ends (as if concentrating on a spell). While invisible,
+      she leaves no physical evidence of her passage, so she can be tracked only
+      by magic. Any equipment she wears or carries is invisible with her.'
+    category: Actions

@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Otyugh
+  m_EditorClassIdentifier: 
+  title: Otyugh
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/305/315/315/636252771931366466.jpeg
+  properties:
+  - name: subtitle
+    value: Large aberration, neutral
+    category: general
+  - name: Armor class
+    value: 14 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 114 (12d10 + 48)
+    category: stats
+  - name: Speed
+    value: 30 ft.
+    category: stats
+  - name: STR
+    value: 16
+    category: abilities
+  - name: DEX
+    value: 11
+    category: abilities
+  - name: CON
+    value: 19
+    category: abilities
+  - name: INT
+    value: 6
+    category: abilities
+  - name: WIS
+    value: 13
+    category: abilities
+  - name: CHA
+    value: 6
+    category: abilities
+  - name: Saving Throws
+    value: CON +7
+    category: stats
+  - name: Senses
+    value: Darkvision 120 ft.,  Passive Perception 11
+    category: stats
+  - name: Languages
+    value: Otyugh
+    category: stats
+  - name: Challenge
+    value: 5 (1,800 XP)
+    category: stats
+  - name: Limited Telepathy.
+    value: ' The otyugh can magically transmit simple messages and images to any
+      creature within 120 feet of it that can understand a language. This form of
+      telepathy doesn''t allow the receiving creature to telepathically respond.'
+    category: Traits
+  - name: Multiattack.
+    value: ' The otyugh makes three attacks: one with its bite and two with its tentacles. '
+    category: Actions
+  - name: Bite.
+    value: ' Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8
+      + 3) piercing damage. If the target is a creature, it must succeed on a DC
+      15 Constitution saving throw against disease or become poisoned until the disease
+      is cured. Every 24 hours that elapse, the target must repeat the saving throw,
+      reducing its hit point maximum by 5 (1d10) on a failure. The disease is cured
+      on a success. The target dies if the disease reduces its hit point maximum
+      to 0. This reduction to the target''s hit point maximum lasts until the disease
+      is cured. '
+    category: Actions
+  - name: Tentacle.
+    value: ' Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 7 (1d8
+      + 3) bludgeoning damage plus 4 (1d8) piercing damage. If the target is Medium
+      or smaller, it is grappled (escape DC 13) and restrained until the grapple
+      ends. The otyugh has two tentacles, each of which can grapple one target. '
+    category: Actions
+  - name: Tentacle Slam.
+    value: ' The otyugh slams creatures grappled by it into each other or a solid
+      surface. Each creature must succeed on a DC 14 Constitution saving throw or
+      take 10 (2d6 + 3) bludgeoning damage and be stunned until the end of the otyugh''s
+      next turn. On a successful save, the target takes half the bludgeoning damage
+      and isn''t stunned.'
+    category: Actions

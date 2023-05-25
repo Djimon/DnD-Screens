@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Hezrou
+  m_EditorClassIdentifier: 
+  title: Hezrou
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/321/1000/1000/636252775562934524.jpeg
+  properties:
+  - name: subtitle
+    value: Large fiend, chaotic evil
+    category: general
+  - name: Armor class
+    value: 16 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 136 (13d10 + 65)
+    category: stats
+  - name: Speed
+    value: 30 ft.
+    category: stats
+  - name: STR
+    value: 19
+    category: abilities
+  - name: DEX
+    value: 17
+    category: abilities
+  - name: CON
+    value: 20
+    category: abilities
+  - name: INT
+    value: 5
+    category: abilities
+  - name: WIS
+    value: 12
+    category: abilities
+  - name: CHA
+    value: 13
+    category: abilities
+  - name: Saving Throws
+    value: STR +7, CON +8, WIS +4
+    category: stats
+  - name: Damage Immunities
+    value: Poison
+    category: stats
+  - name: Damage Resistances
+    value: Cold, Fire, Lightning; Bludgeoning, Piercing, and Slashing from Nonmagical
+      Attacks
+    category: stats
+  - name: Senses
+    value: Darkvision 120 ft.,  Passive Perception 11
+    category: stats
+  - name: Condition Immunities
+    value: Poisoned
+    category: stats
+  - name: Languages
+    value: Abyssal, Telepathy 120 ft.
+    category: stats
+  - name: Challenge
+    value: 8 (3,900 XP)
+    category: stats
+  - name: Magic Resistance.
+    value: ' The hezrou has advantage on saving throws against spells and other magical
+      effects. '
+    category: Traits
+  - name: Stench.
+    value: ' Any creature that starts its turn within 10 feet of the hezrou must
+      succeed on a DC 14 Constitution saving throw or be poisoned until the start
+      of its next turn. On a successful saving throw, the creature is immune to the
+      hezrou''s stench for 24 hours.'
+    category: Traits
+  - name: Multiattack.
+    value: ' The hezrou makes three attacks: one with its bite and two with its claws. '
+    category: Actions
+  - name: Bite.
+    value: ' Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 15 (2d10
+      + 4) piercing damage. '
+    category: Actions
+  - name: Claw.
+    value: ' Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6
+      + 4) slashing damage.'
+    category: Actions

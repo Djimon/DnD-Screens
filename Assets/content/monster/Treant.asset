@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Treant
+  m_EditorClassIdentifier: 
+  title: Treant
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/97/315/315/636252740537990664.jpeg
+  properties:
+  - name: subtitle
+    value: Huge plant, chaotic good
+    category: general
+  - name: Armor class
+    value: 16 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 138 (12d12 + 60)
+    category: stats
+  - name: Speed
+    value: 30 ft.
+    category: stats
+  - name: STR
+    value: 23
+    category: abilities
+  - name: DEX
+    value: 8
+    category: abilities
+  - name: CON
+    value: 21
+    category: abilities
+  - name: INT
+    value: 12
+    category: abilities
+  - name: WIS
+    value: 16
+    category: abilities
+  - name: CHA
+    value: 12
+    category: abilities
+  - name: Damage Vulnerabilities
+    value: Fire
+    category: stats
+  - name: Damage Resistances
+    value: Bludgeoning, Piercing
+    category: stats
+  - name: Senses
+    value: Passive Perception 13
+    category: stats
+  - name: Languages
+    value: Common, Druidic, Elvish, Sylvan
+    category: stats
+  - name: Challenge
+    value: 9 (5,000 XP)
+    category: stats
+  - name: False Appearance.
+    value: ' While the treant remains motionless, it is indistinguishable from a
+      normal tree. '
+    category: Traits
+  - name: Siege Monster.
+    value: ' The treant deals double damage to objects and structures.'
+    category: Traits
+  - name: Multiattack.
+    value: ' The treant makes two slam attacks. '
+    category: Actions
+  - name: Slam.
+    value: ' Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 16 (3d6
+      + 6) bludgeoning damage. '
+    category: Actions
+  - name: Rock.
+    value: ' Ranged Weapon Attack: +10 to hit, range 60/180 ft., one target. Hit:
+      28 (4d10 + 6) bludgeoning damage. '
+    category: Actions
+  - name: Animate Trees (1/Day).
+    value: ' The treant magically animates one or two trees it can see within 60
+      feet of it. These trees have the same statistics as a treant, except they have
+      Intelligence and Charisma scores of 1, they can''t speak, and they have only
+      the Slam action option. An animated tree acts as an ally of the treant. The
+      tree remains animate for 1 day or until it dies; until the treant dies or is
+      more than 120 feet from the tree; or until the treant takes a bonus action
+      to turn it back into an inanimate tree. The tree then takes root if possible.'
+    category: Actions

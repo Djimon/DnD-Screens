@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Baboon
+  m_EditorClassIdentifier: 
+  title: Baboon
+  icon: imp-laugh
+  backgroundImage: //media-waterdeep.cursecdn.com/attachments/2/648/beast.jpg
+  properties:
+  - name: subtitle
+    value: Small beast, unaligned
+    category: general
+  - name: Armor class
+    value: 12
+    category: stats
+  - name: Hit points
+    value: 3 (1d6)
+    category: stats
+  - name: Speed
+    value: 30 ft., climb 30 ft.
+    category: stats
+  - name: STR
+    value: 8
+    category: abilities
+  - name: DEX
+    value: 14
+    category: abilities
+  - name: CON
+    value: 11
+    category: abilities
+  - name: INT
+    value: 4
+    category: abilities
+  - name: WIS
+    value: 12
+    category: abilities
+  - name: CHA
+    value: 6
+    category: abilities
+  - name: Senses
+    value: Passive Perception 11
+    category: stats
+  - name: Languages
+    value: --
+    category: stats
+  - name: Challenge
+    value: 0 (10 XP)
+    category: stats
+  - name: Pack Tactics.
+    value: ' The baboon has advantage on an attack roll against a creature if at
+      least one of the baboon''s allies is within 5 feet of the creature and the
+      ally isn''t incapacitated.'
+    category: Traits
+  - name: Bite.
+    value: " Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4
+      \u2212 1) piercing damage."
+    category: Actions

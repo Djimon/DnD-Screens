@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Giant Fire Beetle
+  m_EditorClassIdentifier: 
+  title: Giant Fire Beetle
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/896/315/315/636334287498492864.jpeg
+  properties:
+  - name: subtitle
+    value: Small beast, unaligned
+    category: general
+  - name: Armor class
+    value: 13 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 4 (1d6 + 1)
+    category: stats
+  - name: Speed
+    value: 30 ft.
+    category: stats
+  - name: STR
+    value: 8
+    category: abilities
+  - name: DEX
+    value: 10
+    category: abilities
+  - name: CON
+    value: 12
+    category: abilities
+  - name: INT
+    value: 1
+    category: abilities
+  - name: WIS
+    value: 7
+    category: abilities
+  - name: CHA
+    value: 3
+    category: abilities
+  - name: Senses
+    value: Blindsight 30 ft.,  Passive Perception 8
+    category: stats
+  - name: Languages
+    value: --
+    category: stats
+  - name: Challenge
+    value: 0 (10 XP)
+    category: stats
+  - name: Illumination.
+    value: ' The beetle sheds bright light in a 10-foot radius and dim light for
+      an additional 10 feet.'
+    category: Traits
+  - name: Bite.
+    value: " Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d6
+      \u2212 1) slashing damage."
+    category: Actions

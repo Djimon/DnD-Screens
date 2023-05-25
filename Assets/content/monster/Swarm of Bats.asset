@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Swarm of Bats
+  m_EditorClassIdentifier: 
+  title: Swarm of Bats
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/906/315/315/636334289313689439.jpeg
+  properties:
+  - name: subtitle
+    value: Medium beast, unaligned
+    category: general
+  - name: Armor class
+    value: 12
+    category: stats
+  - name: Hit points
+    value: 22 (5d8)
+    category: stats
+  - name: Speed
+    value: 0 ft., fly 30 ft.
+    category: stats
+  - name: STR
+    value: 5
+    category: abilities
+  - name: DEX
+    value: 15
+    category: abilities
+  - name: CON
+    value: 10
+    category: abilities
+  - name: INT
+    value: 2
+    category: abilities
+  - name: WIS
+    value: 12
+    category: abilities
+  - name: CHA
+    value: 4
+    category: abilities
+  - name: Damage Resistances
+    value: Bludgeoning, Piercing, Slashing
+    category: stats
+  - name: Senses
+    value: Blindsight 60 ft.,  Passive Perception 11
+    category: stats
+  - name: Condition Immunities
+    value: Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained,
+      Stunned
+    category: stats
+  - name: Languages
+    value: --
+    category: stats
+  - name: Challenge
+    value: 1/4 (50 XP)
+    category: stats
+  - name: Echolocation.
+    value: " The swarm can\u2019t use its blindsight while deafened."
+    category: Traits
+  - name: Keen Hearing.
+    value: ' The swarm has advantage on Wisdom (Perception) checks that rely on hearing.'
+    category: Traits
+  - name: Swarm.
+    value: " The swarm can occupy another creature\u2019s space and vice versa, and
+      the swarm can move through any opening large enough for a Tiny bat. The swarm
+      can\u2019t regain hit points or gain temporary hit points."
+    category: Traits
+  - name: "Bite.\_"
+    value: 'Melee Weapon Attack: +4 to hit, reach 0 ft., one creature in the swarm''s
+      space. Hit: 5 (2d4) piercing damage, or 2 (1d4) piercing damage if the swarm
+      has half of its hit points or fewer.'
+    category: Actions

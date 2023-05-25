@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Fire Giant
+  m_EditorClassIdentifier: 
+  title: Fire Giant
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/357/315/315/636252778143767005.jpeg
+  properties:
+  - name: subtitle
+    value: Huge giant, lawful evil
+    category: general
+  - name: Armor class
+    value: 18 (Plate)
+    category: stats
+  - name: Hit points
+    value: 162 (13d12 + 78)
+    category: stats
+  - name: Speed
+    value: 30 ft.
+    category: stats
+  - name: STR
+    value: 25
+    category: abilities
+  - name: DEX
+    value: 9
+    category: abilities
+  - name: CON
+    value: 23
+    category: abilities
+  - name: INT
+    value: 10
+    category: abilities
+  - name: WIS
+    value: 14
+    category: abilities
+  - name: CHA
+    value: 13
+    category: abilities
+  - name: Saving Throws
+    value: DEX +3, CON +10, CHA +5
+    category: stats
+  - name: Skills
+    value: Athletics +11, Perception +6
+    category: stats
+  - name: Damage Immunities
+    value: Fire
+    category: stats
+  - name: Senses
+    value: Passive Perception 16
+    category: stats
+  - name: Languages
+    value: Giant
+    category: stats
+  - name: Challenge
+    value: 9 (5,000 XP)
+    category: stats
+  - name: Multiattack.
+    value: ' The giant makes two greatsword attacks. '
+    category: Actions
+  - name: Greatsword.
+    value: ' Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 28 (6d6
+      + 7) slashing damage. '
+    category: Actions
+  - name: Rock.
+    value: ' Ranged Weapon Attack: +11 to hit, range 60/240 ft., one target. Hit:
+      29 (4d10 + 7) bludgeoning damage.'
+    category: Actions

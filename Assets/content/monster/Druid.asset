@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Druid
+  m_EditorClassIdentifier: 
+  title: Druid
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/299/1000/1000/636252771583275655.jpeg
+  properties:
+  - name: subtitle
+    value: Medium humanoid, any
+    category: general
+  - name: Armor class
+    value: 11 (16 With Barkskin)
+    category: stats
+  - name: Hit points
+    value: 27 (5d8 + 5)
+    category: stats
+  - name: Speed
+    value: 30 ft.
+    category: stats
+  - name: STR
+    value: 10
+    category: abilities
+  - name: DEX
+    value: 12
+    category: abilities
+  - name: CON
+    value: 13
+    category: abilities
+  - name: INT
+    value: 12
+    category: abilities
+  - name: WIS
+    value: 15
+    category: abilities
+  - name: CHA
+    value: 11
+    category: abilities
+  - name: Skills
+    value: Medicine +4, Nature +3, Perception +4
+    category: stats
+  - name: Senses
+    value: Passive Perception 14
+    category: stats
+  - name: Languages
+    value: Druidic plus any two languages
+    category: stats
+  - name: Challenge
+    value: 2 (450 XP)
+    category: stats
+  - name: Spellcasting.
+    value: ' The druid is a 4th-level spellcaster. Its spellcasting ability is Wisdom
+      (spell save DC 12, +4 to hit with spell attacks). It has the following druid
+      spells prepared: '
+    category: Traits
+  - name: other
+    value: 'antrips (at will): druidcraft, produce flame, shillelagh '
+    category: Traits
+  - name: other
+    value: 'st level (4 slots): entangle, longstrider, speak with animals, thunderwave '
+    category: Traits
+  - name: other
+    value: 'nd level (3 slots): animal messenger, barkskin'
+    category: Traits
+  - name: Quarterstaff.
+    value: ' Melee Weapon Attack: +2 to hit (+4 to hit with shillelagh), reach 5
+      ft., one target. Hit: 3 (1d6) bludgeoning damage, 4 (1d8) bludgeoning damage
+      if wielded with two hands, or 6 (1d8 + 2) bludgeoning damage with shillelagh.'
+    category: Actions

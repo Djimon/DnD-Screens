@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Bearded Devil
+  m_EditorClassIdentifier: 
+  title: Bearded Devil
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/193/315/315/636252763397604505.jpeg
+  properties:
+  - name: subtitle
+    value: Medium fiend, lawful evil
+    category: general
+  - name: Armor class
+    value: 13 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 52 (8d8 + 16)
+    category: stats
+  - name: Speed
+    value: 30 ft.
+    category: stats
+  - name: STR
+    value: 16
+    category: abilities
+  - name: DEX
+    value: 15
+    category: abilities
+  - name: CON
+    value: 15
+    category: abilities
+  - name: INT
+    value: 9
+    category: abilities
+  - name: WIS
+    value: 11
+    category: abilities
+  - name: CHA
+    value: 11
+    category: abilities
+  - name: Saving Throws
+    value: STR +5, CON +4, WIS +2
+    category: stats
+  - name: Damage Immunities
+    value: Fire, Poison
+    category: stats
+  - name: Damage Resistances
+    value: Cold; Bludgeoning, Piercing, and Slashing from Nonmagical Attacks that
+      aren't Silvered
+    category: stats
+  - name: Senses
+    value: Darkvision 120 ft.,  Passive Perception 10
+    category: stats
+  - name: Condition Immunities
+    value: Poisoned
+    category: stats
+  - name: Languages
+    value: Infernal, Telepathy 120 ft.
+    category: stats
+  - name: Challenge
+    value: 3 (700 XP)
+    category: stats
+  - name: Devil's Sight.
+    value: ' Magical darkness doesn''t impede the devil''s darkvision. '
+    category: Traits
+  - name: Magic Resistance.
+    value: ' The devil has advantage on saving throws against spells and other magical
+      effects. '
+    category: Traits
+  - name: Steadfast.
+    value: ' The devil can''t be frightened while it can see an allied creature within
+      30 feet of it.'
+    category: Traits
+  - name: Multiattack.
+    value: ' The devil makes two attacks: one with its beard and one with its glaive. '
+    category: Actions
+  - name: Beard.
+    value: ' Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 6 (1d8
+      + 2) piercing damage, and the target must succeed on a DC 12 Constitution saving
+      throw or be poisoned for 1 minute. While poisoned in this way, the target can''t
+      regain hit points. The target can repeat the saving throw at the end of each
+      of its turns, ending the effect on itself on a success. '
+    category: Actions
+  - name: Glaive.
+    value: ' Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 8 (1d10
+      + 3) slashing damage. If the target is a creature other than an undead or a
+      construct, it must succeed on a DC 12 Constitution saving throw or lose 5 (1d10)
+      hit points at the start of each of its turns due to an infernal wound. Each
+      time the devil hits the wounded target with this attack, the damage dealt by
+      the wound increases by 5 (1d10). Any creature can take an action to stanch
+      the wound with a successful DC 12 Wisdom (Medicine) check. The wound also closes
+      if the target receives magical healing.'
+    category: Actions

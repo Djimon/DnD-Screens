@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Wereboar
+  m_EditorClassIdentifier: 
+  title: Wereboar
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/80/315/315/636252735506840152.jpeg
+  properties:
+  - name: subtitle
+    value: Medium humanoid, neutral evil
+    category: general
+  - name: Armor class
+    value: 10 In Humanoid Form, 11 In Boar Or Hybrid Form
+    category: stats
+  - name: Hit points
+    value: 78 (12d8 + 24)
+    category: stats
+  - name: Speed
+    value: 30 ft., 40 ft. in boar form
+    category: stats
+  - name: STR
+    value: 17
+    category: abilities
+  - name: DEX
+    value: 10
+    category: abilities
+  - name: CON
+    value: 15
+    category: abilities
+  - name: INT
+    value: 10
+    category: abilities
+  - name: WIS
+    value: 11
+    category: abilities
+  - name: CHA
+    value: 8
+    category: abilities
+  - name: Skills
+    value: Perception +2
+    category: stats
+  - name: Damage Immunities
+    value: Bludgeoning, Piercing, and Slashing from Nonmagical Attacks that aren't
+      Silvered
+    category: stats
+  - name: Senses
+    value: Passive Perception 12
+    category: stats
+  - name: Languages
+    value: Common (can't speak in boar form)
+    category: stats
+  - name: Challenge
+    value: 4 (1,100 XP)
+    category: stats
+  - name: Shapechanger.
+    value: ' The wereboar can use its action to polymorph into a boar-humanoid hybrid
+      or into a boar, or back into its true form, which is humanoid. Its statistics,
+      other than its AC, are the same in each form. Any equipment it is wearing or
+      carrying isn''t transformed. It reverts to its true form if it dies. '
+    category: Traits
+  - name: Charge (Boar or Hybrid Form Only).
+    value: ' If the wereboar moves at least 15 feet straight toward a target and
+      then hits it with its tusks on the same turn, the target takes an extra 7 (2d6)
+      slashing damage. If the target is a creature, it must succeed on a DC 13 Strength
+      saving throw or be knocked prone. '
+    category: Traits
+  - name: Relentless (Recharges after a Short or Long Rest).
+    value: ' If the wereboar takes 14 damage or less that would reduce it to 0 hit
+      points, it is reduced to 1 hit point instead.'
+    category: Traits
+  - name: Multiattack (Humanoid or Hybrid Form Only).
+    value: ' The wereboar makes two attacks, only one of which can be with its tusks. '
+    category: Actions
+  - name: Maul (Humanoid or Hybrid Form Only).
+    value: ' Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6
+      + 3) bludgeoning damage. '
+    category: Actions
+  - name: Tusks (Boar or Hybrid Form Only).
+    value: ' Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6
+      + 3) slashing damage. If the target is a humanoid, it must succeed on a DC
+      12 Constitution saving throw or be cursed with wereboar lycanthropy.'
+    category: Actions

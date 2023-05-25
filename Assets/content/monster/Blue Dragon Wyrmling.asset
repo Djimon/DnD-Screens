@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Blue Dragon Wyrmling
+  m_EditorClassIdentifier: 
+  title: Blue Dragon Wyrmling
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/209/1000/1000/636252764637244026.jpeg
+  properties:
+  - name: subtitle
+    value: Medium dragon, lawful evil
+    category: general
+  - name: Armor class
+    value: 17 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 52 (8d8 + 16)
+    category: stats
+  - name: Speed
+    value: 30 ft., burrow 15 ft., fly 60 ft.
+    category: stats
+  - name: STR
+    value: 17
+    category: abilities
+  - name: DEX
+    value: 10
+    category: abilities
+  - name: CON
+    value: 15
+    category: abilities
+  - name: INT
+    value: 12
+    category: abilities
+  - name: WIS
+    value: 11
+    category: abilities
+  - name: CHA
+    value: 15
+    category: abilities
+  - name: Saving Throws
+    value: DEX +2, CON +4, WIS +2, CHA +4
+    category: stats
+  - name: Skills
+    value: Perception +4, Stealth +2
+    category: stats
+  - name: Damage Immunities
+    value: Lightning
+    category: stats
+  - name: Senses
+    value: Blindsight 10 ft., Darkvision 60 ft.,  Passive Perception 14
+    category: stats
+  - name: Languages
+    value: Draconic
+    category: stats
+  - name: Challenge
+    value: 3 (700 XP)
+    category: stats
+  - name: Bite.
+    value: ' Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10
+      + 3) piercing damage plus 3 (1d6) lightning damage. '
+    category: Actions
+  - name: "Lightning Breath (Recharge 5\u20136)."
+    value: " The dragon exhales lightning in a 30-\xADfoot line that is 5 feet wide.
+      Each creature in that line must make a DC 12 Dexterity saving throw, taking
+      22 (4d10) lightning damage on a failed save, or half as much damage on a successful
+      one."
+    category: Actions

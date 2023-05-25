@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Centaur
+  m_EditorClassIdentifier: 
+  title: Centaur
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/227/315/315/636252765573266420.jpeg
+  properties:
+  - name: subtitle
+    value: Large monstrosity, neutral good
+    category: general
+  - name: Armor class
+    value: 12
+    category: stats
+  - name: Hit points
+    value: 45 (6d10 + 12)
+    category: stats
+  - name: Speed
+    value: 50 ft.
+    category: stats
+  - name: STR
+    value: 18
+    category: abilities
+  - name: DEX
+    value: 14
+    category: abilities
+  - name: CON
+    value: 14
+    category: abilities
+  - name: INT
+    value: 9
+    category: abilities
+  - name: WIS
+    value: 13
+    category: abilities
+  - name: CHA
+    value: 11
+    category: abilities
+  - name: Skills
+    value: Athletics +6, Perception +3, Survival +3
+    category: stats
+  - name: Senses
+    value: Passive Perception 13
+    category: stats
+  - name: Languages
+    value: Elvish, Sylvan
+    category: stats
+  - name: Challenge
+    value: 2 (450 XP)
+    category: stats
+  - name: Charge.
+    value: ' If the centaur moves at least 30 feet straight toward a target and then
+      hits it with a pike attack on the same turn, the target takes an extra 10 (3d6)
+      piercing damage.'
+    category: Traits
+  - name: Multiattack.
+    value: ' The centaur makes two attacks: one with its pike and one with its hooves
+      or two with its longbow. '
+    category: Actions
+  - name: Pike.
+    value: ' Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 9 (1d10
+      + 4) piercing damage. '
+    category: Actions
+  - name: Hooves.
+    value: ' Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6
+      + 4) bludgeoning damage. '
+    category: Actions
+  - name: Longbow.
+    value: ' Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit:
+      6 (1d8 + 2) piercing damage.'
+    category: Actions

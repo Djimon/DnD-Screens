@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Earth Elemental
+  m_EditorClassIdentifier: 
+  title: Earth Elemental
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/317/315/315/636252772331779404.jpeg
+  properties:
+  - name: subtitle
+    value: Large elemental, neutral
+    category: general
+  - name: Armor class
+    value: 17 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 126 (12d10 + 60)
+    category: stats
+  - name: Speed
+    value: 30 ft., burrow 30 ft.
+    category: stats
+  - name: STR
+    value: 20
+    category: abilities
+  - name: DEX
+    value: 8
+    category: abilities
+  - name: CON
+    value: 20
+    category: abilities
+  - name: INT
+    value: 5
+    category: abilities
+  - name: WIS
+    value: 10
+    category: abilities
+  - name: CHA
+    value: 5
+    category: abilities
+  - name: Damage Vulnerabilities
+    value: Thunder
+    category: stats
+  - name: Damage Immunities
+    value: Poison
+    category: stats
+  - name: Damage Resistances
+    value: Bludgeoning, Piercing, and Slashing from Nonmagical Attacks
+    category: stats
+  - name: Senses
+    value: Darkvision 60 ft., Tremorsense 60 ft.,  Passive Perception 10
+    category: stats
+  - name: Condition Immunities
+    value: Exhaustion, Paralyzed, Petrified, Poisoned, Unconscious
+    category: stats
+  - name: Languages
+    value: Terran
+    category: stats
+  - name: Challenge
+    value: 5 (1,800 XP)
+    category: stats
+  - name: Earth Glide.
+    value: ' The elemental can burrow through nonmagical, unworked earth and stone.
+      While doing so, the elemental doesn''t disturb the material it moves through. '
+    category: Traits
+  - name: Siege Monster.
+    value: ' The elemental deals double damage to objects and structures.'
+    category: Traits
+  - name: Multiattack.
+    value: ' The elemental makes two slam attacks. '
+    category: Actions
+  - name: Slam.
+    value: ' Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 14 (2d8
+      + 5) bludgeoning damage.'
+    category: Actions

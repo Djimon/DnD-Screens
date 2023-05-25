@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Solar
+  m_EditorClassIdentifier: 
+  title: Solar
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/121/315/315/636252748079664097.jpeg
+  properties:
+  - name: subtitle
+    value: Large celestial, lawful good
+    category: general
+  - name: Armor class
+    value: 21 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 243 (18d10 + 144)
+    category: stats
+  - name: Speed
+    value: 50 ft., fly 150 ft.
+    category: stats
+  - name: STR
+    value: 26
+    category: abilities
+  - name: DEX
+    value: 22
+    category: abilities
+  - name: CON
+    value: 26
+    category: abilities
+  - name: INT
+    value: 25
+    category: abilities
+  - name: WIS
+    value: 25
+    category: abilities
+  - name: CHA
+    value: 30
+    category: abilities
+  - name: Saving Throws
+    value: INT +14, WIS +14, CHA +17
+    category: stats
+  - name: Skills
+    value: Perception +14
+    category: stats
+  - name: Damage Immunities
+    value: Necrotic, Poison
+    category: stats
+  - name: Damage Resistances
+    value: Radiant; Bludgeoning, Piercing, and Slashing from Nonmagical Attacks
+    category: stats
+  - name: Senses
+    value: Truesight 120 ft.,  Passive Perception 24
+    category: stats
+  - name: Condition Immunities
+    value: Charmed, Exhaustion, Frightened, Poisoned
+    category: stats
+  - name: Languages
+    value: All, Telepathy 120 ft.
+    category: stats
+  - name: Challenge
+    value: 21 (33,000 XP)
+    category: stats
+  - name: Angelic Weapons.
+    value: ' The solar''s weapon attacks are magical. When the solar hits with any
+      weapon, the weapon deals an extra 6d8 radiant damage (included in the attack). '
+    category: Traits
+  - name: Divine Awareness.
+    value: ' The solar knows if it hears a lie. '
+    category: Traits
+  - name: Innate Spellcasting.
+    value: ' The solar''s spellcasting ability is Charisma (spell save DC 25). It
+      can innately cast the following spells, requiring no material components: '
+    category: Traits
+  - name: other
+    value: 't will: detect evil and good, invisibility (self only) '
+    category: Traits
+  - name: other
+    value: '/day each: blade barrier, dispel evil and good, resurrection '
+    category: Traits
+  - name: other
+    value: '/day each: commune, control weather '
+    category: Traits
+  - name: Magic Resistance.
+    value: ' The solar has advantage on saving throws against spells and other magical
+      effects.'
+    category: Traits
+  - name: Multiattack.
+    value: ' The solar makes two greatsword attacks. '
+    category: Actions
+  - name: Greatsword.
+    value: ' Melee Weapon Attack: +15 to hit, reach 5 ft., one target. Hit: 22 (4d6
+      + 8) slashing damage plus 27 (6d8) radiant damage. '
+    category: Actions
+  - name: Slaying Longbow.
+    value: ' Ranged Weapon Attack: +13 to hit, range 150/600 ft., one target. Hit:
+      15 (2d8 + 6) piercing damage plus 27 (6d8) radiant damage. If the target is
+      a creature that has 100 hit points or fewer, it must succeed on a DC 15 Constitution
+      saving throw or die. '
+    category: Actions
+  - name: Flying Sword.
+    value: ' The solar releases its greatsword to hover magically in an unoccupied
+      space within 5 feet of it. If the solar can see the sword, the solar can mentally
+      command it as a bonus action to fly up to 50 feet and either make one attack
+      against a target or return to the solar''s hands. If the hovering sword is
+      targeted by any effect, the solar is considered to be holding it. The hovering
+      sword falls if the solar dies. '
+    category: Actions
+  - name: Healing Touch (4/Day).
+    value: ' The solar touches another creature. The target magically regains 40
+      (8d8 + 4) hit points and is freed from any curse, disease, poison, blindness,
+      or deafness.'
+    category: Actions
+  - name: other
+    value: 'The solar can take 3 legendary actions, choosing from the options below.
+      Only one legendary action option can be used at a time and only at the end
+      of another creature''s turn. The solar regains spent legendary actions at the
+      start of its turn. '
+    category: Legendary Actions
+  - name: Teleport.
+    value: ' The solar magically teleports, along with any equipment it is wearing
+      or carrying, up to 120 feet to an unoccupied space it can see. '
+    category: Legendary Actions
+  - name: Searing Burst (Costs 2 Actions).
+    value: ' The solar emits magical, divine energy. Each creature of its choice
+      in a 10-foot radius must make a DC 23 Dexterity saving throw, taking 14 (4d6)
+      fire damage plus 14 (4d6) radiant damage on a failed save, or half as much
+      damage on a successful one. '
+    category: Legendary Actions
+  - name: Blinding Gaze (Costs 3 Actions).
+    value: ' The solar targets one creature it can see within 30 feet of it. If the
+      target can see it, the target must succeed on a DC 15 Constitution saving throw
+      or be blinded until magic such as the lesser restoration spell removes the
+      blindness.'
+    category: Legendary Actions

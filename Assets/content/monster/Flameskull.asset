@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Flameskull
+  m_EditorClassIdentifier: 
+  title: Flameskull
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/14/487/315/315/636364325235118776.png
+  properties:
+  - name: subtitle
+    value: Tiny undead, neutral evil
+    category: general
+  - name: Armor class
+    value: 13
+    category: stats
+  - name: Hit points
+    value: 40 (9d4 + 18)
+    category: stats
+  - name: Speed
+    value: 0 ft., fly 40 ft. (hover)
+    category: stats
+  - name: STR
+    value: 1
+    category: abilities
+  - name: DEX
+    value: 17
+    category: abilities
+  - name: CON
+    value: 14
+    category: abilities
+  - name: INT
+    value: 16
+    category: abilities
+  - name: WIS
+    value: 10
+    category: abilities
+  - name: CHA
+    value: 11
+    category: abilities
+  - name: Skills
+    value: Arcana +5, Perception +2
+    category: stats
+  - name: Damage Immunities
+    value: Cold, Fire, Poison
+    category: stats
+  - name: Damage Resistances
+    value: Lightning, Necrotic, Piercing
+    category: stats
+  - name: Senses
+    value: Darkvision 60 ft.,  Passive Perception 12
+    category: stats
+  - name: Condition Immunities
+    value: Charmed, Frightened, Paralyzed, Poisoned, Prone
+    category: stats
+  - name: Languages
+    value: Common
+    category: stats
+  - name: Challenge
+    value: 4 (1,100 XP)
+    category: stats
+  - name: Illumination.
+    value: ' The flameskull sheds either dim light in a 15-foot radius, or bright
+      light in a 15-foot radius and dim light for an additional 15 feet. It can switch
+      between the options as an action.'
+    category: Traits
+  - name: Magic Resistance.
+    value: ' The flameskull has advantage on saving throws against spells and other
+      magical effects.'
+    category: Traits
+  - name: Rejuvenation.
+    value: ' If the flameskull is destroyed, it regains all its hit points in 1 hour
+      unless holy water is sprinkled on its remains or a dispel magic or remove curse
+      spell is cast on them.'
+    category: Traits
+  - name: Spellcasting.
+    value: ' The flameskull is a 5th-level spellcaster. Its spellcasting ability
+      is Intelligence (spell save DC 13, +5 to hit with spell attacks). It requires
+      no somatic or material components to cast its spells. The flameskull has the
+      following wizard spells prepared:'
+    category: Traits
+  - name: other
+    value: "\nCantrip (at will): mage hand\n1st level (3 slots): magic missile, shield\n2nd
+      level (2 slots): blur, flaming sphere\n3rd level (1 slot): fireball\n "
+    category: Traits
+  - name: Multiattack.
+    value: ' The flameskull uses Fire Ray twice.'
+    category: Actions
+  - name: Fire Ray.
+    value: ' Ranged Spell Attack: +5 to hit, range 30 ft., one target. Hit: 10 (3d6)
+      fire damage.'
+    category: Actions

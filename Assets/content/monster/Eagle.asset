@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Eagle
+  m_EditorClassIdentifier: 
+  title: Eagle
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/515/315/315/636376317171111968.jpeg
+  properties:
+  - name: subtitle
+    value: Small beast, unaligned
+    category: general
+  - name: Armor class
+    value: 12
+    category: stats
+  - name: Hit points
+    value: 3 (1d6)
+    category: stats
+  - name: Speed
+    value: 10 ft., fly 60 ft.
+    category: stats
+  - name: STR
+    value: 6
+    category: abilities
+  - name: DEX
+    value: 15
+    category: abilities
+  - name: CON
+    value: 10
+    category: abilities
+  - name: INT
+    value: 2
+    category: abilities
+  - name: WIS
+    value: 14
+    category: abilities
+  - name: CHA
+    value: 7
+    category: abilities
+  - name: Skills
+    value: Perception +4
+    category: stats
+  - name: Senses
+    value: Passive Perception 14
+    category: stats
+  - name: Languages
+    value: --
+    category: stats
+  - name: Challenge
+    value: 0 (10 XP)
+    category: stats
+  - name: Keen Sight.
+    value: ' The eagle has advantage on Wisdom (Perception) checks that rely on sight.'
+    category: Traits
+  - name: Talons.
+    value: ' Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4
+      + 2) slashing damage.  '
+    category: Actions

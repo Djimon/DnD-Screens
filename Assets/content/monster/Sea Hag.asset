@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Sea Hag
+  m_EditorClassIdentifier: 
+  title: Sea Hag
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/159/315/315/636252759356069260.jpeg
+  properties:
+  - name: subtitle
+    value: Medium fey, chaotic evil
+    category: general
+  - name: Armor class
+    value: 14 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 52 (7d8 + 21)
+    category: stats
+  - name: Speed
+    value: 30 ft., swim 40 ft.
+    category: stats
+  - name: STR
+    value: 16
+    category: abilities
+  - name: DEX
+    value: 13
+    category: abilities
+  - name: CON
+    value: 16
+    category: abilities
+  - name: INT
+    value: 12
+    category: abilities
+  - name: WIS
+    value: 12
+    category: abilities
+  - name: CHA
+    value: 13
+    category: abilities
+  - name: Senses
+    value: Darkvision 60 ft.,  Passive Perception 11
+    category: stats
+  - name: Languages
+    value: Aquan, Common, Giant
+    category: stats
+  - name: Challenge
+    value: 2 (450 XP)
+    category: stats
+  - name: Amphibious.
+    value: ' The hag can breathe air and water. '
+    category: Traits
+  - name: Horrific Appearance.
+    value: ' Any humanoid that starts its turn within 30 feet of the hag and can
+      see the hag''s true form must make a DC 11 Wisdom saving throw. On a failed
+      save, the creature is frightened for 1 minute. A creature can repeat the saving
+      throw at the end of each of its turns, with disadvantage if the hag is within
+      line of sight, ending the effect on itself on a success. If a creature''s saving
+      throw is successful or the effect ends for it, the creature is immune to the
+      hag''s Horrific Appearance for the next 24 hours.'
+    category: Traits
+  - name: other
+    value: nless the target is surprised or the revelation of the hag's true form
+      is sudden, the target can avert its eyes and avoid making the initial saving
+      throw. Until the start of its next turn, a creature that averts its eyes has
+      disadvantage on attack rolls against the hag.
+    category: Traits
+  - name: Claws.
+    value: ' Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6
+      + 3) slashing damage. '
+    category: Actions
+  - name: Death Glare.
+    value: ' The hag targets one frightened creature she can see within 30 feet of
+      her. If the target can see the hag, it must succeed on a DC 11 Wisdom saving
+      throw against this magic or drop to 0 hit points. '
+    category: Actions
+  - name: Illusory Appearance.
+    value: ' The hag covers herself and anything she is wearing or carrying with
+      a magical illusion that makes her look like an ugly creature of her general
+      size and humanoid shape. The effect ends if the hag takes a bonus action to
+      end it or if she dies.'
+    category: Actions
+  - name: other
+    value: he changes wrought by this effect fail to hold up to physical inspection.
+      For example, the hag could appear to have no claws, but someone touching her
+      hand might feel the claws. Otherwise, a creature must take an action to visually
+      inspect the illusion and succeed on a DC 16 Intelligence (Investigation) check
+      to discern that the hag is disguised.
+    category: Actions

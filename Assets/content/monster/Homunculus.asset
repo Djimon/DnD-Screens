@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Homunculus
+  m_EditorClassIdentifier: 
+  title: Homunculus
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/18/287/315/315/636379803928245506.jpeg
+  properties:
+  - name: subtitle
+    value: Tiny construct, neutral
+    category: general
+  - name: Armor class
+    value: 13 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 5 (2d4)
+    category: stats
+  - name: Speed
+    value: 20 ft., fly 40 ft.
+    category: stats
+  - name: STR
+    value: 4
+    category: abilities
+  - name: DEX
+    value: 15
+    category: abilities
+  - name: CON
+    value: 11
+    category: abilities
+  - name: INT
+    value: 10
+    category: abilities
+  - name: WIS
+    value: 10
+    category: abilities
+  - name: CHA
+    value: 7
+    category: abilities
+  - name: Damage Immunities
+    value: Poison
+    category: stats
+  - name: Senses
+    value: Darkvision 60 ft.,  Passive Perception 10
+    category: stats
+  - name: Condition Immunities
+    value: Charmed, Poisoned
+    category: stats
+  - name: Languages
+    value: Understands the languages of its creator but can't speak
+    category: stats
+  - name: Challenge
+    value: 0 (10 XP)
+    category: stats
+  - name: Telepathic Bond.
+    value: ' While the homunculus is on the same plane of existence as its master,
+      it can magically convey what it senses to its master, and the two can communicate
+      telepathically.'
+    category: Traits
+  - name: Bite.
+    value: ' Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 1 piercing
+      damage, and the target must succeed on a DC 10 Constitution saving throw or
+      be poisoned for 1 minute. If the saving throw fails by 5 or more, the target
+      is instead poisoned for 5 (1d10) minutes and unconscious while poisoned in
+      this way.'
+    category: Actions

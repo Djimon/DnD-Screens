@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Wraith
+  m_EditorClassIdentifier: 
+  title: Wraith
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/50/315/315/636252724191790008.jpeg
+  properties:
+  - name: subtitle
+    value: Medium undead, neutral evil
+    category: general
+  - name: Armor class
+    value: 13
+    category: stats
+  - name: Hit points
+    value: 67 (9d8 + 27)
+    category: stats
+  - name: Speed
+    value: 0 ft., fly 60 ft. (hover)
+    category: stats
+  - name: STR
+    value: 6
+    category: abilities
+  - name: DEX
+    value: 16
+    category: abilities
+  - name: CON
+    value: 16
+    category: abilities
+  - name: INT
+    value: 12
+    category: abilities
+  - name: WIS
+    value: 14
+    category: abilities
+  - name: CHA
+    value: 15
+    category: abilities
+  - name: Damage Immunities
+    value: Necrotic, Poison
+    category: stats
+  - name: Damage Resistances
+    value: Acid, Cold, Fire, Lightning, Thunder; Bludgeoning, Piercing, and Slashing
+      from Nonmagical Attacks that aren't Silvered
+    category: stats
+  - name: Senses
+    value: Darkvision 60 ft.,  Passive Perception 12
+    category: stats
+  - name: Condition Immunities
+    value: Charmed, Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone,
+      Restrained
+    category: stats
+  - name: Languages
+    value: The languages it knew in life
+    category: stats
+  - name: Challenge
+    value: 5 (1,800 XP)
+    category: stats
+  - name: Incorporeal Movement.
+    value: ' The wraith can move through other creatures and objects as if they were
+      difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside
+      an object. '
+    category: Traits
+  - name: Sunlight Sensitivity.
+    value: ' While in sunlight, the wraith has disadvantage on attack rolls, as well
+      as on Wisdom (Perception) checks that rely on sight.'
+    category: Traits
+  - name: Life Drain.
+    value: ' Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 21 (4d8
+      + 3) necrotic damage. The target must succeed on a DC 14 Constitution saving
+      throw or its hit point maximum is reduced by an amount equal to the damage
+      taken. This reduction lasts until the target finishes a long rest. The target
+      dies if this effect reduces its hit point maximum to 0. '
+    category: Actions
+  - name: Create Specter.
+    value: ' The wraith targets a humanoid within 10 feet of it that has been dead
+      for no longer than 1 minute and died violently. The target''s spirit rises
+      as a specter in the space of its corpse or in the nearest unoccupied space.
+      The specter is under the wraith''s control. The wraith can have no more than
+      seven specters under its control at one time.'
+    category: Actions

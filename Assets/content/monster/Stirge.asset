@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Stirge
+  m_EditorClassIdentifier: 
+  title: Stirge
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/111/315/315/636252745395103202.jpeg
+  properties:
+  - name: subtitle
+    value: Tiny beast, unaligned
+    category: general
+  - name: Armor class
+    value: 14 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 2 (1d4)
+    category: stats
+  - name: Speed
+    value: 10 ft., fly 40 ft.
+    category: stats
+  - name: STR
+    value: 4
+    category: abilities
+  - name: DEX
+    value: 16
+    category: abilities
+  - name: CON
+    value: 11
+    category: abilities
+  - name: INT
+    value: 2
+    category: abilities
+  - name: WIS
+    value: 8
+    category: abilities
+  - name: CHA
+    value: 6
+    category: abilities
+  - name: Senses
+    value: Darkvision 60 ft.,  Passive Perception 9
+    category: stats
+  - name: Languages
+    value: --
+    category: stats
+  - name: Challenge
+    value: 1/8 (25 XP)
+    category: stats
+  - name: Blood Drain.
+    value: ' Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4
+      + 3) piercing damage, and the stirge attaches to the target. While attached,
+      the stirge doesn''t attack. Instead, at the start of each of the stirge''s
+      turns, the target loses 5 (1d4 + 3) hit points due to blood loss.'
+    category: Actions
+  - name: other
+    value: he stirge can detach itself by spending 5 feet of its movement. It does
+      so after it drains 10 hit points of blood from the target or the target dies.
+      A creature, including the target, can use its action to detach the stirge.
+    category: Actions

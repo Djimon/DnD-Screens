@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Dretch
+  m_EditorClassIdentifier: 
+  title: Dretch
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/293/315/315/636252771253285096.jpeg
+  properties:
+  - name: subtitle
+    value: Small fiend, chaotic evil
+    category: general
+  - name: Armor class
+    value: 11 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 18 (4d6 + 4)
+    category: stats
+  - name: Speed
+    value: 20 ft.
+    category: stats
+  - name: STR
+    value: 11
+    category: abilities
+  - name: DEX
+    value: 11
+    category: abilities
+  - name: CON
+    value: 12
+    category: abilities
+  - name: INT
+    value: 5
+    category: abilities
+  - name: WIS
+    value: 8
+    category: abilities
+  - name: CHA
+    value: 3
+    category: abilities
+  - name: Damage Immunities
+    value: Poison
+    category: stats
+  - name: Damage Resistances
+    value: Cold, Fire, Lightning
+    category: stats
+  - name: Senses
+    value: Darkvision 60 ft.,  Passive Perception 9
+    category: stats
+  - name: Condition Immunities
+    value: Poisoned
+    category: stats
+  - name: Languages
+    value: Abyssal, Telepathy 60 ft.
+    category: stats
+  - name: Challenge
+    value: 1/4 (50 XP)
+    category: stats
+  - name: Multiattack.
+    value: ' The dretch makes two attacks: one with its bite and one with its claws. '
+    category: Actions
+  - name: Bite.
+    value: ' Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6)
+      piercing damage. '
+    category: Actions
+  - name: Claws.
+    value: ' Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 5 (2d4)
+      slashing damage. '
+    category: Actions
+  - name: Fetid Cloud (1/Day).
+    value: " A 10\xAD-foot radius of disgusting green gas extends out from the dretch.
+      The gas spreads around corners, and its area is lightly obscured. It lasts
+      for 1 minute or until a strong wind disperses it. Any creature that starts
+      its turn in that area must succeed on a DC 11 Constitution saving throw or
+      be poisoned until the start of its next turn. While poisoned in this way, the
+      target can take either an action or a bonus action on its turn, not both, and
+      can't take reactions."
+    category: Actions

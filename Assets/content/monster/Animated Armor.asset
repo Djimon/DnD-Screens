@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Animated Armor
+  m_EditorClassIdentifier: 
+  title: Animated Armor
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/429/1000/1000/636306156895834255.jpeg
+  properties:
+  - name: subtitle
+    value: Medium construct, unaligned
+    category: general
+  - name: Armor class
+    value: 18 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 33 (6d8 + 6)
+    category: stats
+  - name: Speed
+    value: 25 ft.
+    category: stats
+  - name: STR
+    value: 14
+    category: abilities
+  - name: DEX
+    value: 11
+    category: abilities
+  - name: CON
+    value: 13
+    category: abilities
+  - name: INT
+    value: 1
+    category: abilities
+  - name: WIS
+    value: 3
+    category: abilities
+  - name: CHA
+    value: 1
+    category: abilities
+  - name: Damage Immunities
+    value: Poison, Psychic
+    category: stats
+  - name: Senses
+    value: Blindsight 60 ft.,  Passive Perception 6
+    category: stats
+  - name: Condition Immunities
+    value: Blinded, Charmed, Deafened, Exhaustion, Frightened, Paralyzed, Petrified,
+      Poisoned
+    category: stats
+  - name: Languages
+    value: --
+    category: stats
+  - name: Challenge
+    value: 1 (200 XP)
+    category: stats
+  - name: Antimagic Susceptibility.
+    value: ' The armor is incapacitated while in the area of an antimagic field.
+      If targeted by dispel magic, the armor must succeed on a Constitution saving
+      throw against the caster''s spell save DC or fall unconscious for 1 minute. '
+    category: Traits
+  - name: False Appearance.
+    value: ' While the armor remains motionless, it is indistinguishable from a normal
+      suit of armor.'
+    category: Traits
+  - name: Multiattack.
+    value: ' The armor makes two melee attacks. '
+    category: Actions
+  - name: Slam.
+    value: ' Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6
+      + 2) bludgeoning damage.'
+    category: Actions

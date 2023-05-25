@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Giant Wolf Spider
+  m_EditorClassIdentifier: 
+  title: Giant Wolf Spider
+  icon: imp-laugh
+  backgroundImage: //media-waterdeep.cursecdn.com/attachments/2/648/beast.jpg
+  properties:
+  - name: subtitle
+    value: Medium beast, unaligned
+    category: general
+  - name: Armor class
+    value: 13
+    category: stats
+  - name: Hit points
+    value: 11 (2d8 + 2)
+    category: stats
+  - name: Speed
+    value: 40 ft., climb 40 ft.
+    category: stats
+  - name: STR
+    value: 12
+    category: abilities
+  - name: DEX
+    value: 16
+    category: abilities
+  - name: CON
+    value: 13
+    category: abilities
+  - name: INT
+    value: 3
+    category: abilities
+  - name: WIS
+    value: 12
+    category: abilities
+  - name: CHA
+    value: 4
+    category: abilities
+  - name: Skills
+    value: Perception +3, Stealth +7
+    category: stats
+  - name: Senses
+    value: Blindsight 10 ft., Darkvision 60 ft.,  Passive Perception 13
+    category: stats
+  - name: Languages
+    value: --
+    category: stats
+  - name: Challenge
+    value: 1/4 (50 XP)
+    category: stats
+  - name: Spider Climb.
+    value: ' The spider can climb difficult surfaces, including upside down on ceilings,
+      without needing to make an ability check.'
+    category: Traits
+  - name: Web Sense.
+    value: ' While in contact with a web, the spider knows the exact location of
+      any other creature in contact with the same web.'
+    category: Traits
+  - name: Web Walker.
+    value: ' The spider ignores movement restrictions caused by webbing.'
+    category: Traits
+  - name: Bite.
+    value: ' Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 4 (1d6
+      + 1) piercing damage, and the target must make a DC 11 Constitution saving
+      throw, taking 7 (2d6) poison damage on a failed save, or half as much damage
+      on a successful one. If the poison damage reduces the target to 0 hit points,
+      the target is stable but poisoned for 1 hour, even after regaining hit points,
+      and is paralyzed while poisoned in this way.'
+    category: Actions

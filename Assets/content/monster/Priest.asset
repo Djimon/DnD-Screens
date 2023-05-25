@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Priest
+  m_EditorClassIdentifier: 
+  title: Priest
+  icon: imp-laugh
+  backgroundImage: //media-waterdeep.cursecdn.com/attachments/2/656/humanoid.jpg
+  properties:
+  - name: subtitle
+    value: Medium humanoid, any
+    category: general
+  - name: Armor class
+    value: 13 (Chain Shirt)
+    category: stats
+  - name: Hit points
+    value: 27 (5d8 + 5)
+    category: stats
+  - name: Speed
+    value: 25 ft.
+    category: stats
+  - name: STR
+    value: 10
+    category: abilities
+  - name: DEX
+    value: 10
+    category: abilities
+  - name: CON
+    value: 12
+    category: abilities
+  - name: INT
+    value: 13
+    category: abilities
+  - name: WIS
+    value: 16
+    category: abilities
+  - name: CHA
+    value: 13
+    category: abilities
+  - name: Skills
+    value: Medicine +7, Persuasion +3, Religion +4
+    category: stats
+  - name: Senses
+    value: Passive Perception 13
+    category: stats
+  - name: Languages
+    value: Any two languages
+    category: stats
+  - name: Challenge
+    value: 2 (450 XP)
+    category: stats
+  - name: Divine Eminence.
+    value: ' As a bonus action, the priest can expend a spell slot to cause its melee
+      weapon attacks to magically deal an extra 10 (3d6) radiant damage to a target
+      on a hit. This benefit lasts until the end of the turn. If the priest expends
+      a spell slot of 2nd level or higher, the extra damage increases by 1d6 for
+      each level above 1st.'
+    category: Traits
+  - name: Spellcasting.
+    value: ' The priest is a 5th-level spellcaster. Its spellcasting ability is Wisdom
+      (spell save DC 13, +5 to hit with spell attacks). The priest has the following
+      cleric spells prepared:'
+    category: Traits
+  - name: other
+    value: 'antrips (at will): light, sacred flame, thaumaturgy'
+    category: Traits
+  - name: other
+    value: 'st level (4 slots): cure wounds, guiding bolt, sanctuary'
+    category: Traits
+  - name: other
+    value: 'nd level (3 slots): lesser restoration, spiritual weapon'
+    category: Traits
+  - name: ' spirit guardians'
+    value: 
+    category: Traits
+  - name: Mace.
+    value: ' Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6)
+      bludgeoning damage.'
+    category: Actions

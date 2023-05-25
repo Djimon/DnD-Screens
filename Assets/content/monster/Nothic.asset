@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Nothic
+  m_EditorClassIdentifier: 
+  title: Nothic
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/14/475/315/315/636364321398842272.png
+  properties:
+  - name: subtitle
+    value: Medium aberration, neutral evil
+    category: general
+  - name: Armor class
+    value: 15 Natural
+    category: stats
+  - name: Hit points
+    value: 45 (6d8 + 18)
+    category: stats
+  - name: Speed
+    value: 30 ft.
+    category: stats
+  - name: STR
+    value: 14
+    category: abilities
+  - name: DEX
+    value: 16
+    category: abilities
+  - name: CON
+    value: 16
+    category: abilities
+  - name: INT
+    value: 13
+    category: abilities
+  - name: WIS
+    value: 10
+    category: abilities
+  - name: CHA
+    value: 8
+    category: abilities
+  - name: Skills
+    value: Arcana +3, Insight +4, Perception +2, Stealth +5
+    category: stats
+  - name: Senses
+    value: Truesight 120 ft.,  Passive Perception 12
+    category: stats
+  - name: Languages
+    value: Undercommon
+    category: stats
+  - name: Challenge
+    value: 2 (450 XP)
+    category: stats
+  - name: Keen Sight.
+    value: ' The nothic has advantage on Wisdom (Perception) checks that rely on
+      sight.'
+    category: Traits
+  - name: Multiattack.
+    value: ' The nothic makes two claw attacks.'
+    category: Actions
+  - name: Claw.
+    value: ' Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d6
+      + 3) slashing damage.'
+    category: Actions
+  - name: Rotting Gaze.
+    value: ' The nothic targets one creature it can see within 30 feet of it. The
+      target must succeed on a DC 12 Constitution saving throw against this magic
+      or take 10 (3d6) necrotic damage.'
+    category: Actions
+  - name: Weird Insight.
+    value: " The nothic targets one creature it can see within 30 feet of it. The
+      target must contest its Charisma (Deception) check against the nothic\u2019s
+      Wisdom (Insight) check. If the nothic wins, it magically learns one fact or
+      secret about the target. The target automatically wins if it is immune to being
+      charmed."
+    category: Actions

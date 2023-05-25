@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Sahuagin
+  m_EditorClassIdentifier: 
+  title: Sahuagin
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/177/315/315/636252761683746719.jpeg
+  properties:
+  - name: subtitle
+    value: Medium humanoid, lawful evil
+    category: general
+  - name: Armor class
+    value: 12 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 22 (4d8 + 4)
+    category: stats
+  - name: Speed
+    value: 30 ft., swim 40 ft.
+    category: stats
+  - name: STR
+    value: 13
+    category: abilities
+  - name: DEX
+    value: 11
+    category: abilities
+  - name: CON
+    value: 12
+    category: abilities
+  - name: INT
+    value: 12
+    category: abilities
+  - name: WIS
+    value: 13
+    category: abilities
+  - name: CHA
+    value: 9
+    category: abilities
+  - name: Skills
+    value: Perception +5
+    category: stats
+  - name: Senses
+    value: Darkvision 120 ft.,  Passive Perception 15
+    category: stats
+  - name: Languages
+    value: Sahuagin
+    category: stats
+  - name: Challenge
+    value: 1/2 (100 XP)
+    category: stats
+  - name: Blood Frenzy.
+    value: ' The sahuagin has advantage on melee attack rolls against any creature
+      that doesn''t have all its hit points. '
+    category: Traits
+  - name: Limited Amphibiousness.
+    value: ' The sahuagin can breathe air and water, but it needs to be submerged
+      at least once every 4 hours to avoid suffocating. '
+    category: Traits
+  - name: Shark Telepathy.
+    value: ' The sahuagin can magically command any shark within 120 feet of it,
+      using a limited telepathy.'
+    category: Traits
+  - name: Multiattack.
+    value: ' The sahuagin makes two melee attacks: one with its bite and one with
+      its claws or spear. '
+    category: Actions
+  - name: Bite.
+    value: ' Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4
+      + 1) piercing damage. '
+    category: Actions
+  - name: Claws.
+    value: ' Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4
+      + 1) slashing damage. '
+    category: Actions
+  - name: Spear.
+    value: ' Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60
+      ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing
+      damage if used with two hands to make a melee attack.'
+    category: Actions
