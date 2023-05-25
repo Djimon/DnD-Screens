@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Shadow
+  m_EditorClassIdentifier: 
+  title: Shadow
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/155/315/315/636252758977032019.jpeg
+  properties:
+  - name: subtitle
+    value: Medium undead, chaotic evil
+    category: general
+  - name: Armor class
+    value: 12
+    category: stats
+  - name: Hit points
+    value: 16 (3d8 + 3)
+    category: stats
+  - name: Speed
+    value: 40 ft.
+    category: stats
+  - name: STR
+    value: 6
+    category: abilities
+  - name: DEX
+    value: 14
+    category: abilities
+  - name: CON
+    value: 13
+    category: abilities
+  - name: INT
+    value: 6
+    category: abilities
+  - name: WIS
+    value: 10
+    category: abilities
+  - name: CHA
+    value: 8
+    category: abilities
+  - name: Skills
+    value: Stealth +4
+    category: stats
+  - name: Damage Vulnerabilities
+    value: Radiant
+    category: stats
+  - name: Damage Immunities
+    value: Necrotic, Poison
+    category: stats
+  - name: Damage Resistances
+    value: Acid, Cold, Fire, Lightning, Thunder; Bludgeoning, Piercing, and Slashing
+      from Nonmagical Attacks
+    category: stats
+  - name: Senses
+    value: Darkvision 60 ft.,  Passive Perception 10
+    category: stats
+  - name: Condition Immunities
+    value: Exhaustion, Frightened, Grappled, Paralyzed, Petrified, Poisoned, Prone,
+      Restrained
+    category: stats
+  - name: Languages
+    value: --
+    category: stats
+  - name: Challenge
+    value: 1/2 (100 XP)
+    category: stats
+  - name: Amorphous.
+    value: ' The shadow can move through a space as narrow as 1 inch wide without
+      squeezing. '
+    category: Traits
+  - name: Shadow Stealth.
+    value: ' While in dim light or darkness, the shadow can take the Hide action
+      as a bonus action. '
+    category: Traits
+  - name: Sunlight Weakness.
+    value: ' While in sunlight, the shadow has disadvantage on attack rolls, ability
+      checks, and saving throws.'
+    category: Traits
+  - name: Strength Drain.
+    value: ' Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 9 (2d6
+      + 2) necrotic damage, and the target''s Strength score is reduced by 1d4. The
+      target dies if this reduces its Strength to 0. Otherwise, the reduction lasts
+      until the target finishes a short or long rest.'
+    category: Actions
+  - name: other
+    value: f a non-evil humanoid dies from this attack, a new shadow rises from the
+      corpse 1d4 hours later.
+    category: Actions

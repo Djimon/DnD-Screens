@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Air Elemental
+  m_EditorClassIdentifier: 
+  title: Air Elemental
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/127/1000/1000/636252755648556800.jpeg
+  properties:
+  - name: subtitle
+    value: Large elemental, neutral
+    category: general
+  - name: Armor class
+    value: 15
+    category: stats
+  - name: Hit points
+    value: 90 (12d10 + 24)
+    category: stats
+  - name: Speed
+    value: 0 ft., fly 90 ft. (hover)
+    category: stats
+  - name: STR
+    value: 14
+    category: abilities
+  - name: DEX
+    value: 20
+    category: abilities
+  - name: CON
+    value: 14
+    category: abilities
+  - name: INT
+    value: 6
+    category: abilities
+  - name: WIS
+    value: 10
+    category: abilities
+  - name: CHA
+    value: 6
+    category: abilities
+  - name: Damage Immunities
+    value: Poison
+    category: stats
+  - name: Damage Resistances
+    value: Lightning, Thunder; Bludgeoning, Piercing, and Slashing from Nonmagical
+      Attacks
+    category: stats
+  - name: Senses
+    value: Darkvision 60 ft.,  Passive Perception 10
+    category: stats
+  - name: Condition Immunities
+    value: Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained,
+      Unconscious
+    category: stats
+  - name: Languages
+    value: Auran
+    category: stats
+  - name: Challenge
+    value: 5 (1,800 XP)
+    category: stats
+  - name: Air Form.
+    value: ' The elemental can enter a hostile creature''s space and stop there.
+      It can move through a space as narrow as 1 inch wide without squeezing.'
+    category: Traits
+  - name: Multiattack.
+    value: ' The elemental makes two slam attacks. '
+    category: Actions
+  - name: Slam.
+    value: ' Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8
+      + 5) bludgeoning damage. '
+    category: Actions
+  - name: "Whirlwind (Recharge 4\u20136)."
+    value: ' Each creature in the elemental''s space must make a DC 13 Strength saving
+      throw. On a failure, a target takes 15 (3d8 + 2) bludgeoning damage and is
+      flung up 20 feet away from the elemental in a random direction and knocked
+      prone. If a thrown target strikes an object, such as a wall or floor, the target
+      takes 3 (1d6) bludgeoning damage for every 10 feet it was thrown. If the target
+      is thrown at another creature, that creature must succeed on a DC 13 Dexterity
+      saving throw or take the same damage and be knocked prone. '
+    category: Actions
+  - name: other
+    value: f the saving throw is successful, the target takes half the bludgeoning
+      damage and isn't flung away or knocked prone.
+    category: Actions

@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Spy
+  m_EditorClassIdentifier: 
+  title: Spy
+  icon: imp-laugh
+  backgroundImage: //media-waterdeep.cursecdn.com/attachments/2/656/humanoid.jpg
+  properties:
+  - name: subtitle
+    value: Medium humanoid, any
+    category: general
+  - name: Armor class
+    value: 12
+    category: stats
+  - name: Hit points
+    value: 27 (6d8)
+    category: stats
+  - name: Speed
+    value: 30 ft.
+    category: stats
+  - name: STR
+    value: 10
+    category: abilities
+  - name: DEX
+    value: 15
+    category: abilities
+  - name: CON
+    value: 10
+    category: abilities
+  - name: INT
+    value: 12
+    category: abilities
+  - name: WIS
+    value: 14
+    category: abilities
+  - name: CHA
+    value: 16
+    category: abilities
+  - name: Skills
+    value: Deception +5, Insight +4, Investigation +5, Perception +6, Persuasion
+      +5, Sleight of Hand +4, Stealth +4
+    category: stats
+  - name: Senses
+    value: Passive Perception 16
+    category: stats
+  - name: Languages
+    value: Any two languages
+    category: stats
+  - name: Challenge
+    value: 1 (200 XP)
+    category: stats
+  - name: Cunning Action.
+    value: ' On each of its turns, the spy can use a bonus action to take the Dash,
+      Disengage, or Hide action. '
+    category: Traits
+  - name: Sneak Attack (1/Turn).
+    value: ' The spy deals an extra 7 (2d6) damage when it hits a target with a weapon
+      attack and has advantage on the attack roll, or when the target is within 5
+      feet of an ally of the spy that isn''t incapacitated and the spy doesn''t have
+      disadvantage on the attack roll.'
+    category: Traits
+  - name: Multiattack.
+    value: ' The spy makes two melee attacks. '
+    category: Actions
+  - name: Shortsword.
+    value: ' Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6
+      + 2) piercing damage. '
+    category: Actions
+  - name: Hand Crossbow.
+    value: ' Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:
+      5 (1d6 + 2) piercing damage.'
+    category: Actions

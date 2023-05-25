@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Androsphinx
+  m_EditorClassIdentifier: 
+  title: Androsphinx
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/157/315/315/636252759145617281.jpeg
+  properties:
+  - name: subtitle
+    value: Large monstrosity, lawful neutral
+    category: general
+  - name: Armor class
+    value: 17 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 199 (19d10 + 95)
+    category: stats
+  - name: Speed
+    value: 40 ft., fly 60 ft.
+    category: stats
+  - name: STR
+    value: 22
+    category: abilities
+  - name: DEX
+    value: 10
+    category: abilities
+  - name: CON
+    value: 20
+    category: abilities
+  - name: INT
+    value: 16
+    category: abilities
+  - name: WIS
+    value: 18
+    category: abilities
+  - name: CHA
+    value: 23
+    category: abilities
+  - name: Saving Throws
+    value: DEX +6, CON +11, INT +9, WIS +10
+    category: stats
+  - name: Skills
+    value: Arcana +9, Perception +10, Religion +15
+    category: stats
+  - name: Damage Immunities
+    value: Psychic; Bludgeoning, Piercing, and Slashing from Nonmagical Attacks
+    category: stats
+  - name: Senses
+    value: Truesight 120 ft.,  Passive Perception 20
+    category: stats
+  - name: Condition Immunities
+    value: Charmed, Frightened
+    category: stats
+  - name: Languages
+    value: Common, Sphinx
+    category: stats
+  - name: Challenge
+    value: 17 (18,000 XP)
+    category: stats
+  - name: Inscrutable.
+    value: ' The sphinx is immune to any effect that would sense its emotions or
+      read its thoughts, as well as any divination spell that it refuses. Wisdom
+      (Insight) checks made to ascertain the sphinx''s intentions or sincerity have
+      disadvantage. '
+    category: Traits
+  - name: Magic Weapons.
+    value: ' The sphinx''s weapon attacks are magical. '
+    category: Traits
+  - name: Spellcasting.
+    value: ' The sphinx is a 12th-level spellcaster. Its spellcasting ability is
+      Wisdom (spell save DC 18, +10 to hit with spell attacks). It requires no material
+      components to cast its spells. The sphinx has the following cleric spells prepared: '
+    category: Traits
+  - name: other
+    value: 'antrips (at will): sacred flame, spare the dying, thaumaturgy '
+    category: Traits
+  - name: other
+    value: 'st level (4 slots): command, detect evil and good, detect magic '
+    category: Traits
+  - name: other
+    value: 'nd level (3 slots): lesser restoration, zone of truth '
+    category: Traits
+  - name: other
+    value: 'rd level (3 slots): dispel magic, tongues '
+    category: Traits
+  - name: other
+    value: 'th level (3 slots): banishment, freedom of movement '
+    category: Traits
+  - name: other
+    value: 'th level (2 slots): flame strike, greater restoration '
+    category: Traits
+  - name: other
+    value: 'th level (1 slot): heroes'' feast'
+    category: Traits
+  - name: Multiattack.
+    value: ' The sphinx makes two claw attacks. '
+    category: Actions
+  - name: Claw.
+    value: ' Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 17 (2d10
+      + 6) slashing damage. '
+    category: Actions
+  - name: Roar (3/Day).
+    value: ' The sphinx emits a magical roar. Each time it roars before finishing
+      a long rest, the roar is louder and the effect is different, as detailed below.
+      Each creature within 500 feet of the sphinx and able to hear the roar must
+      make a saving throw. '
+    category: Actions
+  - name: First Roar.
+    value: ' Each creature that fails a DC 18 Wisdom saving throw is frightened for
+      1 minute. A frightened creature can repeat the saving throw at the end of each
+      of its turns, ending the effect on itself on a success. '
+    category: Actions
+  - name: Second Roar.
+    value: ' Each creature that fails a DC 18 Wisdom saving throw is deafened and
+      frightened for 1 minute. A frightened creature is paralyzed and can repeat
+      the saving throw at the end of each of its turns, ending the effect on itself
+      on a success. '
+    category: Actions
+  - name: Third Roar.
+    value: ' Each creature makes a DC 18 Constitution saving throw. On a failed save,
+      a creature takes 44 (8d10) thunder damage and is knocked prone. On a successful
+      save, the creature takes half as much damage and isn''t knocked prone.'
+    category: Actions
+  - name: other
+    value: 'The sphinx can take 3 legendary actions, choosing from the options below.
+      Only one legendary action option can be used at a time and only at the end
+      of another creature''s turn. The sphinx regains spent legendary actions at
+      the start of its turn. '
+    category: Legendary Actions
+  - name: Claw Attack.
+    value: ' The sphinx makes one claw attack. '
+    category: Legendary Actions
+  - name: Teleport (Costs 2 Actions).
+    value: ' The sphinx magically teleports, along with any equipment it is wearing
+      or carrying, up to 120 feet to an unoccupied space it can see. '
+    category: Legendary Actions
+  - name: Cast a Spell (Costs 3 Actions).
+    value: ' The sphinx casts a spell from its list of prepared spells, using a spell
+      slot as normal.'
+    category: Legendary Actions

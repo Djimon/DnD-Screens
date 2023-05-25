@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Lamia
+  m_EditorClassIdentifier: 
+  title: Lamia
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/385/315/315/636252780906064244.jpeg
+  properties:
+  - name: subtitle
+    value: Large monstrosity, chaotic evil
+    category: general
+  - name: Armor class
+    value: 13 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 97 (13d10 + 26)
+    category: stats
+  - name: Speed
+    value: 30 ft.
+    category: stats
+  - name: STR
+    value: 16
+    category: abilities
+  - name: DEX
+    value: 13
+    category: abilities
+  - name: CON
+    value: 15
+    category: abilities
+  - name: INT
+    value: 14
+    category: abilities
+  - name: WIS
+    value: 15
+    category: abilities
+  - name: CHA
+    value: 16
+    category: abilities
+  - name: Skills
+    value: Deception +7, Insight +4, Stealth +3
+    category: stats
+  - name: Senses
+    value: Darkvision 60 ft.,  Passive Perception 12
+    category: stats
+  - name: Languages
+    value: Abyssal, Common
+    category: stats
+  - name: Challenge
+    value: 4 (1,100 XP)
+    category: stats
+  - name: Innate Spellcasting.
+    value: ' The lamia''s innate spellcasting ability is Charisma (spell save DC
+      13). It can innately cast the following spells, requiring no material components. '
+    category: Traits
+  - name: other
+    value: 't will: disguise self (any humanoid form), major image '
+    category: Traits
+  - name: other
+    value: '/day each: charm person, mirror image, scrying, suggestion '
+    category: Traits
+  - name: other
+    value: '/day: geas'
+    category: Traits
+  - name: Multiattack.
+    value: ' The lamia makes two attacks: one with its claws and one with its dagger
+      or Intoxicating Touch. '
+    category: Actions
+  - name: Claws.
+    value: ' Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 14 (2d10
+      + 3) slashing damage. Dagger. Melee Weapon Attack: +5 to hit, reach 5 ft.,
+      one target. Hit: 5 (1d4 + 3) piercing damage. '
+    category: Actions
+  - name: Intoxicating Touch.
+    value: ' Melee Spell Attack: +5 to hit, reach 5 ft., one creature. Hit: The target
+      is magically cursed for 1 hour. Until the curse ends, the target has disadvantage
+      on Wisdom saving throws and all ability checks.'
+    category: Actions

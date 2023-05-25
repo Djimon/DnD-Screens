@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Werebear
+  m_EditorClassIdentifier: 
+  title: Werebear
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/82/315/315/636252736005297867.jpeg
+  properties:
+  - name: subtitle
+    value: Medium humanoid, neutral good
+    category: general
+  - name: Armor class
+    value: 10 In Humanoid Form, 11 In Bear And Hybrid Form
+    category: stats
+  - name: Hit points
+    value: 135 (18d8 + 54)
+    category: stats
+  - name: Speed
+    value: 30 ft., 40 ft., climb 30 ft. in bear or hybrid form
+    category: stats
+  - name: STR
+    value: 19
+    category: abilities
+  - name: DEX
+    value: 10
+    category: abilities
+  - name: CON
+    value: 17
+    category: abilities
+  - name: INT
+    value: 11
+    category: abilities
+  - name: WIS
+    value: 12
+    category: abilities
+  - name: CHA
+    value: 12
+    category: abilities
+  - name: Skills
+    value: Perception +7
+    category: stats
+  - name: Damage Immunities
+    value: Bludgeoning, Piercing, and Slashing from Nonmagical Attacks that aren't
+      Silvered
+    category: stats
+  - name: Senses
+    value: Passive Perception 17
+    category: stats
+  - name: Languages
+    value: Common (can't speak in bear form)
+    category: stats
+  - name: Challenge
+    value: 5 (1,800 XP)
+    category: stats
+  - name: Shapechanger.
+    value: ' The werebear can use its action to polymorph into a Large bear-humanoid
+      hybrid or into a Large bear, or back into its true form, which is humanoid.
+      Its statistics, other than its size and AC, are the same in each form. Any
+      equipment it is wearing or carrying isn''t transformed. It reverts to its true
+      form if it dies. '
+    category: Traits
+  - name: Keen Smell.
+    value: ' The werebear has advantage on Wisdom (Perception) checks that rely on
+      smell.'
+    category: Traits
+  - name: Multiattack.
+    value: ' In bear form, the werebear makes two claw attacks. In humanoid form,
+      it makes two greataxe attacks. In hybrid form, it can attack like a bear or
+      a humanoid. '
+    category: Actions
+  - name: Bite (Bear or Hybrid Form Only).
+    value: ' Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 15 (2d10
+      + 4) piercing damage. If the target is a humanoid, it must succeed on a DC
+      14 Constitution saving throw or be cursed with werebear lycanthropy. '
+    category: Actions
+  - name: Claw (Bear or Hybrid Form Only).
+    value: ' Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8
+      + 4) slashing damage. '
+    category: Actions
+  - name: Greataxe (Humanoid or Hybrid Form Only).
+    value: ' Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10 (1d12
+      + 4) slashing damage.'
+    category: Actions

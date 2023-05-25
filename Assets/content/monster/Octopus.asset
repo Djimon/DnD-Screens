@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Octopus
+  m_EditorClassIdentifier: 
+  title: Octopus
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/921/315/315/636334602449110996.jpeg
+  properties:
+  - name: subtitle
+    value: Small beast, unaligned
+    category: general
+  - name: Armor class
+    value: 12
+    category: stats
+  - name: Hit points
+    value: 3 (1d6)
+    category: stats
+  - name: Speed
+    value: 5 ft., swim 30 ft.
+    category: stats
+  - name: STR
+    value: 4
+    category: abilities
+  - name: DEX
+    value: 15
+    category: abilities
+  - name: CON
+    value: 11
+    category: abilities
+  - name: INT
+    value: 3
+    category: abilities
+  - name: WIS
+    value: 10
+    category: abilities
+  - name: CHA
+    value: 4
+    category: abilities
+  - name: Skills
+    value: Perception +2, Stealth +4
+    category: stats
+  - name: Senses
+    value: Darkvision 30 ft.,  Passive Perception 12
+    category: stats
+  - name: Languages
+    value: --
+    category: stats
+  - name: Challenge
+    value: 0 (10 XP)
+    category: stats
+  - name: Hold Breath.
+    value: ' While out of water, the octopus can hold its breath for 30 minutes. '
+    category: Traits
+  - name: Underwater Camouflage.
+    value: ' The octopus has advantage on Dexterity (Stealth) checks made while underwater. '
+    category: Traits
+  - name: Water Breathing.
+    value: ' The octopus can breathe only underwater.'
+    category: Traits
+  - name: Tentacles.
+    value: ' Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 bludgeoning
+      damage, and the target is grappled (escape DC 10). Until this grapple ends,
+      the octopus can''t use its tentacles on another target. '
+    category: Actions
+  - name: Ink Cloud (Recharges after a Short or Long Rest).
+    value: ' A 5-foot-radius cloud of ink extends all around the octopus if it is
+      underwater. The area is heavily obscured for 1 minute, although a significant
+      current can disperse the ink. After releasing the ink, the octopus can use
+      the Dash action as a bonus action.'
+    category: Actions

@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Fire Elemental
+  m_EditorClassIdentifier: 
+  title: Fire Elemental
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/343/315/315/636252777098624896.jpeg
+  properties:
+  - name: subtitle
+    value: Large elemental, neutral
+    category: general
+  - name: Armor class
+    value: 13
+    category: stats
+  - name: Hit points
+    value: 102 (12d10 + 36)
+    category: stats
+  - name: Speed
+    value: 50 ft.
+    category: stats
+  - name: STR
+    value: 10
+    category: abilities
+  - name: DEX
+    value: 17
+    category: abilities
+  - name: CON
+    value: 16
+    category: abilities
+  - name: INT
+    value: 6
+    category: abilities
+  - name: WIS
+    value: 10
+    category: abilities
+  - name: CHA
+    value: 7
+    category: abilities
+  - name: Damage Immunities
+    value: Fire, Poison
+    category: stats
+  - name: Damage Resistances
+    value: Bludgeoning, Piercing, and Slashing from Nonmagical Attacks
+    category: stats
+  - name: Senses
+    value: Darkvision 60 ft.,  Passive Perception 10
+    category: stats
+  - name: Condition Immunities
+    value: Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained,
+      Unconscious
+    category: stats
+  - name: Languages
+    value: Ignan
+    category: stats
+  - name: Challenge
+    value: 5 (1,800 XP)
+    category: stats
+  - name: Fire Form.
+    value: ' The elemental can move through a space as narrow as 1 inch wide without
+      squeezing. A creature that touches the elemental or hits it with a melee attack
+      while within 5 feet of it takes 5 (1d10) fire damage. In addition, the elemental
+      can enter a hostile creature''s space and stop there. The first time it enters
+      a creature''s space on a turn, that creature takes 5 (1d10) fire damage and
+      catches fire; until someone takes an action to douse the fire, the creature
+      takes 5 (1d10) fire damage at the start of each of its turns. '
+    category: Traits
+  - name: Illumination.
+    value: ' The elemental sheds bright light in a 30-foot radius and dim light in
+      an additional 30 feet. '
+    category: Traits
+  - name: Water Susceptibility.
+    value: ' For every 5 feet the elemental moves in water, or for every gallon of
+      water splashed on it, it takes 1 cold damage.'
+    category: Traits
+  - name: Multiattack.
+    value: ' The elemental makes two touch attacks. '
+    category: Actions
+  - name: Touch.
+    value: ' Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6
+      + 3) fire damage. If the target is a creature or a flammable object, it ignites.
+      Until a creature takes an action to douse the fire, the target takes 5 (1d10)
+      fire damage at the start of each of its turns.'
+    category: Actions

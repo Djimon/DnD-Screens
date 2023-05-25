@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Giant Vulture
+  m_EditorClassIdentifier: 
+  title: Giant Vulture
+  icon: imp-laugh
+  backgroundImage: //media-waterdeep.cursecdn.com/attachments/2/648/beast.jpg
+  properties:
+  - name: subtitle
+    value: Large beast, neutral
+    category: general
+  - name: Armor class
+    value: 10
+    category: stats
+  - name: Hit points
+    value: 22 (3d10 + 6)
+    category: stats
+  - name: Speed
+    value: 10 ft., fly 60 ft.
+    category: stats
+  - name: STR
+    value: 15
+    category: abilities
+  - name: DEX
+    value: 10
+    category: abilities
+  - name: CON
+    value: 15
+    category: abilities
+  - name: INT
+    value: 6
+    category: abilities
+  - name: WIS
+    value: 12
+    category: abilities
+  - name: CHA
+    value: 7
+    category: abilities
+  - name: Skills
+    value: Perception +3
+    category: stats
+  - name: Senses
+    value: Passive Perception 13
+    category: stats
+  - name: Languages
+    value: Understands Common but can't speak  it
+    category: stats
+  - name: Challenge
+    value: 1 (200 XP)
+    category: stats
+  - name: Keen Sight and Smell.
+    value: ' The vulture has advantage on Wisdom (Perception) checks that rely on
+      sight or smell.'
+    category: Traits
+  - name: Pack Tactics.
+    value: ' The vulture has advantage on an attack roll against a creature if at
+      least one of the vulture''s allies is within 5 feet of the creature and the
+      ally isn''t incapacitated.'
+    category: Traits
+  - name: Multiattack.
+    value: ' The vulture makes two attacks: one with its beak and one with its talons. '
+    category: Actions
+  - name: Beak.
+    value: ' Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4
+      + 2) piercing damage. '
+    category: Actions
+  - name: Talons.
+    value: ' Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6
+      + 2) slashing damage.'
+    category: Actions

@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Clay Golem
+  m_EditorClassIdentifier: 
+  title: Clay Golem
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/243/315/315/636252767318152303.jpeg
+  properties:
+  - name: subtitle
+    value: Large construct, unaligned
+    category: general
+  - name: Armor class
+    value: 14 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 133 (14d10 + 56)
+    category: stats
+  - name: Speed
+    value: 20 ft.
+    category: stats
+  - name: STR
+    value: 20
+    category: abilities
+  - name: DEX
+    value: 9
+    category: abilities
+  - name: CON
+    value: 18
+    category: abilities
+  - name: INT
+    value: 3
+    category: abilities
+  - name: WIS
+    value: 8
+    category: abilities
+  - name: CHA
+    value: 1
+    category: abilities
+  - name: Damage Immunities
+    value: Acid, Poison, Psychic; Bludgeoning, Piercing, and Slashing from Nonmagical
+      Attacks that aren't Adamantine
+    category: stats
+  - name: Senses
+    value: Darkvision 60 ft.,  Passive Perception 9
+    category: stats
+  - name: Condition Immunities
+    value: Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned
+    category: stats
+  - name: Languages
+    value: Understands the languages of its creator but can't speak
+    category: stats
+  - name: Challenge
+    value: 9 (5,000 XP)
+    category: stats
+  - name: Acid Absorption.
+    value: ' Whenever the golem is subjected to acid damage, it takes no damage and
+      instead regains a number of hit points equal to the acid damage dealt. '
+    category: Traits
+  - name: Berserk.
+    value: ' Whenever the golem starts its turn with 60 hit points or fewer, roll
+      a d6. On a 6, the golem goes berserk. On each of its turns while berserk, the
+      golem attacks the nearest creature it can see. If no creature is near enough
+      to move to and attack, the golem attacks an object, with preference for an
+      object smaller than itself. Once the golem goes berserk, it continues to do
+      so until it is destroyed or regains all its hit points. '
+    category: Traits
+  - name: Immutable Form.
+    value: ' The golem is immune to any spell or effect that would alter its form. '
+    category: Traits
+  - name: Magic Resistance.
+    value: ' The golem has advantage on saving throws against spells and other magical
+      effects. '
+    category: Traits
+  - name: Magic Weapons.
+    value: ' The golem''s weapon attacks are magical.'
+    category: Traits
+  - name: Multiattack.
+    value: ' The golem makes two slam attacks. '
+    category: Actions
+  - name: Slam.
+    value: ' Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 16 (2d10
+      + 5) bludgeoning damage. If the target is a creature, it must succeed on a
+      DC 15 Constitution saving throw or have its hit point maximum reduced by an
+      amount equal to the damage taken. The target dies if this attack reduces its
+      hit point maximum to 0. The reduction lasts until removed by the greater restoration
+      spell or other magic. '
+    category: Actions
+  - name: "Haste (Recharge 5\u20136)."
+    value: ' Until the end of its next turn, the golem magically gains a +2 bonus
+      to its AC, has advantage on Dexterity saving throws, and can use its slam attack
+      as a bonus action.'
+    category: Actions

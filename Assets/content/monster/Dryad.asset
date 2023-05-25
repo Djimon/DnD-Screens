@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Dryad
+  m_EditorClassIdentifier: 
+  title: Dryad
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/307/315/315/636252771953950206.jpeg
+  properties:
+  - name: subtitle
+    value: Medium fey, neutral
+    category: general
+  - name: Armor class
+    value: 11 (16 With Barkskin)
+    category: stats
+  - name: Hit points
+    value: 22 (5d8)
+    category: stats
+  - name: Speed
+    value: 30 ft.
+    category: stats
+  - name: STR
+    value: 10
+    category: abilities
+  - name: DEX
+    value: 12
+    category: abilities
+  - name: CON
+    value: 11
+    category: abilities
+  - name: INT
+    value: 14
+    category: abilities
+  - name: WIS
+    value: 15
+    category: abilities
+  - name: CHA
+    value: 18
+    category: abilities
+  - name: Skills
+    value: Perception +4, Stealth +5
+    category: stats
+  - name: Senses
+    value: Darkvision 60 ft.,  Passive Perception 14
+    category: stats
+  - name: Languages
+    value: Elvish, Sylvan
+    category: stats
+  - name: Challenge
+    value: 1 (200 XP)
+    category: stats
+  - name: Innate Spellcasting.
+    value: ' The dryad''s innate spellcasting ability is Charisma (spell save DC
+      14). The dryad can innately cast the following spells, requiring no material
+      components: '
+    category: Traits
+  - name: other
+    value: 't will: druidcraft '
+    category: Traits
+  - name: other
+    value: '/day each: entangle, goodberry '
+    category: Traits
+  - name: other
+    value: '/day each: barkskin, pass without trace, shillelagh '
+    category: Traits
+  - name: Magic Resistance.
+    value: ' The dryad has advantage on saving throws against spells and other magical
+      effects. '
+    category: Traits
+  - name: Speak with Beasts and Plants.
+    value: ' The dryad can communicate with beasts and plants as if they shared a
+      language. '
+    category: Traits
+  - name: Tree Stride.
+    value: ' Once on her turn, the dryad can use 10 feet of her movement to step
+      magically into one living tree within her reach and emerge from a second living
+      tree within 60 feet of the first tree, appearing in an unoccupied space within
+      5 feet of the second tree. Both trees must be Large or bigger.'
+    category: Traits
+  - name: Club.
+    value: ' Melee Weapon Attack: +2 to hit (+6 to hit with shillelagh), reach 5
+      ft., one target. Hit: 2 (1d4) bludgeoning damage, or 8 (1d8 + 4) bludgeoning
+      damage with shillelagh. '
+    category: Actions
+  - name: Fey Charm.
+    value: ' The dryad targets one humanoid or beast that she can see within 30 feet
+      of her. If the target can see the dryad, it must succeed on a DC 14 Wisdom
+      saving throw or be magically charmed. The charmed creature regards the dryad
+      as a trusted friend to be heeded and protected. Although the target isn''t
+      under the dryad''s control, it takes the dryad''s requests or actions in the
+      most favorable way it can.'
+    category: Actions
+  - name: other
+    value: 'ach time the dryad or its allies do anything harmful to the target, it
+      can repeat the saving throw, ending the effect on itself on a success. Otherwise,
+      the effect lasts 24 hours or until the dryad dies, is on a different plane
+      of existence from the target, or ends the effect as a bonus action. If a target''s
+      saving throw is successful, the target is immune to the dryad''s Fey Charm
+      for the next 24 hours. '
+    category: Actions
+  - name: other
+    value: he dryad can have no more than one humanoid and up to three beasts charmed
+      at a time.
+    category: Actions

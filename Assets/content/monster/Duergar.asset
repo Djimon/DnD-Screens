@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Duergar
+  m_EditorClassIdentifier: 
+  title: Duergar
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/309/1000/1000/636252772101183765.jpeg
+  properties:
+  - name: subtitle
+    value: Medium humanoid, lawful evil
+    category: general
+  - name: Armor class
+    value: 16 (Scale Mail, Shield)
+    category: stats
+  - name: Hit points
+    value: 26 (4d8 + 8)
+    category: stats
+  - name: Speed
+    value: 25 ft.
+    category: stats
+  - name: STR
+    value: 14
+    category: abilities
+  - name: DEX
+    value: 11
+    category: abilities
+  - name: CON
+    value: 14
+    category: abilities
+  - name: INT
+    value: 11
+    category: abilities
+  - name: WIS
+    value: 10
+    category: abilities
+  - name: CHA
+    value: 9
+    category: abilities
+  - name: Damage Resistances
+    value: Poison
+    category: stats
+  - name: Senses
+    value: Darkvision 120 ft.,  Passive Perception 10
+    category: stats
+  - name: Languages
+    value: Dwarvish, Undercommon
+    category: stats
+  - name: Challenge
+    value: 1 (200 XP)
+    category: stats
+  - name: Duergar Resilience.
+    value: ' The duergar has advantage on saving throws against poison, spells, and
+      illusions, as well as to resist being charmed or paralyzed. '
+    category: Traits
+  - name: Sunlight Sensitivity.
+    value: ' While in sunlight, the duergar has disadvantage on attack rolls, as
+      well as on Wisdom (Perception) checks that rely on sight.'
+    category: Traits
+  - name: Enlarge (Recharges after a Short or Long Rest).
+    value: ' For 1 minute, the duergar magically increases in size, along with anything
+      it is wearing or carrying. While enlarged, the duergar is Large, doubles its
+      damage dice on Strength-based weapon attacks (included in the attacks), and
+      makes Strength checks and Strength saving throws with advantage. If the duergar
+      lacks the room to become Large, it attains the maximum size possible in the
+      space available. '
+    category: Actions
+  - name: War Pick.
+    value: ' Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8
+      + 2) piercing damage, or 11 (2d8 + 2) piercing damage while enlarged. '
+    category: Actions
+  - name: Javelin.
+    value: ' Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120
+      ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 9 (2d6 + 2) piercing
+      damage while enlarged. '
+    category: Actions
+  - name: Invisibility (Recharges after a Short or Long Rest).
+    value: ' The duergar magically turns invisible until it attacks, casts a spell,
+      or uses its Enlarge, or until its concentration is broken, up to 1 hour (as
+      if concentrating on a spell). Any equipment the duergar wears or carries is
+      invisible with it.'
+    category: Actions

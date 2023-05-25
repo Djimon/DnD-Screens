@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Ogre Zombie
+  m_EditorClassIdentifier: 
+  title: Ogre Zombie
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/287/1000/1000/636252770700032248.jpeg
+  properties:
+  - name: subtitle
+    value: Large undead, neutral evil
+    category: general
+  - name: Armor class
+    value: 8
+    category: stats
+  - name: Hit points
+    value: 85 (9d10 + 36)
+    category: stats
+  - name: Speed
+    value: 30 ft.
+    category: stats
+  - name: STR
+    value: 19
+    category: abilities
+  - name: DEX
+    value: 6
+    category: abilities
+  - name: CON
+    value: 18
+    category: abilities
+  - name: INT
+    value: 3
+    category: abilities
+  - name: WIS
+    value: 6
+    category: abilities
+  - name: CHA
+    value: 5
+    category: abilities
+  - name: Saving Throws
+    value: WIS +0
+    category: stats
+  - name: Damage Immunities
+    value: Poison
+    category: stats
+  - name: Senses
+    value: Darkvision 60 ft.,  Passive Perception 8
+    category: stats
+  - name: Condition Immunities
+    value: Poisoned
+    category: stats
+  - name: Languages
+    value: Understands Common and Giant but can't speak  them
+    category: stats
+  - name: Challenge
+    value: 2 (450 XP)
+    category: stats
+  - name: Undead Fortitude.
+    value: ' If damage reduces the zombie to 0 hit points, it must make a Constitution
+      saving throw with a DC of 5 + the damage taken, unless the damage is radiant
+      or from a critical hit. On a success, the zombie drops to 1 hit point instead.'
+    category: Traits
+  - name: Morningstar.
+    value: ' Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8
+      + 4) bludgeoning damage.'
+    category: Actions

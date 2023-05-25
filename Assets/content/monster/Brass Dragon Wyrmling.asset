@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Brass Dragon Wyrmling
+  m_EditorClassIdentifier: 
+  title: Brass Dragon Wyrmling
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/215/315/315/636252764963208954.jpeg
+  properties:
+  - name: subtitle
+    value: Medium dragon, chaotic good
+    category: general
+  - name: Armor class
+    value: 16 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 16 (3d8 + 3)
+    category: stats
+  - name: Speed
+    value: 30 ft., burrow 15 ft., fly 60 ft.
+    category: stats
+  - name: STR
+    value: 15
+    category: abilities
+  - name: DEX
+    value: 10
+    category: abilities
+  - name: CON
+    value: 13
+    category: abilities
+  - name: INT
+    value: 10
+    category: abilities
+  - name: WIS
+    value: 11
+    category: abilities
+  - name: CHA
+    value: 13
+    category: abilities
+  - name: Saving Throws
+    value: DEX +2, CON +3, WIS +2, CHA +3
+    category: stats
+  - name: Skills
+    value: Perception +4, Stealth +2
+    category: stats
+  - name: Damage Immunities
+    value: Fire
+    category: stats
+  - name: Senses
+    value: Blindsight 10 ft., Darkvision 60 ft.,  Passive Perception 14
+    category: stats
+  - name: Languages
+    value: Draconic
+    category: stats
+  - name: Challenge
+    value: 1 (200 XP)
+    category: stats
+  - name: Bite.
+    value: ' Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10
+      + 2) piercing damage. '
+    category: Actions
+  - name: "Breath Weapons (Recharge 5\u20136)."
+    value: ' The dragon uses one of the following breath weapons. '
+    category: Actions
+  - name: Fire Breath.
+    value: ' The dragon exhales fire in an 20-foot line that is 5 feet wide. Each
+      creature in that line must make a DC 11 Dexterity saving throw, taking 14 (4d6)
+      fire damage on a failed save, or half as much damage on a successful one. '
+    category: Actions
+  - name: Sleep Breath.
+    value: ' The dragon exhales sleep gas in a 15-foot cone. Each creature in that
+      area must succeed on a DC 11 Constitution saving throw or fall unconscious
+      for 1 minute. This effect ends for a creature if the creature takes damage
+      or someone uses an action to wake it.'
+    category: Actions

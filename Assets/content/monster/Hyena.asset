@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Hyena
+  m_EditorClassIdentifier: 
+  title: Hyena
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/902/315/315/636334288674955736.jpeg
+  properties:
+  - name: subtitle
+    value: Medium beast, unaligned
+    category: general
+  - name: Armor class
+    value: 11
+    category: stats
+  - name: Hit points
+    value: 5 (1d8 + 1)
+    category: stats
+  - name: Speed
+    value: 50 ft.
+    category: stats
+  - name: STR
+    value: 11
+    category: abilities
+  - name: DEX
+    value: 13
+    category: abilities
+  - name: CON
+    value: 12
+    category: abilities
+  - name: INT
+    value: 2
+    category: abilities
+  - name: WIS
+    value: 12
+    category: abilities
+  - name: CHA
+    value: 5
+    category: abilities
+  - name: Skills
+    value: Perception +3
+    category: stats
+  - name: Senses
+    value: Passive Perception 13
+    category: stats
+  - name: Languages
+    value: --
+    category: stats
+  - name: Challenge
+    value: 0 (10 XP)
+    category: stats
+  - name: Pack Tactics.
+    value: ' The hyena has advantage on an attack roll against a creature if at least
+      one of the hyena''s allies is within 5 feet of the creature and the ally isn''t
+      incapacitated.'
+    category: Traits
+  - name: Bite.
+    value: ' Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6)
+      piercing damage.'
+    category: Actions

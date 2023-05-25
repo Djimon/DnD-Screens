@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Ghast
+  m_EditorClassIdentifier: 
+  title: Ghast
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/411/315/315/636252786516023032.jpeg
+  properties:
+  - name: subtitle
+    value: Medium undead, chaotic evil
+    category: general
+  - name: Armor class
+    value: 13
+    category: stats
+  - name: Hit points
+    value: 36 (8d8)
+    category: stats
+  - name: Speed
+    value: 30 ft.
+    category: stats
+  - name: STR
+    value: 16
+    category: abilities
+  - name: DEX
+    value: 17
+    category: abilities
+  - name: CON
+    value: 10
+    category: abilities
+  - name: INT
+    value: 11
+    category: abilities
+  - name: WIS
+    value: 10
+    category: abilities
+  - name: CHA
+    value: 8
+    category: abilities
+  - name: Damage Immunities
+    value: Poison
+    category: stats
+  - name: Damage Resistances
+    value: Necrotic
+    category: stats
+  - name: Senses
+    value: Darkvision 60 ft.,  Passive Perception 10
+    category: stats
+  - name: Condition Immunities
+    value: Charmed, Exhaustion, Poisoned
+    category: stats
+  - name: Languages
+    value: Common
+    category: stats
+  - name: Challenge
+    value: 2 (450 XP)
+    category: stats
+  - name: Stench.
+    value: ' Any creature that starts its turn within 5 feet of the ghast must succeed
+      on a DC 10 Constitution saving throw or be poisoned until the start of its
+      next turn. On a successful saving throw, the creature is immune to the ghast''s
+      Stench for 24 hours. '
+    category: Traits
+  - name: Turning Defiance.
+    value: ' The ghast and any ghouls within 30 feet of it have advantage on saving
+      throws against effects that turn undead.'
+    category: Traits
+  - name: Bite.
+    value: ' Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 12 (2d8
+      + 3) piercing damage. '
+    category: Actions
+  - name: Claws.
+    value: ' Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6
+      + 3) slashing damage. If the target is a creature other than an undead, it
+      must succeed on a DC 10 Constitution saving throw or be paralyzed for 1 minute.
+      The target can repeat the saving throw at the end of each of its turns, ending
+      the effect on itself on a success.'
+    category: Actions

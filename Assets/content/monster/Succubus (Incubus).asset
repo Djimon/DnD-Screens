@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Succubus (Incubus)
+  m_EditorClassIdentifier: 
+  title: Succubus (Incubus)
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/103/315/315/636252742573312994.jpeg
+  properties:
+  - name: subtitle
+    value: Medium fiend, neutral evil
+    category: general
+  - name: Armor class
+    value: 15 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 66 (12d8 + 12)
+    category: stats
+  - name: Speed
+    value: 30 ft., fly 60 ft.
+    category: stats
+  - name: STR
+    value: 8
+    category: abilities
+  - name: DEX
+    value: 17
+    category: abilities
+  - name: CON
+    value: 13
+    category: abilities
+  - name: INT
+    value: 15
+    category: abilities
+  - name: WIS
+    value: 12
+    category: abilities
+  - name: CHA
+    value: 20
+    category: abilities
+  - name: Skills
+    value: Deception +9, Insight +5, Perception +5, Persuasion +9, Stealth +7
+    category: stats
+  - name: Damage Resistances
+    value: Cold, Fire, Lightning, Poison; Bludgeoning, Piercing, and Slashing from
+      Nonmagical Attacks
+    category: stats
+  - name: Senses
+    value: Darkvision 60 ft.,  Passive Perception 15
+    category: stats
+  - name: Languages
+    value: Abyssal, Common, Infernal, Telepathy 60 ft.
+    category: stats
+  - name: Challenge
+    value: 4 (1,100 XP)
+    category: stats
+  - name: Telepathic Bond.
+    value: ' The fiend ignores the range restriction on its telepathy when communicating
+      with a creature it has charmed. The two don''t even need to be on the same
+      plane of existence. '
+    category: Traits
+  - name: Shapechanger.
+    value: ' The fiend can use its action to polymorph into a Small or Medium humanoid,
+      or back into its true form. Without wings, the fiend loses its flying speed.
+      Other than its size and speed, its statistics are the same in each form. Any
+      equipment it is wearing or carrying isn''t transformed. It reverts to its true
+      form if it dies.'
+    category: Traits
+  - name: Claw (Fiend Form Only).
+    value: ' Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6
+      + 3) slashing damage. '
+    category: Actions
+  - name: Charm.
+    value: ' One humanoid the fiend can see within 30 feet of it must succeed on
+      a DC 15 Wisdom saving throw or be magically charmed for 1 day. The charmed
+      target obeys the fiend''s verbal or telepathic commands. If the target suffers
+      any harm or receives a suicidal command, it can repeat the saving throw, ending
+      the effect on a success. If the target successfully saves against the effect,
+      or if the effect on it ends, the target is immune to this fiend''s Charm for
+      the next 24 hours.'
+    category: Actions
+  - name: other
+    value: 'he fiend can have only one target charmed at a time. If it charms another,
+      the effect on the previous target ends. '
+    category: Actions
+  - name: Draining Kiss.
+    value: ' The fiend kisses a creature charmed by it or a willing creature. The
+      target must make a DC 15 Constitution saving throw against this magic, taking
+      32 (5d10 + 5) psychic damage on a failed save, or half as much damage on a
+      successful one. The target''s hit point maximum is reduced by an amount equal
+      to the damage taken. This reduction lasts until the target finishes a long
+      rest. The target dies if this effect reduces its hit point maximum to 0. '
+    category: Actions
+  - name: Etherealness.
+    value: ' The fiend magically enters the Ethereal Plane from the Material Plane,
+      or vice versa.'
+    category: Actions

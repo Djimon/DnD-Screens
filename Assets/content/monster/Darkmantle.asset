@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Darkmantle
+  m_EditorClassIdentifier: 
+  title: Darkmantle
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/263/315/315/636252768676699519.jpeg
+  properties:
+  - name: subtitle
+    value: Small monstrosity, unaligned
+    category: general
+  - name: Armor class
+    value: 11
+    category: stats
+  - name: Hit points
+    value: 22 (5d6 + 5)
+    category: stats
+  - name: Speed
+    value: 10 ft., fly 30 ft.
+    category: stats
+  - name: STR
+    value: 16
+    category: abilities
+  - name: DEX
+    value: 12
+    category: abilities
+  - name: CON
+    value: 13
+    category: abilities
+  - name: INT
+    value: 2
+    category: abilities
+  - name: WIS
+    value: 10
+    category: abilities
+  - name: CHA
+    value: 5
+    category: abilities
+  - name: Skills
+    value: Stealth +3
+    category: stats
+  - name: Senses
+    value: Blindsight 60 ft.,  Passive Perception 10
+    category: stats
+  - name: Languages
+    value: --
+    category: stats
+  - name: Challenge
+    value: 1/2 (100 XP)
+    category: stats
+  - name: Echolocation.
+    value: ' The darkmantle can''t use its blindsight while deafened. '
+    category: Traits
+  - name: False Appearance.
+    value: ' While the darkmantle remains motionless, it is indistinguishable from
+      a cave formation such as a stalactite or stalagmite.'
+    category: Traits
+  - name: Crush.
+    value: ' Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 6 (1d6
+      + 3) bludgeoning damage, and the darkmantle attaches to the target. If the
+      target is Medium or smaller and the darkmantle has advantage on the attack
+      roll, it attaches by engulfing the target''s head, and the target is also blinded
+      and unable to breathe while the darkmantle is attached in this way.'
+    category: Actions
+  - name: other
+    value: hile attached to the target, the darkmantle can attack no other creature
+      except the target but has advantage on its attack rolls. The darkmantle's speed
+      also becomes 0, it can't benefit from any bonus to its speed, and it moves
+      with the target.
+    category: Actions
+  - name: other
+    value: ' creature can detach the darkmantle by making a successful DC 13 Strength
+      check as an action. On its turn, the darkmantle can detach itself from the
+      target by using 5 feet of movement. '
+    category: Actions
+  - name: Darkness Aura (1/Day).
+    value: " A 15-\xAD-foot radius of magical darkness extends out from the darkmantle,
+      moves with it, and spreads around corners. The darkness lasts as long as the
+      darkmantle maintains concentration, up to 10 minutes (as if concentrating on
+      a spell). Darkvision can't penetrate this darkness, and no natural light can
+      illuminate it. If any of the darkness overlaps with an area of light created
+      by a spell of 2nd level or lower, the spell creating the light is dispelled."
+    category: Actions

@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Drow
+  m_EditorClassIdentifier: 
+  title: Drow
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/501/1000/1000/636376310726273495.jpeg
+  properties:
+  - name: subtitle
+    value: Medium humanoid, neutral evil
+    category: general
+  - name: Armor class
+    value: 15 (Chain Shirt)
+    category: stats
+  - name: Hit points
+    value: 13 (3d8)
+    category: stats
+  - name: Speed
+    value: 30 ft.
+    category: stats
+  - name: STR
+    value: 10
+    category: abilities
+  - name: DEX
+    value: 14
+    category: abilities
+  - name: CON
+    value: 10
+    category: abilities
+  - name: INT
+    value: 11
+    category: abilities
+  - name: WIS
+    value: 11
+    category: abilities
+  - name: CHA
+    value: 12
+    category: abilities
+  - name: Skills
+    value: Perception +2, Stealth +4
+    category: stats
+  - name: Senses
+    value: Darkvision 120 ft.,  Passive Perception 12
+    category: stats
+  - name: Languages
+    value: Elvish, Undercommon
+    category: stats
+  - name: Challenge
+    value: 1/4 (50 XP)
+    category: stats
+  - name: Fey Ancestry.
+    value: " The drow has advantage on saving throws against being charmed, and magic
+      can\u2019t put the drow to sleep."
+    category: Traits
+  - name: Innate Spellcasting.
+    value: " The drow\u2019s spellcasting ability is Charisma (spell save DC 11).
+      It can innately cast the following spells, requiring no material components:"
+    category: Traits
+  - name: other
+    value: 't will: dancing lights'
+    category: Traits
+  - name: other
+    value: '/day each: darkness, faerie fire'
+    category: Traits
+  - name: Sunlight Sensitivity.
+    value: ' While in sunlight, the drow has disadvantage on attack rolls, as well
+      as on Wisdom (Perception) checks that rely on sight.'
+    category: Traits
+  - name: Shortsword.
+    value: ' Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6
+      + 2) piercing damage.'
+    category: Actions
+  - name: Hand Crossbow.
+    value: ' Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:
+      5 (1d6 + 2) piercing damage, and the target must succeed on a DC 13 Constitution
+      saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more,
+      the target is also unconscious while poisoned in this way. The target wakes
+      up if it takes damage or if another creature takes an action to shake it awake.'
+    category: Actions

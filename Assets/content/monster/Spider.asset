@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Spider
+  m_EditorClassIdentifier: 
+  title: Spider
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/575/315/315/636376359864842950.jpeg
+  properties:
+  - name: subtitle
+    value: Tiny beast, unaligned
+    category: general
+  - name: Armor class
+    value: 12
+    category: stats
+  - name: Hit points
+    value: 1 (1d4 - 1)
+    category: stats
+  - name: Speed
+    value: 20 ft., climb 20 ft.
+    category: stats
+  - name: STR
+    value: 2
+    category: abilities
+  - name: DEX
+    value: 14
+    category: abilities
+  - name: CON
+    value: 8
+    category: abilities
+  - name: INT
+    value: 1
+    category: abilities
+  - name: WIS
+    value: 10
+    category: abilities
+  - name: CHA
+    value: 2
+    category: abilities
+  - name: Skills
+    value: Stealth +4
+    category: stats
+  - name: Senses
+    value: Darkvision 30 ft.,  Passive Perception 10
+    category: stats
+  - name: Languages
+    value: --
+    category: stats
+  - name: Challenge
+    value: 0 (10 XP)
+    category: stats
+  - name: Spider Climb.
+    value: ' The spider can climb difficult surfaces, including upside down on ceilings,
+      without needing to make an ability check. '
+    category: Traits
+  - name: Web Sense.
+    value: ' While in contact with a web, the spider knows the exact location of
+      any other creature in contact with the same web. '
+    category: Traits
+  - name: Web Walker.
+    value: ' The spider ignores movement restrictions caused by webbing.'
+    category: Traits
+  - name: Bite.
+    value: ' Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 1 piercing
+      damage, and the target must succeed on a DC 9 Constitution saving throw or
+      take 2 (1d4) poison damage.'
+    category: Actions

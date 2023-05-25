@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Cloaker
+  m_EditorClassIdentifier: 
+  title: Cloaker
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/245/315/315/636252767458838228.jpeg
+  properties:
+  - name: subtitle
+    value: Large aberration, chaotic neutral
+    category: general
+  - name: Armor class
+    value: 14 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 78 (12d10 + 12)
+    category: stats
+  - name: Speed
+    value: 10 ft., fly 40 ft.
+    category: stats
+  - name: STR
+    value: 17
+    category: abilities
+  - name: DEX
+    value: 15
+    category: abilities
+  - name: CON
+    value: 12
+    category: abilities
+  - name: INT
+    value: 13
+    category: abilities
+  - name: WIS
+    value: 12
+    category: abilities
+  - name: CHA
+    value: 14
+    category: abilities
+  - name: Skills
+    value: Stealth +5
+    category: stats
+  - name: Senses
+    value: Darkvision 60 ft.,  Passive Perception 11
+    category: stats
+  - name: Languages
+    value: Deep Speech, Undercommon
+    category: stats
+  - name: Challenge
+    value: 8 (3,900 XP)
+    category: stats
+  - name: Damage Transfer.
+    value: ' While attached to a creature, the cloaker takes only half the damage
+      dealt to it (rounded down), and that creature takes the other half. '
+    category: Traits
+  - name: False Appearance.
+    value: ' While the cloaker remains motionless without its underside exposed,
+      it is indistinguishable from a dark leather cloak. '
+    category: Traits
+  - name: Light Sensitivity.
+    value: ' While in bright light, the cloaker has disadvantage on attack rolls
+      and Wisdom (Perception) checks that rely on sight.'
+    category: Traits
+  - name: Multiattack.
+    value: ' The cloaker makes two attacks: one with its bite and one with its tail. '
+    category: Actions
+  - name: Bite.
+    value: ' Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 10 (2d6
+      + 3) piercing damage, and if the target is Large or smaller, the cloaker attaches
+      to it. If the cloaker has advantage against the target, the cloaker attaches
+      to the target''s head, and the target is blinded and unable to breathe while
+      the cloaker is attached. While attached, the cloaker can make this attack only
+      against the target and has advantage on the attack roll. The cloaker can detach
+      itself by spending 5 feet of its movement. A creature, including the target,
+      can take its action to detach the cloaker by succeeding on a DC 16 Strength
+      check. '
+    category: Actions
+  - name: Tail.
+    value: ' Melee Weapon Attack: +6 to hit, reach 10 ft., one creature. Hit: 7 (1d8
+      + 3) slashing damage. '
+    category: Actions
+  - name: Moan.
+    value: ' Each creature within 60 feet of the cloaker that can hear its moan and
+      that isn''t an aberration must succeed on a DC 13 Wisdom saving throw or become
+      frightened until the end of the cloaker''s next turn. If a creature''s saving
+      throw is successful, the creature is immune to the cloaker''s moan for the
+      next 24 hours. '
+    category: Actions
+  - name: Phantasms (Recharges after a Short or Long Rest).
+    value: ' The cloaker magically creates three illusory duplicates of itself if
+      it isn''t in bright light. The duplicates move with it and mimic its actions,
+      shifting position so as to make it impossible to track which cloaker is the
+      real one. If the cloaker is ever in an area of bright light, the duplicates
+      disappear.'
+    category: Actions
+  - name: other
+    value: henever any creature targets the cloaker with an attack or a harmful spell
+      while a duplicate remains, that creature rolls randomly to determine whether
+      it targets the cloaker or one of the duplicates. A creature is unaffected by
+      this magical effect if it can't see or if it relies on senses other than sight.
+    category: Actions
+  - name: other
+    value: ' duplicate has the cloaker''s AC and uses its saving throws. If an attack
+      hits a duplicate, or if a duplicate fails a saving throw against an effect
+      that deals damage, the duplicate disappears.'
+    category: Actions

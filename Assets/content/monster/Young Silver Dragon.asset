@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Young Silver Dragon
+  m_EditorClassIdentifier: 
+  title: Young Silver Dragon
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/401/315/315/636252784740667730.jpeg
+  properties:
+  - name: subtitle
+    value: Large dragon, lawful good
+    category: general
+  - name: Armor class
+    value: 18 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 168 (16d10 + 80)
+    category: stats
+  - name: Speed
+    value: 40 ft., fly 80 ft.
+    category: stats
+  - name: STR
+    value: 23
+    category: abilities
+  - name: DEX
+    value: 10
+    category: abilities
+  - name: CON
+    value: 21
+    category: abilities
+  - name: INT
+    value: 14
+    category: abilities
+  - name: WIS
+    value: 11
+    category: abilities
+  - name: CHA
+    value: 19
+    category: abilities
+  - name: Saving Throws
+    value: DEX +4, CON +9, WIS +4, CHA +8
+    category: stats
+  - name: Skills
+    value: Arcana +6, History +6, Perception +8, Stealth +4
+    category: stats
+  - name: Damage Immunities
+    value: Cold
+    category: stats
+  - name: Senses
+    value: Blindsight 30 ft., Darkvision 120 ft.,  Passive Perception 18
+    category: stats
+  - name: Languages
+    value: Common, Draconic
+    category: stats
+  - name: Challenge
+    value: 9 (5,000 XP)
+    category: stats
+  - name: Multiattack.
+    value: ' The dragon makes three attacks: one with its bite and two with its claws. '
+    category: Actions
+  - name: Bite.
+    value: ' Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 17 (2d10
+      + 6) piercing damage. '
+    category: Actions
+  - name: Claw.
+    value: ' Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 13 (2d6
+      + 6) slashing damage. '
+    category: Actions
+  - name: "Breath Weapons (Recharge 5\u20136)."
+    value: ' The dragon uses one of the following breath weapons. '
+    category: Actions
+  - name: Cold Breath.
+    value: ' The dragon exhales an icy blast in a 30-foot cone. Each creature in
+      that area must make a DC 17 Constitution saving throw, taking 54 (12d8) cold
+      damage on a failed save, or half as much damage on a successful one. '
+    category: Actions
+  - name: Paralyzing Breath.
+    value: ' The dragon exhales paralyzing gas in a 30-foot cone. Each creature in
+      that area must succeed on a DC 17 Constitution saving throw or be paralyzed
+      for 1 minute. A creature can repeat the saving throw at the end of each of
+      its turns, ending the effect on itself on a success.'
+    category: Actions

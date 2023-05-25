@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Goat
+  m_EditorClassIdentifier: 
+  title: Goat
+  icon: imp-laugh
+  backgroundImage: //media-waterdeep.cursecdn.com/attachments/2/648/beast.jpg
+  properties:
+  - name: subtitle
+    value: Medium beast, unaligned
+    category: general
+  - name: Armor class
+    value: 10
+    category: stats
+  - name: Hit points
+    value: 4 (1d8)
+    category: stats
+  - name: Speed
+    value: 40 ft.
+    category: stats
+  - name: STR
+    value: 12
+    category: abilities
+  - name: DEX
+    value: 10
+    category: abilities
+  - name: CON
+    value: 11
+    category: abilities
+  - name: INT
+    value: 2
+    category: abilities
+  - name: WIS
+    value: 10
+    category: abilities
+  - name: CHA
+    value: 5
+    category: abilities
+  - name: Senses
+    value: Passive Perception 10
+    category: stats
+  - name: Languages
+    value: --
+    category: stats
+  - name: Challenge
+    value: 0 (10 XP)
+    category: stats
+  - name: Charge.
+    value: ' If the goat moves at least 20 feet straight toward a target and then
+      hits it with a ram attack on the same turn, the target takes an extra 2 (1d4)
+      bludgeoning damage. If the target is a creature, it must succeed on a DC 10
+      Strength saving throw or be knocked prone. '
+    category: Traits
+  - name: Sure-Footed.
+    value: ' The goat has advantage on Strength and Dexterity saving throws made
+      against effects that would knock it prone.'
+    category: Traits
+  - name: Ram.
+    value: ' Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4
+      + 1) bludgeoning damage.'
+    category: Actions

@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Minotaur
+  m_EditorClassIdentifier: 
+  title: Minotaur
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/217/1000/1000/636252765009181721.jpeg
+  properties:
+  - name: subtitle
+    value: Large monstrosity, chaotic evil
+    category: general
+  - name: Armor class
+    value: 14 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 76 (9d10 + 27)
+    category: stats
+  - name: Speed
+    value: 40 ft.
+    category: stats
+  - name: STR
+    value: 18
+    category: abilities
+  - name: DEX
+    value: 11
+    category: abilities
+  - name: CON
+    value: 16
+    category: abilities
+  - name: INT
+    value: 6
+    category: abilities
+  - name: WIS
+    value: 16
+    category: abilities
+  - name: CHA
+    value: 9
+    category: abilities
+  - name: Skills
+    value: Perception +7
+    category: stats
+  - name: Senses
+    value: Darkvision 60 ft.,  Passive Perception 17
+    category: stats
+  - name: Languages
+    value: Abyssal
+    category: stats
+  - name: Challenge
+    value: 3 (700 XP)
+    category: stats
+  - name: Charge.
+    value: ' If the minotaur moves at least 10 feet straight toward a target and
+      then hits it with a gore attack on the same turn, the target takes an extra
+      9 (2d8) piercing damage. If the target is a creature, it must succeed on a
+      DC 14 Strength saving throw or be pushed up to 10 feet away and knocked prone. '
+    category: Traits
+  - name: Labyrinthine Recall.
+    value: ' The minotaur can perfectly recall any path it has traveled. '
+    category: Traits
+  - name: Reckless.
+    value: ' At the start of its turn, the minotaur can gain advantage on all melee
+      weapon attack rolls it makes during that turn, but attack rolls against it
+      have advantage until the start of its next turn.'
+    category: Traits
+  - name: Greataxe.
+    value: ' Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 17 (2d12
+      + 4) slashing damage. '
+    category: Actions
+  - name: Gore.
+    value: ' Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8
+      + 4) piercing damage.'
+    category: Actions

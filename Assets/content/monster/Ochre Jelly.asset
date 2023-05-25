@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Ochre Jelly
+  m_EditorClassIdentifier: 
+  title: Ochre Jelly
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/279/315/315/636252770058723674.jpeg
+  properties:
+  - name: subtitle
+    value: Large ooze, unaligned
+    category: general
+  - name: Armor class
+    value: 8
+    category: stats
+  - name: Hit points
+    value: 45 (6d10 + 12)
+    category: stats
+  - name: Speed
+    value: 10 ft., climb 10 ft.
+    category: stats
+  - name: STR
+    value: 15
+    category: abilities
+  - name: DEX
+    value: 6
+    category: abilities
+  - name: CON
+    value: 14
+    category: abilities
+  - name: INT
+    value: 2
+    category: abilities
+  - name: WIS
+    value: 6
+    category: abilities
+  - name: CHA
+    value: 1
+    category: abilities
+  - name: Damage Immunities
+    value: Lightning, Slashing
+    category: stats
+  - name: Damage Resistances
+    value: Acid
+    category: stats
+  - name: Senses
+    value: Blindsight 60 ft.,  Passive Perception 8
+    category: stats
+  - name: Condition Immunities
+    value: Blinded, Charmed, Deafened, Exhaustion, Frightened, Prone
+    category: stats
+  - name: Languages
+    value: --
+    category: stats
+  - name: Challenge
+    value: 2 (450 XP)
+    category: stats
+  - name: Amorphous.
+    value: ' The jelly can move through a space as narrow as 1 inch wide without
+      squeezing. '
+    category: Traits
+  - name: Spider Climb.
+    value: ' The jelly can climb difficult surfaces, including upside down on ceilings,
+      without needing to make an ability check.'
+    category: Traits
+  - name: Pseudopod.
+    value: ' Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6
+      + 2) bludgeoning damage plus 3 (1d6) acid damage.'
+    category: Actions
+  - name: Split.
+    value: ' When a jelly that is Medium or larger is subjected to lightning or slashing
+      damage, it splits into two new jellies if it has at least 10 hit points. Each
+      new jelly has hit points equal to half the original jelly''s, rounded down.
+      New jellies are one size smaller than the original jelly.'
+    category: Reactions

@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Half-Red Dragon Veteran
+  m_EditorClassIdentifier: 
+  title: Half-Red Dragon Veteran
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/387/315/315/636252781353903793.jpeg
+  properties:
+  - name: subtitle
+    value: Medium humanoid, any
+    category: general
+  - name: Armor class
+    value: 18 (Plate)
+    category: stats
+  - name: Hit points
+    value: 65 (10d8 + 20)
+    category: stats
+  - name: Speed
+    value: 30 ft.
+    category: stats
+  - name: STR
+    value: 16
+    category: abilities
+  - name: DEX
+    value: 13
+    category: abilities
+  - name: CON
+    value: 14
+    category: abilities
+  - name: INT
+    value: 10
+    category: abilities
+  - name: WIS
+    value: 11
+    category: abilities
+  - name: CHA
+    value: 10
+    category: abilities
+  - name: Skills
+    value: Athletics +5, Perception +2
+    category: stats
+  - name: Damage Resistances
+    value: Fire
+    category: stats
+  - name: Senses
+    value: Blindsight 10 ft., Darkvision 60 ft.,  Passive Perception 12
+    category: stats
+  - name: Languages
+    value: Common, Draconic
+    category: stats
+  - name: Challenge
+    value: 5 (1,800 XP)
+    category: stats
+  - name: Multiattack.
+    value: ' The veteran makes two longsword attacks. If it has a shortsword drawn,
+      it can also make a shortsword attack. '
+    category: Actions
+  - name: Longsword.
+    value: ' Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8
+      + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands. '
+    category: Actions
+  - name: Shortsword.
+    value: ' Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6
+      + 3) piercing damage. '
+    category: Actions
+  - name: Heavy Crossbow.
+    value: ' Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit:
+      6 (1d10 + 1) piercing damage. '
+    category: Actions
+  - name: "Fire Breath (Recharge 5\u20136)."
+    value: ' The veteran exhales fire in a 15-foot cone. Each creature in that area
+      must make a DC 15 Dexterity saving throw, taking 24 (7d6) fire damage on a
+      failed save, or half as much damage on a successful one.'
+    category: Actions

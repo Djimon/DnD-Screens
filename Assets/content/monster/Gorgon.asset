@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Gorgon
+  m_EditorClassIdentifier: 
+  title: Gorgon
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/355/315/315/636252778125099430.jpeg
+  properties:
+  - name: subtitle
+    value: Large monstrosity, unaligned
+    category: general
+  - name: Armor class
+    value: 19 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 114 (12d10 + 48)
+    category: stats
+  - name: Speed
+    value: 40 ft.
+    category: stats
+  - name: STR
+    value: 20
+    category: abilities
+  - name: DEX
+    value: 11
+    category: abilities
+  - name: CON
+    value: 18
+    category: abilities
+  - name: INT
+    value: 2
+    category: abilities
+  - name: WIS
+    value: 12
+    category: abilities
+  - name: CHA
+    value: 7
+    category: abilities
+  - name: Skills
+    value: Perception +4
+    category: stats
+  - name: Senses
+    value: Darkvision 60 ft.,  Passive Perception 14
+    category: stats
+  - name: Condition Immunities
+    value: Petrified
+    category: stats
+  - name: Languages
+    value: --
+    category: stats
+  - name: Challenge
+    value: 5 (1,800 XP)
+    category: stats
+  - name: Trampling Charge.
+    value: ' If the gorgon moves at least 20 feet straight toward a creature and
+      then hits it with a gore attack on the same turn, that target must succeed
+      on a DC 16 Strength saving throw or be knocked prone. If the target is prone,
+      the gorgon can make one attack with its hooves against it as a bonus action.'
+    category: Traits
+  - name: Gore.
+    value: ' Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18 (2d12
+      + 5) piercing damage.'
+    category: Actions
+  - name: Hooves.
+    value: ' Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 16 (2d10
+      + 5) bludgeoning damage. '
+    category: Actions
+  - name: "Petrifying Breath (Recharge 5\u20136)."
+    value: ' The gorgon exhales petrifying gas in a 30-foot cone. Each creature in
+      that area must succeed on a DC 13 Constitution saving throw. On a failed save,
+      a target begins to turn to stone and is restrained. The restrained target must
+      repeat the saving throw at the end of its next turn. On a success, the effect
+      ends on the target. On a failure, the target is petrified until freed by the
+      greater restoration spell or other magic.'
+    category: Actions

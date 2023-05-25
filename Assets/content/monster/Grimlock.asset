@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Grimlock
+  m_EditorClassIdentifier: 
+  title: Grimlock
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/375/315/315/636252780049813181.jpeg
+  properties:
+  - name: subtitle
+    value: Medium humanoid, neutral evil
+    category: general
+  - name: Armor class
+    value: 11
+    category: stats
+  - name: Hit points
+    value: 11 (2d8 + 2)
+    category: stats
+  - name: Speed
+    value: 30 ft.
+    category: stats
+  - name: STR
+    value: 16
+    category: abilities
+  - name: DEX
+    value: 12
+    category: abilities
+  - name: CON
+    value: 12
+    category: abilities
+  - name: INT
+    value: 9
+    category: abilities
+  - name: WIS
+    value: 8
+    category: abilities
+  - name: CHA
+    value: 6
+    category: abilities
+  - name: Skills
+    value: Athletics +5, Perception +3, Stealth +3
+    category: stats
+  - name: Senses
+    value: Blindsight 30 ft.,  Passive Perception 13
+    category: stats
+  - name: Condition Immunities
+    value: Blinded
+    category: stats
+  - name: Languages
+    value: Undercommon
+    category: stats
+  - name: Challenge
+    value: 1/4 (50 XP)
+    category: stats
+  - name: Blind Senses
+    value: '. The grimlock can''t use its blindsight while deafened and unable to
+      smell. '
+    category: Traits
+  - name: Keen Hearing and Smell.
+    value: ' The grimlock has advantage on Wisdom (Perception) checks that rely on
+      hearing or smell. '
+    category: Traits
+  - name: Stone Camouflage.
+    value: ' The grimlock has advantage on Dexterity (Stealth) checks made to hide
+      in rocky terrain.'
+    category: Traits
+  - name: Spiked Bone Club.
+    value: ' Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4
+      + 3) bludgeoning damage plus 2 (1d4) piercing damage.'
+    category: Actions

@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Behir
+  m_EditorClassIdentifier: 
+  title: Behir
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/195/315/315/636252763748680024.jpeg
+  properties:
+  - name: subtitle
+    value: Huge monstrosity, neutral evil
+    category: general
+  - name: Armor class
+    value: 17 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 168 (16d12 + 64)
+    category: stats
+  - name: Speed
+    value: 50 ft., climb 40 ft.
+    category: stats
+  - name: STR
+    value: 23
+    category: abilities
+  - name: DEX
+    value: 16
+    category: abilities
+  - name: CON
+    value: 18
+    category: abilities
+  - name: INT
+    value: 7
+    category: abilities
+  - name: WIS
+    value: 14
+    category: abilities
+  - name: CHA
+    value: 12
+    category: abilities
+  - name: Skills
+    value: Perception +6, Stealth +7
+    category: stats
+  - name: Damage Immunities
+    value: Lightning
+    category: stats
+  - name: Senses
+    value: Darkvision 90 ft.,  Passive Perception 16
+    category: stats
+  - name: Languages
+    value: Draconic
+    category: stats
+  - name: Challenge
+    value: 11 (7,200 XP)
+    category: stats
+  - name: Multiattack.
+    value: ' The behir makes two attacks: one with its bite and one to constrict. '
+    category: Actions
+  - name: Bite.
+    value: ' Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 22 (3d10
+      + 6) piercing damage. '
+    category: Actions
+  - name: Constrict.
+    value: ' Melee Weapon Attack: +10 to hit, reach 5 ft., one Large or smaller creature.
+      Hit: 17 (2d10 + 6) bludgeoning damage plus 17 (2d10 + 6) slashing damage. The
+      target is grappled (escape DC 16) if the behir isn''t already constricting
+      a creature, and the target is restrained until this grapple ends. '
+    category: Actions
+  - name: "Lightning Breath (Recharge 5\u20136)."
+    value: ' The behir exhales a line of lightning that is 20 feet long and 5 feet
+      wide. Each creature in that line must make a DC 16 Dexterity saving throw,
+      taking 66 (12d10) lightning damage on a failed save, or half as much damage
+      on a successful one. '
+    category: Actions
+  - name: Swallow.
+    value: ' The behir makes one bite attack against a Medium or smaller target it
+      is grappling. If the attack hits, the target is also swallowed, and the grapple
+      ends. While swallowed, the target is blinded and restrained, it has total cover
+      against attacks and other effects outside the behir, and it takes 21 (6d6)
+      acid damage at the start of each of the behir''s turns. A behir can have only
+      one creature swallowed at a time. '
+    category: Actions
+  - name: other
+    value: f the behir takes 30 damage or more on a single turn from the swallowed
+      creature, the behir must succeed on a DC 14 Constitution saving throw at the
+      end of that turn or regurgitate the creature, which falls prone in a space
+      within 10 feet of the behir. If the behir dies, a swallowed creature is no
+      longer restrained by it and can escape from the corpse by using 15 feet of
+      movement, exiting prone.
+    category: Actions

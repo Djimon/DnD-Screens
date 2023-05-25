@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Dust Mephit
+  m_EditorClassIdentifier: 
+  title: Dust Mephit
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/313/1000/1000/636252772213922157.jpeg
+  properties:
+  - name: subtitle
+    value: Small elemental, neutral evil
+    category: general
+  - name: Armor class
+    value: 12
+    category: stats
+  - name: Hit points
+    value: 17 (5d6)
+    category: stats
+  - name: Speed
+    value: 30 ft., fly 30 ft.
+    category: stats
+  - name: STR
+    value: 5
+    category: abilities
+  - name: DEX
+    value: 14
+    category: abilities
+  - name: CON
+    value: 10
+    category: abilities
+  - name: INT
+    value: 9
+    category: abilities
+  - name: WIS
+    value: 11
+    category: abilities
+  - name: CHA
+    value: 10
+    category: abilities
+  - name: Skills
+    value: Perception +2, Stealth +4
+    category: stats
+  - name: Damage Vulnerabilities
+    value: Fire
+    category: stats
+  - name: Damage Immunities
+    value: Poison
+    category: stats
+  - name: Senses
+    value: Darkvision 60 ft.,  Passive Perception 12
+    category: stats
+  - name: Condition Immunities
+    value: Poisoned
+    category: stats
+  - name: Languages
+    value: Auran, Terran
+    category: stats
+  - name: Challenge
+    value: 1/2 (100 XP)
+    category: stats
+  - name: Death Burst.
+    value: ' When the mephit dies, it explodes in a burst of dust. Each creature
+      within 5 feet of it must then succeed on a DC 10 Constitution saving throw
+      or be blinded for 1 minute. A blinded creature can repeat the saving throw
+      on each of its turns, ending the effect on itself on a success. '
+    category: Traits
+  - name: Innate Spellcasting.
+    value: (1/Day). The mephit can innately cast sleep, requiring no material components.
+      Its innate spellcasting ability is Charisma.
+    category: Traits
+  - name: Claws.
+    value: ' Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4
+      + 2) slashing damage. '
+    category: Actions
+  - name: Blinding Breath (Recharge 6).
+    value: ' The mephit exhales a 15- foot cone of blinding dust. Each creature in
+      that area must succeed on a DC 10 Dexterity saving throw or be blinded for
+      1 minute. A creature can repeat the saving throw at the end of each of its
+      turns, ending the effect on itself on a success.'
+    category: Actions

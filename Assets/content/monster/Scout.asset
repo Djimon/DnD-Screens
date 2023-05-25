@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Scout
+  m_EditorClassIdentifier: 
+  title: Scout
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/163/315/315/636252759915100020.jpeg
+  properties:
+  - name: subtitle
+    value: Medium humanoid, any
+    category: general
+  - name: Armor class
+    value: 13 (Leather Armor)
+    category: stats
+  - name: Hit points
+    value: 16 (3d8 + 3)
+    category: stats
+  - name: Speed
+    value: 30 ft.
+    category: stats
+  - name: STR
+    value: 11
+    category: abilities
+  - name: DEX
+    value: 14
+    category: abilities
+  - name: CON
+    value: 12
+    category: abilities
+  - name: INT
+    value: 11
+    category: abilities
+  - name: WIS
+    value: 13
+    category: abilities
+  - name: CHA
+    value: 11
+    category: abilities
+  - name: Skills
+    value: Nature +4, Perception +5, Stealth +6, Survival +5
+    category: stats
+  - name: Senses
+    value: Passive Perception 15
+    category: stats
+  - name: Languages
+    value: Any one language (usually Common)
+    category: stats
+  - name: Challenge
+    value: 1/2 (100 XP)
+    category: stats
+  - name: Keen Hearing and Sight.
+    value: ' The scout has advantage on Wisdom (Perception) checks that rely on hearing
+      or sight.'
+    category: Traits
+  - name: Multiattack.
+    value: ' The scout makes two melee attacks or two ranged attacks. '
+    category: Actions
+  - name: Shortsword.
+    value: ' Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6
+      + 2) piercing damage. '
+    category: Actions
+  - name: Longbow.
+    value: ' Ranged Weapon Attack: +4 to hit, ranged 150/600 ft., one target. Hit:
+      6 (1d8 + 2) piercing damage.'
+    category: Actions

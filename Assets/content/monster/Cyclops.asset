@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Cyclops
+  m_EditorClassIdentifier: 
+  title: Cyclops
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/470/315/315/636376290137285130.jpeg
+  properties:
+  - name: subtitle
+    value: Huge giant, chaotic neutral
+    category: general
+  - name: Armor class
+    value: 14 Natural Armor
+    category: stats
+  - name: Hit points
+    value: 138 (12d12 + 60)
+    category: stats
+  - name: Speed
+    value: 30 ft.
+    category: stats
+  - name: STR
+    value: 22
+    category: abilities
+  - name: DEX
+    value: 11
+    category: abilities
+  - name: CON
+    value: 20
+    category: abilities
+  - name: INT
+    value: 8
+    category: abilities
+  - name: WIS
+    value: 6
+    category: abilities
+  - name: CHA
+    value: 10
+    category: abilities
+  - name: Senses
+    value: Passive Perception 8
+    category: stats
+  - name: Languages
+    value: Giant
+    category: stats
+  - name: Challenge
+    value: 6 (2,300 XP)
+    category: stats
+  - name: Poor Depth Perception.
+    value: ' The cyclops has disadvantage on any attack roll against a target more
+      than 30 feet away.'
+    category: Traits
+  - name: Multiattack.
+    value: ' The cyclops makes two greatclub attacks.'
+    category: Actions
+  - name: Greatclub.
+    value: ' Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 19 (3d8
+      + 6) bludgeoning damage.'
+    category: Actions
+  - name: Rock.
+    value: ' Ranged Weapon Attack: +9 to hit, range 30/120 ft., one target. Hit:
+      28 (4d10 + 6) bludgeoning damage.'
+    category: Actions

@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Dragon Turtle
+  m_EditorClassIdentifier: 
+  title: Dragon Turtle
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/291/1000/1000/636252771128151641.jpeg
+  properties:
+  - name: subtitle
+    value: Gargantuan dragon, neutral
+    category: general
+  - name: Armor class
+    value: 20 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 341 (22d20 + 110)
+    category: stats
+  - name: Speed
+    value: 20 ft., swim 40 ft.
+    category: stats
+  - name: STR
+    value: 25
+    category: abilities
+  - name: DEX
+    value: 10
+    category: abilities
+  - name: CON
+    value: 20
+    category: abilities
+  - name: INT
+    value: 10
+    category: abilities
+  - name: WIS
+    value: 12
+    category: abilities
+  - name: CHA
+    value: 12
+    category: abilities
+  - name: Saving Throws
+    value: DEX +6, CON +11, WIS +7
+    category: stats
+  - name: Damage Resistances
+    value: Fire
+    category: stats
+  - name: Senses
+    value: Darkvision 120 ft.,  Passive Perception 11
+    category: stats
+  - name: Languages
+    value: Aquan, Draconic
+    category: stats
+  - name: Challenge
+    value: 17 (18,000 XP)
+    category: stats
+  - name: Amphibious.
+    value: ' The dragon turtle can breathe air and water.'
+    category: Traits
+  - name: Multiattack.
+    value: ' The dragon turtle makes three attacks: one with its bite and two with
+      its claws. It can make one tail attack in place of its two claw attacks. '
+    category: Actions
+  - name: Bite.
+    value: ' Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 26 (3d12
+      + 7) piercing damage. '
+    category: Actions
+  - name: Claw.
+    value: ' Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 16 (2d8
+      + 7) slashing damage. '
+    category: Actions
+  - name: Tail.
+    value: ' Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 26 (3d12
+      + 7) bludgeoning damage. If the target is a creature, it must succeed on a
+      DC 20 Strength saving throw or be pushed up to 10 feet away from the dragon
+      turtle and knocked prone. '
+    category: Actions
+  - name: "Steam Breath (Recharge 5\u20136)."
+    value: ' The dragon turtle exhales scalding steam in a 60-foot cone. Each creature
+      in that area must make a DC 18 Constitution saving throw, taking 52 (15d6)
+      fire damage on a failed save, or half as much damage on a successful one. Being
+      underwater doesn''t grant resistance against this damage.'
+    category: Actions

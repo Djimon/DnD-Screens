@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Giant Owl
+  m_EditorClassIdentifier: 
+  title: Giant Owl
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/535/315/315/636376331788287090.jpeg
+  properties:
+  - name: subtitle
+    value: Large beast, neutral
+    category: general
+  - name: Armor class
+    value: 12
+    category: stats
+  - name: Hit points
+    value: 19 (3d10 + 3)
+    category: stats
+  - name: Speed
+    value: 5 ft., fly 60 ft.
+    category: stats
+  - name: STR
+    value: 13
+    category: abilities
+  - name: DEX
+    value: 15
+    category: abilities
+  - name: CON
+    value: 12
+    category: abilities
+  - name: INT
+    value: 8
+    category: abilities
+  - name: WIS
+    value: 13
+    category: abilities
+  - name: CHA
+    value: 10
+    category: abilities
+  - name: Skills
+    value: Perception +5, Stealth +4
+    category: stats
+  - name: Senses
+    value: Darkvision 120 ft.,  Passive Perception 15
+    category: stats
+  - name: Languages
+    value: Elvish, Giant Owl  and Sylvan but can't speak them
+    category: stats
+  - name: Challenge
+    value: 1/4 (50 XP)
+    category: stats
+  - name: Flyby.
+    value: ' The owl doesn''t provoke opportunity attacks when it flies out of an
+      enemy''s reach. '
+    category: Traits
+  - name: Keen Hearing and Sight.
+    value: ' The owl has advantage on Wisdom (Perception) checks that rely on hearing
+      or sight.'
+    category: Traits
+  - name: Talons.
+    value: ' Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 8 (2d6
+      + 1) slashing damage.'
+    category: Actions

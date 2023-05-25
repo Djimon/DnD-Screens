@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Yeti
+  m_EditorClassIdentifier: 
+  title: Yeti
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/662/315/315/636313413410825930.jpeg
+  properties:
+  - name: subtitle
+    value: Large monstrosity, chaotic evil
+    category: general
+  - name: Armor class
+    value: 12 Natural Armor
+    category: stats
+  - name: Hit points
+    value: 51 (6d10 + 18)
+    category: stats
+  - name: Speed
+    value: 40 ft., climb 40 ft.
+    category: stats
+  - name: STR
+    value: 18
+    category: abilities
+  - name: DEX
+    value: 13
+    category: abilities
+  - name: CON
+    value: 16
+    category: abilities
+  - name: INT
+    value: 8
+    category: abilities
+  - name: WIS
+    value: 12
+    category: abilities
+  - name: CHA
+    value: 7
+    category: abilities
+  - name: Skills
+    value: Perception +3, Stealth +3
+    category: stats
+  - name: Damage Immunities
+    value: Cold
+    category: stats
+  - name: Senses
+    value: Darkvision 60 ft.,  Passive Perception 13
+    category: stats
+  - name: Languages
+    value: Yeti
+    category: stats
+  - name: Challenge
+    value: 3 (700 XP)
+    category: stats
+  - name: Fear of Fire.
+    value: ' If the yeti takes fire damage, it has disadvantage on attack rolls and
+      ability checks until the end of its next turn.'
+    category: Traits
+  - name: Keen Smell.
+    value: ' The yeti has advantage on Wisdom (Perception) checks that rely on smell.'
+    category: Traits
+  - name: Snow Camouflage.
+    value: ' The yeti has advantage on Dexterity (Stealth) checks made to hide in
+      snowy terrain.'
+    category: Traits
+  - name: other
+    value: iv>
+    category: Traits
+  - name: Multiattack.
+    value: ' The yeti can use its Chilling Gaze and makes two claw attacks.'
+    category: Actions
+  - name: Claw.
+    value: ' Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6
+      + 4) slashing damage plus 3 (1d6) cold damage.'
+    category: Actions
+  - name: Chilling Gaze.
+    value: " The yeti targets one creature it can see within 30 feet of it. If the
+      target can see the yeti, the target must succeed on a DC 13 Constitution saving
+      throw against this magic or take 10 (3d6) cold damage and then be paralyzed
+      for 1 minute, unless it is immune to cold damage. The target can repeat the
+      saving throw at the end of each of its turns, ending the effect on itself on
+      a success. If the target\u2019s saving throw is successful, or if the effect
+      ends on it, the target is immune to the Chilling Gaze of all yetis (but not
+      abominable yetis) for 1 hour."
+    category: Actions

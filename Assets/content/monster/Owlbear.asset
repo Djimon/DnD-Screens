@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Owlbear
+  m_EditorClassIdentifier: 
+  title: Owlbear
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/315/315/315/636252772225295187.jpeg
+  properties:
+  - name: subtitle
+    value: Large monstrosity, unaligned
+    category: general
+  - name: Armor class
+    value: 13 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 59 (7d10 + 21)
+    category: stats
+  - name: Speed
+    value: 40 ft.
+    category: stats
+  - name: STR
+    value: 20
+    category: abilities
+  - name: DEX
+    value: 12
+    category: abilities
+  - name: CON
+    value: 17
+    category: abilities
+  - name: INT
+    value: 3
+    category: abilities
+  - name: WIS
+    value: 12
+    category: abilities
+  - name: CHA
+    value: 7
+    category: abilities
+  - name: Skills
+    value: Perception +3
+    category: stats
+  - name: Senses
+    value: Darkvision 60 ft.,  Passive Perception 13
+    category: stats
+  - name: Languages
+    value: --
+    category: stats
+  - name: Challenge
+    value: 3 (700 XP)
+    category: stats
+  - name: Keen Sight and Smell.
+    value: ' The owlbear has advantage on Wisdom (Perception) checks that rely on
+      sight or smell.'
+    category: Traits
+  - name: Multiattack.
+    value: ' The owlbear makes two attacks: one with its beak and one with its claws. '
+    category: Actions
+  - name: Beak.
+    value: ' Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 10 (1d10
+      + 5) piercing damage. '
+    category: Actions
+  - name: Claws.
+    value: ' Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8
+      + 5) slashing damage.'
+    category: Actions

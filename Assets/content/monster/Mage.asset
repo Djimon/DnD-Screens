@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Mage
+  m_EditorClassIdentifier: 
+  title: Mage
+  icon: imp-laugh
+  backgroundImage: //media-waterdeep.cursecdn.com/attachments/2/656/humanoid.jpg
+  properties:
+  - name: subtitle
+    value: Medium humanoid, any
+    category: general
+  - name: Armor class
+    value: 12 (15 With Mage Armor)
+    category: stats
+  - name: Hit points
+    value: 40 (9d8)
+    category: stats
+  - name: Speed
+    value: 30 ft.
+    category: stats
+  - name: STR
+    value: 9
+    category: abilities
+  - name: DEX
+    value: 14
+    category: abilities
+  - name: CON
+    value: 11
+    category: abilities
+  - name: INT
+    value: 17
+    category: abilities
+  - name: WIS
+    value: 12
+    category: abilities
+  - name: CHA
+    value: 11
+    category: abilities
+  - name: Saving Throws
+    value: INT +6, WIS +4
+    category: stats
+  - name: Skills
+    value: Arcana +6, History +6
+    category: stats
+  - name: Senses
+    value: Passive Perception 11
+    category: stats
+  - name: Languages
+    value: Any four languages
+    category: stats
+  - name: Challenge
+    value: 6 (2,300 XP)
+    category: stats
+  - name: Spellcasting.
+    value: ' The mage is a 9th-level spellcaster. Its spellcasting ability is Intelligence
+      (spell save DC 14, +6 to hit with spell attacks). The mage has the following
+      wizard spells prepared: '
+    category: Traits
+  - name: other
+    value: 'antrips (at will): fire bolt, light, mage hand, prestidigitation '
+    category: Traits
+  - name: other
+    value: 'st level (4 slots): detect magic, mage armor, magic missile, shield '
+    category: Traits
+  - name: other
+    value: 'nd level (3 slots): misty step, suggestion '
+    category: Traits
+  - name: other
+    value: 'rd level (3 slots): counterspell, fireball, fly '
+    category: Traits
+  - name: other
+    value: 'th level (3 slots): greater invisibility, ice storm '
+    category: Traits
+  - name: other
+    value: 'th level (1 slot): cone of cold'
+    category: Traits
+  - name: Dagger.
+    value: ' Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60
+      ft., one target. Hit: 4 (1d4 + 2) piercing damage.'
+    category: Actions

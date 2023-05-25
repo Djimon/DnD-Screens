@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Barbed Devil
+  m_EditorClassIdentifier: 
+  title: Barbed Devil
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/486/315/315/636376302569423870.jpeg
+  properties:
+  - name: subtitle
+    value: Medium fiend, lawful evil
+    category: general
+  - name: Armor class
+    value: 15 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 110 (13d8 + 52)
+    category: stats
+  - name: Speed
+    value: 30 ft.
+    category: stats
+  - name: STR
+    value: 16
+    category: abilities
+  - name: DEX
+    value: 17
+    category: abilities
+  - name: CON
+    value: 18
+    category: abilities
+  - name: INT
+    value: 12
+    category: abilities
+  - name: WIS
+    value: 14
+    category: abilities
+  - name: CHA
+    value: 14
+    category: abilities
+  - name: Saving Throws
+    value: STR +6, CON +7, WIS +5, CHA +5
+    category: stats
+  - name: Skills
+    value: Deception +5, Insight +5, Perception +8
+    category: stats
+  - name: Damage Immunities
+    value: Fire, Poison
+    category: stats
+  - name: Damage Resistances
+    value: Cold; Bludgeoning, Piercing, and Slashing from Nonmagical Attacks that
+      aren't Silvered
+    category: stats
+  - name: Senses
+    value: Darkvision 120 ft.,  Passive Perception 18
+    category: stats
+  - name: Condition Immunities
+    value: Poisoned
+    category: stats
+  - name: Languages
+    value: Infernal, Telepathy 120 ft.
+    category: stats
+  - name: Challenge
+    value: 5 (1,800 XP)
+    category: stats
+  - name: Barbed Hide.
+    value: ' At the start of each of its turns, the barbed devil deals 5 (1d10) piercing
+      damage to any creature grappling it. '
+    category: Traits
+  - name: Devil's Sight.
+    value: ' Magical darkness doesn''t impede the devil''s darkvision. '
+    category: Traits
+  - name: Magic Resistance.
+    value: ' The devil has advantage on saving throws against spells and other magical
+      effects.'
+    category: Traits
+  - name: Multiattack.
+    value: ' The devil makes three melee attacks: one with its tail and two with
+      its claws. Alternatively, it can use Hurl Flame twice. '
+    category: Actions
+  - name: Claw.
+    value: ' Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6
+      + 3) piercing damage. '
+    category: Actions
+  - name: Tail.
+    value: ' Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6
+      + 3) piercing damage. '
+    category: Actions
+  - name: Hurl Flame.
+    value: ' Ranged Spell Attack: +5 to hit, range 150 ft., one target. Hit: 10 (3d6)
+      fire damage. If the target is a flammable object that isn''t being worn or
+      carried, it also catches fire.'
+    category: Actions

@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Lich
+  m_EditorClassIdentifier: 
+  title: Lich
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/165/315/315/636252760084366499.jpeg
+  properties:
+  - name: subtitle
+    value: Medium undead, any evil alignment
+    category: general
+  - name: Armor class
+    value: 17 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 135 (18d8 + 54)
+    category: stats
+  - name: Speed
+    value: 30 ft.
+    category: stats
+  - name: STR
+    value: 11
+    category: abilities
+  - name: DEX
+    value: 16
+    category: abilities
+  - name: CON
+    value: 16
+    category: abilities
+  - name: INT
+    value: 20
+    category: abilities
+  - name: WIS
+    value: 14
+    category: abilities
+  - name: CHA
+    value: 16
+    category: abilities
+  - name: Saving Throws
+    value: CON +10, INT +12, WIS +9
+    category: stats
+  - name: Skills
+    value: Arcana +18, History +12, Insight +9, Perception +9
+    category: stats
+  - name: Damage Immunities
+    value: Poison; Bludgeoning, Piercing, and Slashing from Nonmagical Attacks
+    category: stats
+  - name: Damage Resistances
+    value: Cold, Lightning, Necrotic
+    category: stats
+  - name: Senses
+    value: Truesight 120 ft.,  Passive Perception 19
+    category: stats
+  - name: Condition Immunities
+    value: Charmed, Exhaustion, Frightened, Paralyzed, Poisoned
+    category: stats
+  - name: Languages
+    value: Common plus up to five other languages
+    category: stats
+  - name: Challenge
+    value: 21 (33,000 XP)
+    category: stats
+  - name: Legendary Resistance (3/Day).
+    value: ' If the lich fails a saving throw, it can choose to succeed instead. '
+    category: Traits
+  - name: Rejuvenation.
+    value: ' If it has a phylactery, a destroyed lich gains a new body in 1d10 days,
+      regaining all its hit points and becoming active again. The new body appears
+      within 5 feet of the phylactery. '
+    category: Traits
+  - name: Spellcasting.
+    value: ' The lich is an 18th-level spellcaster. Its spellcasting ability is Intelligence
+      (spell save DC 20, +12 to hit with spell attacks). The lich has the following
+      wizard spells prepared: '
+    category: Traits
+  - name: other
+    value: 'antrips (at will): mage hand, prestidigitation, ray of frost '
+    category: Traits
+  - name: other
+    value: 'st level (4 slots): detect magic, magic missile, shield, thunderwave '
+    category: Traits
+  - name: other
+    value: 'nd level (3 slots): acid arrow, detect thoughts, invisibility, mirror
+      image '
+    category: Traits
+  - name: other
+    value: 'rd level (3 slots): animate dead, counterspell, dispel magic, fireball '
+    category: Traits
+  - name: other
+    value: 'th level (3 slots): blight, dimension door '
+    category: Traits
+  - name: other
+    value: 'th level (3 slots): cloudkill, scrying '
+    category: Traits
+  - name: other
+    value: 'th level (1 slot): disintegrate, globe of invulnerability '
+    category: Traits
+  - name: other
+    value: 'th level (1 slot): finger of death, plane shift '
+    category: Traits
+  - name: other
+    value: 'th level (1 slot): dominate monster, power word stun '
+    category: Traits
+  - name: other
+    value: 'th level (1 slot): power word kill '
+    category: Traits
+  - name: Turn Resistance.
+    value: ' The lich has advantage on saving throws against any effect that turns
+      undead.'
+    category: Traits
+  - name: Paralyzing Touch.
+    value: ' Melee Spell Attack: +12 to hit, reach 5 ft., one creature. Hit: 10 (3d6)
+      cold damage. The target must succeed on a DC 18 Constitution saving throw or
+      be paralyzed for 1 minute. The target can repeat the saving throw at the end
+      of each of its turns, ending the effect on itself on a success.'
+    category: Actions
+  - name: other
+    value: 'The lich can take 3 legendary actions, choosing from the options below.
+      Only one legendary action option can be used at a time and only at the end
+      of another creature''s turn. The lich regains spent legendary actions at the
+      start of its turn. '
+    category: Legendary Actions
+  - name: Cantrip.
+    value: ' The lich casts a cantrip. '
+    category: Legendary Actions
+  - name: Paralyzing Touch (Costs 2 Actions).
+    value: ' The lich uses its Paralyzing Touch. '
+    category: Legendary Actions
+  - name: Frightening Gaze (Costs 2 Actions).
+    value: ' The lich fixes its gaze on one creature it can see within 10 feet of
+      it. The target must succeed on a DC 18 Wisdom saving throw against this magic
+      or become frightened for 1 minute. The frightened target can repeat the saving
+      throw at the end of each of its turns, ending the effect on itself on a success.
+      If a target''s saving throw is successful or the effect ends for it, the target
+      is immune to the lich''s gaze for the next 24 hours. '
+    category: Legendary Actions
+  - name: Disrupt Life (Costs 3 Actions).
+    value: ' Each living creature within 20 feet of the lich must make a DC 18 Constitution
+      saving throw against this magic, taking 21 (6d6) necrotic damage on a failed
+      save, or half as much damage on a successful one.'
+    category: Legendary Actions

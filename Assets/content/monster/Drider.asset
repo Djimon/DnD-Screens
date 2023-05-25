@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Drider
+  m_EditorClassIdentifier: 
+  title: Drider
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/295/315/315/636252771409285458.jpeg
+  properties:
+  - name: subtitle
+    value: Large monstrosity, chaotic evil
+    category: general
+  - name: Armor class
+    value: 19 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 123 (13d10 + 52)
+    category: stats
+  - name: Speed
+    value: 30 ft., climb 30 ft.
+    category: stats
+  - name: STR
+    value: 16
+    category: abilities
+  - name: DEX
+    value: 16
+    category: abilities
+  - name: CON
+    value: 18
+    category: abilities
+  - name: INT
+    value: 13
+    category: abilities
+  - name: WIS
+    value: 14
+    category: abilities
+  - name: CHA
+    value: 12
+    category: abilities
+  - name: Skills
+    value: Perception +5, Stealth +9
+    category: stats
+  - name: Senses
+    value: Darkvision 120 ft.,  Passive Perception 15
+    category: stats
+  - name: Languages
+    value: Elvish, Undercommon
+    category: stats
+  - name: Challenge
+    value: 6 (2,300 XP)
+    category: stats
+  - name: Fey Ancestry.
+    value: ' The drider has advantage on saving throws against being charmed, and
+      magic can''t put the drider to sleep. '
+    category: Traits
+  - name: Innate Spellcasting.
+    value: ' The drider''s innate spellcasting ability is Wisdom (spell save DC 13).
+      The drider can innately cast the following spells, requiring no material components: '
+    category: Traits
+  - name: other
+    value: 't will: dancing lights '
+    category: Traits
+  - name: other
+    value: '/day each: darkness, faerie fire '
+    category: Traits
+  - name: Spider Climb.
+    value: ' The drider can climb difficult surfaces, including upside down on ceilings,
+      without needing to make an ability check.'
+    category: Traits
+  - name: Sunlight Sensitivity.
+    value: ' While in sunlight, the drider has disadvantage on attack rolls, as well
+      as on Wisdom (Perception) checks that rely on sight. '
+    category: Traits
+  - name: Web Walker.
+    value: ' The drider ignores movement restrictions caused by webbing.'
+    category: Traits
+  - name: Multiattack.
+    value: ' The drider makes three attacks, either with its longsword or its longbow.
+      It can replace one of those attacks with a bite attack. '
+    category: Actions
+  - name: Bite.
+    value: ' Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 2 (1d4)
+      piercing damage plus 9 (2d8) poison damage. '
+    category: Actions
+  - name: Longsword.
+    value: ' Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8
+      + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands. '
+    category: Actions
+  - name: Longbow.
+    value: ' Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit:
+      7 (1d8 + 3) piercing damage plus 4 (1d8) poison damage.'
+    category: Actions

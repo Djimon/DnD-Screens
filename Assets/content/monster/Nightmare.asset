@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Nightmare
+  m_EditorClassIdentifier: 
+  title: Nightmare
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/273/315/315/636252769493472144.jpeg
+  properties:
+  - name: subtitle
+    value: Large fiend, neutral evil
+    category: general
+  - name: Armor class
+    value: 13 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 68 (8d10 + 24)
+    category: stats
+  - name: Speed
+    value: 60 ft., fly 90 ft.
+    category: stats
+  - name: STR
+    value: 18
+    category: abilities
+  - name: DEX
+    value: 15
+    category: abilities
+  - name: CON
+    value: 16
+    category: abilities
+  - name: INT
+    value: 10
+    category: abilities
+  - name: WIS
+    value: 13
+    category: abilities
+  - name: CHA
+    value: 15
+    category: abilities
+  - name: Damage Immunities
+    value: Fire
+    category: stats
+  - name: Senses
+    value: Passive Perception 11
+    category: stats
+  - name: Languages
+    value: Common  and Infernal but can't speak
+    category: stats
+  - name: Challenge
+    value: 3 (700 XP)
+    category: stats
+  - name: Confer Fire Resistance.
+    value: ' The nightmare can grant resistance to fire damage to anyone riding it. '
+    category: Traits
+  - name: Illumination.
+    value: ' The nightmare sheds bright light in a 10-foot radius and dim light for
+      an additional 10 feet.'
+    category: Traits
+  - name: Hooves.
+    value: ' Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8
+      + 4) bludgeoning damage plus 7 (2d6) fire damage. '
+    category: Actions
+  - name: Ethereal Stride.
+    value: ' The nightmare and up to three willing creatures within 5 feet of it
+      magically enter the Ethereal Plane from the Material Plane, or vice versa.'
+    category: Actions

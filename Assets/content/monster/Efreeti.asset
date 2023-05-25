@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Efreeti
+  m_EditorClassIdentifier: 
+  title: Efreeti
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/325/315/315/636252775714332067.jpeg
+  properties:
+  - name: subtitle
+    value: Large elemental, lawful evil
+    category: general
+  - name: Armor class
+    value: 17 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 200 (16d10 + 112)
+    category: stats
+  - name: Speed
+    value: 40 ft., fly 60 ft.
+    category: stats
+  - name: STR
+    value: 22
+    category: abilities
+  - name: DEX
+    value: 12
+    category: abilities
+  - name: CON
+    value: 24
+    category: abilities
+  - name: INT
+    value: 16
+    category: abilities
+  - name: WIS
+    value: 15
+    category: abilities
+  - name: CHA
+    value: 16
+    category: abilities
+  - name: Saving Throws
+    value: INT +7, WIS +6, CHA +7
+    category: stats
+  - name: Damage Immunities
+    value: Fire
+    category: stats
+  - name: Senses
+    value: Darkvision 120 ft.,  Passive Perception 12
+    category: stats
+  - name: Languages
+    value: Ignan
+    category: stats
+  - name: Challenge
+    value: 11 (7,200 XP)
+    category: stats
+  - name: Elemental Demise.
+    value: ' If the efreeti dies, its body disintegrates in a flash of fire and puff
+      of smoke, leaving behind only equipment the efreeti was wearing or carrying. '
+    category: Traits
+  - name: Innate Spellcasting.
+    value: ' The efreeti''s innate spellcasting ability is Charisma (spell save DC
+      15, +7 to hit with spell attacks). It can innately cast the following spells,
+      requiring no material components: '
+    category: Traits
+  - name: other
+    value: 't will: detect magic '
+    category: Traits
+  - name: other
+    value: '/day: enlarge/reduce, tongues '
+    category: Traits
+  - name: other
+    value: '/day each: conjure elemental (fire elemental only), gaseous form, invisibility,
+      major image, plane shift, wall of fire'
+    category: Traits
+  - name: Multiattack.
+    value: ' The efreeti makes two scimitar attacks or uses its Hurl Flame twice. '
+    category: Actions
+  - name: Scimitar.
+    value: ' Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 13 (2d6
+      + 6) slashing damage plus 7 (2d6) fire damage. '
+    category: Actions
+  - name: Hurl Flame.
+    value: ' Ranged Spell Attack: +7 to hit, range 120 ft., one target. Hit: 17 (5d6)
+      fire damage.'
+    category: Actions

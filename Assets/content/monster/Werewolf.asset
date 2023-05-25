@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Werewolf
+  m_EditorClassIdentifier: 
+  title: Werewolf
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/74/315/315/636252734224239957.jpeg
+  properties:
+  - name: subtitle
+    value: Medium humanoid, chaotic evil
+    category: general
+  - name: Armor class
+    value: 11 In Humanoid Form, 12 In Wolf Or Hybrid Form
+    category: stats
+  - name: Hit points
+    value: 58 (9d8 + 18)
+    category: stats
+  - name: Speed
+    value: 30 ft., 40 ft. in wolf form
+    category: stats
+  - name: STR
+    value: 15
+    category: abilities
+  - name: DEX
+    value: 13
+    category: abilities
+  - name: CON
+    value: 14
+    category: abilities
+  - name: INT
+    value: 10
+    category: abilities
+  - name: WIS
+    value: 11
+    category: abilities
+  - name: CHA
+    value: 10
+    category: abilities
+  - name: Skills
+    value: Perception +4, Stealth +3
+    category: stats
+  - name: Damage Immunities
+    value: Bludgeoning, Piercing, and Slashing from Nonmagical Attacks that aren't
+      Silvered
+    category: stats
+  - name: Senses
+    value: Passive Perception 14
+    category: stats
+  - name: Languages
+    value: Common (can't speak in wolf form)
+    category: stats
+  - name: Challenge
+    value: 3 (700 XP)
+    category: stats
+  - name: Shapechanger.
+    value: ' The werewolf can use its action to polymorph into a wolf-humanoid hybrid
+      or into a wolf, or back into its true form, which is humanoid. Its statistics,
+      other than its AC, are the same in each form. Any equipment it is wearing or
+      carrying isn''t transformed. It reverts to its true form if it dies. '
+    category: Traits
+  - name: Keen Hearing and Smell.
+    value: ' The werewolf has advantage on Wisdom (Perception) checks that rely on
+      hearing or smell.'
+    category: Traits
+  - name: Multiattack. (Humanoid or Hybrid Form Only).
+    value: ' The werewolf makes two attacks: one with its bite and one with its claws
+      or spear. '
+    category: Actions
+  - name: Bite (Wolf or Hybrid Form Only).
+    value: ' Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8
+      + 2) piercing damage. If the target is a humanoid, it must succeed on a DC
+      12 Constitution saving throw or be cursed with werewolf lycanthropy. '
+    category: Actions
+  - name: Claws. (Hybrid Form Only).
+    value: ' Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (2d4
+      + 2) slashing damage. '
+    category: Actions
+  - name: Spear (Humanoid Form Only).
+    value: ' Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60
+      ft., one creature. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing
+      damage if used with two hands to make a melee attack.'
+    category: Actions

@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Mummy
+  m_EditorClassIdentifier: 
+  title: Mummy
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/225/315/315/636252765553048566.jpeg
+  properties:
+  - name: subtitle
+    value: Medium undead, lawful evil
+    category: general
+  - name: Armor class
+    value: 11 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 58 (9d8 + 18)
+    category: stats
+  - name: Speed
+    value: 20 ft.
+    category: stats
+  - name: STR
+    value: 16
+    category: abilities
+  - name: DEX
+    value: 8
+    category: abilities
+  - name: CON
+    value: 15
+    category: abilities
+  - name: INT
+    value: 6
+    category: abilities
+  - name: WIS
+    value: 10
+    category: abilities
+  - name: CHA
+    value: 12
+    category: abilities
+  - name: Saving Throws
+    value: WIS +2
+    category: stats
+  - name: Damage Vulnerabilities
+    value: Fire
+    category: stats
+  - name: Damage Immunities
+    value: Necrotic, Poison
+    category: stats
+  - name: Damage Resistances
+    value: Bludgeoning, Piercing, and Slashing from Nonmagical Attacks
+    category: stats
+  - name: Senses
+    value: Darkvision 60 ft.,  Passive Perception 10
+    category: stats
+  - name: Condition Immunities
+    value: Charmed, Exhaustion, Frightened, Paralyzed, Poisoned
+    category: stats
+  - name: Languages
+    value: The languages it knew in life
+    category: stats
+  - name: Challenge
+    value: 3 (700 XP)
+    category: stats
+  - name: Multiattack.
+    value: ' The mummy can use its Dreadful Glare and makes one attack with its rotting
+      fist.'
+    category: Actions
+  - name: Rotting Fist.
+    value: ' Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6
+      + 3) bludgeoning damage plus 10 (3d6) necrotic damage. If the target is a creature,
+      it must succeed on a DC 12 Constitution saving throw or be cursed with mummy
+      rot. The cursed target can''t regain hit points, and its hit point maximum
+      decreases by 10 (3d6) for every 24 hours that elapse. If the curse reduces
+      the target''s hit point maximum to 0, the target dies, and its body turns to
+      dust. The curse lasts until removed by the remove curse spell or other magic.'
+    category: Actions
+  - name: Dreadful Glare.
+    value: ' The mummy targets one creature it can see within 60 feet of it. If the
+      target can see the mummy, it must succeed on a DC 11 Wisdom saving throw against
+      this magic or become frightened until the end of the mummy''s next turn. If
+      the target fails the saving throw by 5 or more, it is also paralyzed for the
+      same duration. A target that succeeds on the saving throw is immune to the
+      Dreadful Glare of all mummies (but not mummy lords) for the next 24 hours.'
+    category: Actions

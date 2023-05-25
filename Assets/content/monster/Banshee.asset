@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Banshee
+  m_EditorClassIdentifier: 
+  title: Banshee
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/8/446/315/315/636306384206418474.jpeg
+  properties:
+  - name: subtitle
+    value: Medium undead, chaotic evil
+    category: general
+  - name: Armor class
+    value: 12
+    category: stats
+  - name: Hit points
+    value: 58 (13d8)
+    category: stats
+  - name: Speed
+    value: "40 ft., (hover)\r\n                    , walking 0 ft."
+    category: stats
+  - name: STR
+    value: 1
+    category: abilities
+  - name: DEX
+    value: 14
+    category: abilities
+  - name: CON
+    value: 10
+    category: abilities
+  - name: INT
+    value: 12
+    category: abilities
+  - name: WIS
+    value: 11
+    category: abilities
+  - name: CHA
+    value: 17
+    category: abilities
+  - name: Saving Throws
+    value: WIS +2, CHA +5
+    category: stats
+  - name: Damage Immunities
+    value: Cold, Necrotic, Poison
+    category: stats
+  - name: Damage Resistances
+    value: Acid, Fire, Lightning, Thunder; Bludgeoning, Piercing, and Slashing from
+      Nonmagical Attacks
+    category: stats
+  - name: Senses
+    value: Darkvision 60 ft.,  Passive Perception 10
+    category: stats
+  - name: Condition Immunities
+    value: Charmed, Exhaustion, Frightened, Grappled, Paralyzed, Petrified, Poisoned,
+      Prone, Restrained
+    category: stats
+  - name: Languages
+    value: Common, Elvish
+    category: stats
+  - name: Challenge
+    value: 4 (1,100 XP)
+    category: stats
+  - name: Detect Life.
+    value: " The banshee can magically sense the presence of creatures up to 5 miles
+      away that aren\u2019t undead or constructs. She knows the general direction
+      they\u2019re in but not their exact locations."
+    category: Traits
+  - name: Incorporeal Movement.
+    value: ' The banshee can move through other creatures and objects as if they
+      were difficult terrain. She takes 5 (1d10) force damage if she ends her turn
+      inside an object.'
+    category: Traits
+  - name: Corrupting Touch.
+    value: ' Melee Spell Attack: +4 to hit, reach 5 ft., one target. Hit: 12 (3d6
+      + 2) necrotic damage.'
+    category: Actions
+  - name: Horrifying Visage.
+    value: " Each non-undead creature within 60 feet of the banshee that can see
+      her must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute.
+      A frightened target can repeat the saving throw at the end of each of its turns,
+      with disadvantage if the banshee is within line of sight, ending the effect
+      on itself on a success. If a target\u2019s saving throw is successful or the
+      effect ends for it, the target is immune to the banshee\u2019s Horrifying Visage
+      for the next 24 hours."
+    category: Actions
+  - name: Wail (1/Day).
+    value: " The banshee releases a mournful wail, provided that she isn\u2019t in
+      sunlight. This wail has no effect on constructs and undead. All other creatures
+      within 30 feet of her that can hear her must make a DC 13 Constitution saving
+      throw. On a failure, a creature drops to 0 hit points. On a success, a creature
+      takes 10 (3d6) psychic damage."
+    category: Actions

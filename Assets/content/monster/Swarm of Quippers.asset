@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Swarm of Quippers
+  m_EditorClassIdentifier: 
+  title: Swarm of Quippers
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/18/276/315/315/636379781035768521.jpeg
+  properties:
+  - name: subtitle
+    value: Medium beast, unaligned
+    category: general
+  - name: Armor class
+    value: 13
+    category: stats
+  - name: Hit points
+    value: 28 (8d8 - 8)
+    category: stats
+  - name: Speed
+    value: 0 ft., swim 40 ft.
+    category: stats
+  - name: STR
+    value: 13
+    category: abilities
+  - name: DEX
+    value: 16
+    category: abilities
+  - name: CON
+    value: 9
+    category: abilities
+  - name: INT
+    value: 1
+    category: abilities
+  - name: WIS
+    value: 7
+    category: abilities
+  - name: CHA
+    value: 2
+    category: abilities
+  - name: Damage Resistances
+    value: Bludgeoning, Piercing, Slashing
+    category: stats
+  - name: Senses
+    value: Darkvision 60 ft.,  Passive Perception 8
+    category: stats
+  - name: Condition Immunities
+    value: Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained,
+      Stunned
+    category: stats
+  - name: Languages
+    value: --
+    category: stats
+  - name: Challenge
+    value: 1 (200 XP)
+    category: stats
+  - name: Blood Frenzy.
+    value: ' The swarm has advantage on melee attack rolls against any creature that
+      doesn''t have all its hit points. '
+    category: Traits
+  - name: Swarm.
+    value: ' The swarm can occupy another creature''s space and vice versa, and the
+      swarm can move through any opening large enough for a Tiny quipper. The swarm
+      can''t regain hit points or gain temporary hit points. '
+    category: Traits
+  - name: Water Breathing.
+    value: ' The swarm can breathe only underwater.'
+    category: Traits
+  - name: Bite.
+    value: '. Melee Weapon Attack: +5 to hit, reach 0 ft., one creature in the swarm''s
+      space. Hit: 14 (4d6) piercing damage, or 7 (2d6) piercing damage if the swarm
+      has half of its hit points or fewer.'
+    category: Actions

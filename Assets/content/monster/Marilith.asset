@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Marilith
+  m_EditorClassIdentifier: 
+  title: Marilith
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/189/315/315/636252763036079032.jpeg
+  properties:
+  - name: subtitle
+    value: Large fiend, chaotic evil
+    category: general
+  - name: Armor class
+    value: 18 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 189 (18d10 + 90)
+    category: stats
+  - name: Speed
+    value: 40 ft.
+    category: stats
+  - name: STR
+    value: 18
+    category: abilities
+  - name: DEX
+    value: 20
+    category: abilities
+  - name: CON
+    value: 20
+    category: abilities
+  - name: INT
+    value: 18
+    category: abilities
+  - name: WIS
+    value: 16
+    category: abilities
+  - name: CHA
+    value: 20
+    category: abilities
+  - name: Saving Throws
+    value: STR +9, CON +10, WIS +8, CHA +10
+    category: stats
+  - name: Damage Immunities
+    value: Poison
+    category: stats
+  - name: Damage Resistances
+    value: Cold, Fire, Lightning; Bludgeoning, Piercing, and Slashing from Nonmagical
+      Attacks
+    category: stats
+  - name: Senses
+    value: Truesight 120 ft.,  Passive Perception 13
+    category: stats
+  - name: Condition Immunities
+    value: Poisoned
+    category: stats
+  - name: Languages
+    value: Abyssal, Telepathy 120 ft.
+    category: stats
+  - name: Challenge
+    value: 16 (15,000 XP)
+    category: stats
+  - name: Magic Resistance.
+    value: ' The marilith has advantage on saving throws against spells and other
+      magical effects. '
+    category: Traits
+  - name: Magic Weapons.
+    value: ' The marilith''s weapon attacks are magical. '
+    category: Traits
+  - name: Reactive.
+    value: ' The marilith can take one reaction on every turn in a combat.'
+    category: Traits
+  - name: Multiattack.
+    value: ' The marilith makes seven attacks: six with its longswords and one with
+      its tail. '
+    category: Actions
+  - name: Longsword.
+    value: ' Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13 (2d8
+      + 4) slashing damage. '
+    category: Actions
+  - name: Tail.
+    value: ' Melee Weapon Attack: +9 to hit, reach 10 ft., one creature. Hit: 15
+      (2d10 + 4) bludgeoning damage. If the target is Medium or smaller, it is grappled
+      (escape DC 19). Until this grapple ends, the target is restrained, the marilith
+      can automatically hit the target with its tail, and the marilith can''t make
+      tail attacks against other targets. '
+    category: Actions
+  - name: Teleport.
+    value: ' The marilith magically teleports, along with any equipment it is wearing
+      or carrying, up to 120 feet to an unoccupied space it can see.'
+    category: Actions
+  - name: Parry.
+    value: ' The marilith adds 5 to its AC against one melee attack that would hit
+      it. To do so, the marilith must see the attacker and be wielding a melee weapon.'
+    category: Reactions

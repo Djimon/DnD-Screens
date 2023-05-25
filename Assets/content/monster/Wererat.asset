@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Wererat
+  m_EditorClassIdentifier: 
+  title: Wererat
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/78/315/315/636252735121410517.jpeg
+  properties:
+  - name: subtitle
+    value: Medium humanoid, lawful evil
+    category: general
+  - name: Armor class
+    value: 12
+    category: stats
+  - name: Hit points
+    value: 33 (6d8 + 6)
+    category: stats
+  - name: Speed
+    value: 30 ft.
+    category: stats
+  - name: STR
+    value: 10
+    category: abilities
+  - name: DEX
+    value: 15
+    category: abilities
+  - name: CON
+    value: 12
+    category: abilities
+  - name: INT
+    value: 11
+    category: abilities
+  - name: WIS
+    value: 10
+    category: abilities
+  - name: CHA
+    value: 8
+    category: abilities
+  - name: Skills
+    value: Perception +2, Stealth +4
+    category: stats
+  - name: Damage Immunities
+    value: Bludgeoning, Piercing, and Slashing from Nonmagical Attacks that aren't
+      Silvered
+    category: stats
+  - name: Senses
+    value: Darkvision 60 ft.,  Passive Perception 12
+    category: stats
+  - name: Languages
+    value: Common (can't speak in rat form)
+    category: stats
+  - name: Challenge
+    value: 2 (450 XP)
+    category: stats
+  - name: Shapechanger.
+    value: ' The wererat can use its action to polymorph into a rat-humanoid hybrid
+      or into a giant rat, or back into its true form, which is humanoid. Its statistics,
+      other than its size, are the same in each form. Any equipment it is wearing
+      or carrying isn''t transformed. It reverts to its true form if it dies. '
+    category: Traits
+  - name: Keen Smell.
+    value: ' The wererat has advantage on Wisdom (Perception) checks that rely on
+      smell.'
+    category: Traits
+  - name: Multiattack (Humanoid or Hybrid Form Only).
+    value: ' The wererat makes two attacks, only one of which can be a bite. '
+    category: Actions
+  - name: Bite (Rat or Hybrid Form Only).
+    value: ' Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4
+      + 2) piercing damage. If the target is a humanoid, it must succeed on a DC
+      11 Constitution saving throw or be cursed with wererat lycanthropy. '
+    category: Actions
+  - name: Shortsword (Humanoid or Hybrid Form Only).
+    value: ' Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6
+      + 2) piercing damage. '
+    category: Actions
+  - name: Hand Crossbow (Humanoid or Hybrid Form Only).
+    value: ' Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:
+      5 (1d6 + 2) piercing damage.'
+    category: Actions

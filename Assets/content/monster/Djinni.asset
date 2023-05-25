@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Djinni
+  m_EditorClassIdentifier: 
+  title: Djinni
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/281/1000/1000/636252770322204007.jpeg
+  properties:
+  - name: subtitle
+    value: Large elemental, chaotic good
+    category: general
+  - name: Armor class
+    value: 17 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 161 (14d10 + 84)
+    category: stats
+  - name: Speed
+    value: 30 ft., fly 90 ft.
+    category: stats
+  - name: STR
+    value: 21
+    category: abilities
+  - name: DEX
+    value: 15
+    category: abilities
+  - name: CON
+    value: 22
+    category: abilities
+  - name: INT
+    value: 15
+    category: abilities
+  - name: WIS
+    value: 16
+    category: abilities
+  - name: CHA
+    value: 20
+    category: abilities
+  - name: Saving Throws
+    value: DEX +6, WIS +7, CHA +9
+    category: stats
+  - name: Damage Immunities
+    value: Lightning, Thunder
+    category: stats
+  - name: Senses
+    value: Darkvision 120 ft.,  Passive Perception 13
+    category: stats
+  - name: Languages
+    value: Auran
+    category: stats
+  - name: Challenge
+    value: 11 (7,200 XP)
+    category: stats
+  - name: Elemental Demise.
+    value: ' If the djinni dies, its body disintegrates into a warm breeze, leaving
+      behind only equipment the djinni was wearing or carrying. '
+    category: Traits
+  - name: Innate Spellcasting.
+    value: ' The djinni''s innate spellcasting ability is Charisma (spell save DC
+      17, +9 to hit with spell attacks). It can innately cast the following spells,
+      requiring no material components: '
+    category: Traits
+  - name: other
+    value: 't will: detect evil and good, detect magic, thunderwave '
+    category: Traits
+  - name: other
+    value: '/day each: create food and water (can create wine instead of water) ,
+      tongues, wind walk '
+    category: Traits
+  - name: other
+    value: '/day each: conjure elemental (air elemental only), creation, gaseous
+      form, invisibility, major image, plane shift'
+    category: Traits
+  - name: Multiattack.
+    value: ' The djinni makes three scimitar attacks. '
+    category: Actions
+  - name: Scimitar.
+    value: ' Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6
+      + 5) slashing damage plus 3 (1d6) lightning or thunder damage (djinni''s choice). '
+    category: Actions
+  - name: Create Whirlwind.
+    value: ' A 5-foot-radius, 30-foot-tall cylinder of swirling air magically forms
+      on a point the djinni can see within 120 feet of it. The whirlwind lasts as
+      long as the djinni maintains concentration (as if concentrating on a spell).
+      Any creature but the djinni that enters the whirlwind must succeed on a DC
+      18 Strength saving throw or be restrained by it. The djinni can move the whirlwind
+      up to 60 feet as an action, and creatures restrained by the whirlwind move
+      with it. The whirlwind ends if the djinni loses sight of it.'
+    category: Actions
+  - name: other
+    value: ' creature can use its action to free a creature restrained by the whirlwind,
+      including itself, by succeeding on a DC 18 Strength check. If the check succeeds,
+      the creature is no longer restrained and moves to the nearest space outside
+      the whirlwind.'
+    category: Actions

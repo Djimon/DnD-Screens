@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Vampire Spawn
+  m_EditorClassIdentifier: 
+  title: Vampire Spawn
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/89/315/315/636252738148839638.jpeg
+  properties:
+  - name: subtitle
+    value: Medium undead, neutral evil
+    category: general
+  - name: Armor class
+    value: 15 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 82 (11d8 + 33)
+    category: stats
+  - name: Speed
+    value: 30 ft.
+    category: stats
+  - name: STR
+    value: 16
+    category: abilities
+  - name: DEX
+    value: 16
+    category: abilities
+  - name: CON
+    value: 16
+    category: abilities
+  - name: INT
+    value: 11
+    category: abilities
+  - name: WIS
+    value: 10
+    category: abilities
+  - name: CHA
+    value: 12
+    category: abilities
+  - name: Saving Throws
+    value: DEX +6, WIS +3
+    category: stats
+  - name: Skills
+    value: Perception +3, Stealth +6
+    category: stats
+  - name: Damage Resistances
+    value: Necrotic; Bludgeoning, Piercing, and Slashing from Nonmagical Attacks
+    category: stats
+  - name: Senses
+    value: Darkvision 60 ft.,  Passive Perception 13
+    category: stats
+  - name: Languages
+    value: the languages it knew in life
+    category: stats
+  - name: Challenge
+    value: 5 (1,800 XP)
+    category: stats
+  - name: Regeneration.
+    value: ' The vampire regains 10 hit points at the start of its turn if it has
+      at least 1 hit point and isn''t in sunlight or running water. If the vampire
+      takes radiant damage or damage from holy water, this trait doesn''t function
+      at the start of the vampire''s next turn. '
+    category: Traits
+  - name: Spider Climb.
+    value: ' The vampire can climb difficult surfaces, including upside down on ceilings,
+      without needing to make an ability check. '
+    category: Traits
+  - name: Vampire Weaknesses.
+    value: ' The vampire has the following flaws: '
+    category: Traits
+  - name: Forbiddance.
+    value: ' The vampire can''t enter a residence without an invitation from one
+      of the occupants. '
+    category: Traits
+  - name: Harmed by Running Water.
+    value: ' The vampire takes 20 acid damage when it ends its turn in running water. '
+    category: Traits
+  - name: Stake to the Heart.
+    value: ' The vampire is destroyed if a piercing weapon made of wood is driven
+      into its heart while it is incapacitated in its resting place. '
+    category: Traits
+  - name: Sunlight Hypersensitivity.
+    value: ' The vampire takes 20 radiant damage when it starts its turn in sunlight.
+      While in sunlight, it has disadvantage on attack rolls and ability checks.'
+    category: Traits
+  - name: Multiattack.
+    value: ' The vampire makes two attacks, only one of which can be a bite attack. '
+    category: Actions
+  - name: Claws.
+    value: ' Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 8 (2d4
+      + 3) slashing damage. Instead of dealing damage, the vampire can grapple the
+      target (escape DC 13). '
+    category: Actions
+  - name: Bite.
+    value: ' Melee Weapon Attack: +6 to hit, reach 5 ft., one willing creature, or
+      a creature that is grappled by the vampire, incapacitated, or restrained. Hit:
+      6 (1d6 + 3) piercing damage plus 7 (2d6) necrotic damage. The target''s hit
+      point maximum is reduced by an amount equal to the necrotic damage taken, and
+      the vampire regains hit points equal to that amount. The reduction lasts until
+      the target finishes a long rest. The target dies if this effect reduces its
+      hit point maximum to 0.'
+    category: Actions

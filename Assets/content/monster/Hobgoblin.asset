@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Hobgoblin
+  m_EditorClassIdentifier: 
+  title: Hobgoblin
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/389/315/315/636252781431932597.jpeg
+  properties:
+  - name: subtitle
+    value: Medium humanoid, lawful evil
+    category: general
+  - name: Armor class
+    value: 18 (Chain Mail, Shield)
+    category: stats
+  - name: Hit points
+    value: 11 (2d8 + 2)
+    category: stats
+  - name: Speed
+    value: 30 ft.
+    category: stats
+  - name: STR
+    value: 13
+    category: abilities
+  - name: DEX
+    value: 12
+    category: abilities
+  - name: CON
+    value: 12
+    category: abilities
+  - name: INT
+    value: 10
+    category: abilities
+  - name: WIS
+    value: 10
+    category: abilities
+  - name: CHA
+    value: 9
+    category: abilities
+  - name: Senses
+    value: Darkvision 60 ft.,  Passive Perception 10
+    category: stats
+  - name: Languages
+    value: Common, Goblin
+    category: stats
+  - name: Challenge
+    value: 1/2 (100 XP)
+    category: stats
+  - name: Martial Advantage.
+    value: ' Once per turn, the hobgoblin can deal an extra 7 (2d6) damage to a creature
+      it hits with a weapon attack if that creature is within 5 feet of an ally of
+      the hobgoblin that isn''t incapacitated.'
+    category: Traits
+  - name: Longsword.
+    value: ' Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8
+      + 1) slashing damage, or 6 (1d10 + 1) slashing damage if used with two hands. '
+    category: Actions
+  - name: Longbow.
+    value: ' Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. Hit:
+      5 (1d8 + 1) piercing damage.'
+    category: Actions

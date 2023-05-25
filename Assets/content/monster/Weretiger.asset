@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Weretiger
+  m_EditorClassIdentifier: 
+  title: Weretiger
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/76/315/315/636252734783831163.jpeg
+  properties:
+  - name: subtitle
+    value: Medium humanoid, neutral
+    category: general
+  - name: Armor class
+    value: 12
+    category: stats
+  - name: Hit points
+    value: 120 (16d8 + 48)
+    category: stats
+  - name: Speed
+    value: 30 ft., 40 ft. in tiger form
+    category: stats
+  - name: STR
+    value: 17
+    category: abilities
+  - name: DEX
+    value: 15
+    category: abilities
+  - name: CON
+    value: 16
+    category: abilities
+  - name: INT
+    value: 10
+    category: abilities
+  - name: WIS
+    value: 13
+    category: abilities
+  - name: CHA
+    value: 11
+    category: abilities
+  - name: Skills
+    value: Perception +5, Stealth +4
+    category: stats
+  - name: Damage Immunities
+    value: Bludgeoning, Piercing, and Slashing from Nonmagical Attacks that aren't
+      Silvered
+    category: stats
+  - name: Senses
+    value: Darkvision 60 ft.,  Passive Perception 15
+    category: stats
+  - name: Languages
+    value: Common (can't speak in tiger form)
+    category: stats
+  - name: Challenge
+    value: 4 (1,100 XP)
+    category: stats
+  - name: Shapechanger.
+    value: ' The weretiger can use its action to polymorph into a tiger-humanoid
+      hybrid or into a tiger, or back into its true form, which is humanoid. Its
+      statistics, other than its size, are the same in each form. Any equipment it
+      is wearing or carrying isn''t transformed. It reverts to its true form if it
+      dies. '
+    category: Traits
+  - name: Keen Hearing and Smell.
+    value: ' The weretiger has advantage on Wisdom (Perception) checks that rely
+      on hearing or smell. '
+    category: Traits
+  - name: Pounce (Tiger or Hybrid Form Only).
+    value: ' If the weretiger moves at least 15 feet straight toward a creature and
+      then hits it with a claw attack on the same turn, that target must succeed
+      on a DC 14 Strength saving throw or be knocked prone. If the target is prone,
+      the weretiger can make one bite attack against it as a bonus action.'
+    category: Traits
+  - name: Multiattack (Humanoid or Hybrid Form Only).
+    value: ' In humanoid form, the weretiger makes two scimitar attacks or two longbow
+      attacks. In hybrid form, it can attack like a humanoid or make two claw attacks. '
+    category: Actions
+  - name: Bite (Tiger or Hybrid Form Only).
+    value: ' Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10
+      + 3) piercing damage. If the target is a humanoid, it must succeed on a DC
+      13 Constitution saving throw or be cursed with weretiger lycanthropy. '
+    category: Actions
+  - name: Claw (Tiger or Hybrid Form Only).
+    value: ' Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8
+      + 3) slashing damage. '
+    category: Actions
+  - name: Scimitar (Humanoid or Hybrid Form Only).
+    value: ' Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6
+      + 3) slashing damage.'
+    category: Actions
+  - name: Longbow (Humanoid or Hybrid Form Only).
+    value: ' Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit:
+      6 (1d8 + 2) piercing damage.'
+    category: Actions

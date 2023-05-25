@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Black Dragon Wyrmling
+  m_EditorClassIdentifier: 
+  title: Black Dragon Wyrmling
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/496/315/315/636376308217017511.jpeg
+  properties:
+  - name: subtitle
+    value: Medium dragon, chaotic evil
+    category: general
+  - name: Armor class
+    value: 17 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 33 (6d8 + 6)
+    category: stats
+  - name: Speed
+    value: 30 ft., fly 60 ft., swim 30 ft.
+    category: stats
+  - name: STR
+    value: 15
+    category: abilities
+  - name: DEX
+    value: 14
+    category: abilities
+  - name: CON
+    value: 13
+    category: abilities
+  - name: INT
+    value: 10
+    category: abilities
+  - name: WIS
+    value: 11
+    category: abilities
+  - name: CHA
+    value: 13
+    category: abilities
+  - name: Saving Throws
+    value: DEX +4, CON +3, WIS +2, CHA +3
+    category: stats
+  - name: Skills
+    value: Perception +4, Stealth +4
+    category: stats
+  - name: Damage Immunities
+    value: Acid
+    category: stats
+  - name: Senses
+    value: Blindsight 10 ft., Darkvision 60 ft.,  Passive Perception 14
+    category: stats
+  - name: Languages
+    value: Draconic
+    category: stats
+  - name: Challenge
+    value: 2 (450 XP)
+    category: stats
+  - name: Amphibious.
+    value: ' The dragon can breathe air and water.'
+    category: Traits
+  - name: Bite.
+    value: ' Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10
+      + 2) piercing damage plus 2 (1d4) acid damage.'
+    category: Actions
+  - name: "Acid Breath (Recharge 5\u20136)."
+    value: " The dragon exhales acid in a 15-\xADfoot line that is 5 feet wide. Each
+      creature in that line must make a DC 11 Dexterity saving throw, taking 22 (5d8)
+      acid damage on a failed save, or half as much damage on a successful one."
+    category: Actions

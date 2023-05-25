@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Bulette
+  m_EditorClassIdentifier: 
+  title: Bulette
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/223/1000/1000/636252765369632881.jpeg
+  properties:
+  - name: subtitle
+    value: Large monstrosity, unaligned
+    category: general
+  - name: Armor class
+    value: 17 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 94 (9d10 + 45)
+    category: stats
+  - name: Speed
+    value: 40 ft., burrow 40 ft.
+    category: stats
+  - name: STR
+    value: 19
+    category: abilities
+  - name: DEX
+    value: 11
+    category: abilities
+  - name: CON
+    value: 21
+    category: abilities
+  - name: INT
+    value: 2
+    category: abilities
+  - name: WIS
+    value: 10
+    category: abilities
+  - name: CHA
+    value: 5
+    category: abilities
+  - name: Skills
+    value: Perception +6
+    category: stats
+  - name: Senses
+    value: Darkvision 60 ft., Tremorsense 60 ft.,  Passive Perception 16
+    category: stats
+  - name: Languages
+    value: --
+    category: stats
+  - name: Challenge
+    value: 5 (1,800 XP)
+    category: stats
+  - name: Standing Leap.
+    value: ' The bulette''s long jump is up to 30 feet and its high jump is up to
+      15 feet, with or without a running start.'
+    category: Traits
+  - name: Bite.
+    value: ' Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 30 (4d12
+      + 4) piercing damage. '
+    category: Actions
+  - name: Deadly Leap.
+    value: ' If the bulette jumps at least 15 feet as part of its movement, it can
+      then use this action to land on its feet in a space that contains one or more
+      other creatures. Each of those creatures must succeed on a DC 16 Strength or
+      Dexterity saving throw (target''s choice) or be knocked prone and take 14 (3d6
+      + 4) bludgeoning damage plus 14 (3d6 + 4) slashing damage. On a successful
+      save, the creature takes only half the damage, isn''t knocked prone, and is
+      pushed 5 feet out of the bulette''s space into an unoccupied space of the creature''s
+      choice. If no unoccupied space is within range, the creature instead falls
+      prone in the bulette''s space.'
+    category: Actions

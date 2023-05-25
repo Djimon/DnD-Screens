@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Giant Hyena
+  m_EditorClassIdentifier: 
+  title: Giant Hyena
+  icon: imp-laugh
+  backgroundImage: //media-waterdeep.cursecdn.com/attachments/2/648/beast.jpg
+  properties:
+  - name: subtitle
+    value: Large beast, unaligned
+    category: general
+  - name: Armor class
+    value: 12
+    category: stats
+  - name: Hit points
+    value: 45 (6d10 + 12)
+    category: stats
+  - name: Speed
+    value: 50 ft.
+    category: stats
+  - name: STR
+    value: 16
+    category: abilities
+  - name: DEX
+    value: 14
+    category: abilities
+  - name: CON
+    value: 14
+    category: abilities
+  - name: INT
+    value: 2
+    category: abilities
+  - name: WIS
+    value: 12
+    category: abilities
+  - name: CHA
+    value: 7
+    category: abilities
+  - name: Skills
+    value: Perception +3
+    category: stats
+  - name: Senses
+    value: Passive Perception 13
+    category: stats
+  - name: Languages
+    value: --
+    category: stats
+  - name: Challenge
+    value: 1 (200 XP)
+    category: stats
+  - name: Rampage.
+    value: ' When the hyena reduces a creature to 0 hit points with a melee attack
+      on its turn, the hyena can take a bonus action to move up to half its speed
+      and make a bite attack.'
+    category: Traits
+  - name: Bite.
+    value: ' Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6
+      + 3) piercing damage.'
+    category: Actions

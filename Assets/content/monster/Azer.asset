@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Azer
+  m_EditorClassIdentifier: 
+  title: Azer
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/171/1000/1000/636252761112348397.jpeg
+  properties:
+  - name: subtitle
+    value: Medium elemental, lawful neutral
+    category: general
+  - name: Armor class
+    value: 17 (Natural Armor, Shield)
+    category: stats
+  - name: Hit points
+    value: 39 (6d8 + 12)
+    category: stats
+  - name: Speed
+    value: 30 ft.
+    category: stats
+  - name: STR
+    value: 17
+    category: abilities
+  - name: DEX
+    value: 12
+    category: abilities
+  - name: CON
+    value: 15
+    category: abilities
+  - name: INT
+    value: 12
+    category: abilities
+  - name: WIS
+    value: 13
+    category: abilities
+  - name: CHA
+    value: 10
+    category: abilities
+  - name: Saving Throws
+    value: CON +4
+    category: stats
+  - name: Damage Immunities
+    value: Fire, Poison
+    category: stats
+  - name: Senses
+    value: Passive Perception 11
+    category: stats
+  - name: Condition Immunities
+    value: Poisoned
+    category: stats
+  - name: Languages
+    value: Ignan
+    category: stats
+  - name: Challenge
+    value: 2 (450 XP)
+    category: stats
+  - name: Heated Body.
+    value: ' A creature that touches the azer or hits it with a melee attack while
+      within 5 feet of it takes 5 (1d10) fire damage. '
+    category: Traits
+  - name: Heated Weapons.
+    value: ' When the azer hits with a metal melee weapon, it deals an extra 3 (1d6)
+      fire damage (included in the attack). '
+    category: Traits
+  - name: Illumination.
+    value: " The azer sheds bright light in a 10-\xADfoot radius and dim light for
+      an additional 10 feet."
+    category: Traits
+  - name: Warhammer.
+    value: ' Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8
+      + 3) bludgeoning damage, or 8 (1d10 + 3) bludgeoning damage if used with two
+      hands to make a melee attack, plus 3 (1d6) fire damage.'
+    category: Actions

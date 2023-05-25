@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Roper
+  m_EditorClassIdentifier: 
+  title: Roper
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/560/315/315/636376344528091115.jpeg
+  properties:
+  - name: subtitle
+    value: Large monstrosity, neutral evil
+    category: general
+  - name: Armor class
+    value: 20 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 93 (11d10 + 33)
+    category: stats
+  - name: Speed
+    value: 10 ft., climb 10 ft.
+    category: stats
+  - name: STR
+    value: 18
+    category: abilities
+  - name: DEX
+    value: 8
+    category: abilities
+  - name: CON
+    value: 17
+    category: abilities
+  - name: INT
+    value: 7
+    category: abilities
+  - name: WIS
+    value: 16
+    category: abilities
+  - name: CHA
+    value: 6
+    category: abilities
+  - name: Skills
+    value: Perception +6, Stealth +5
+    category: stats
+  - name: Senses
+    value: Darkvision 60 ft.,  Passive Perception 16
+    category: stats
+  - name: Languages
+    value: --
+    category: stats
+  - name: Challenge
+    value: 5 (1,800 XP)
+    category: stats
+  - name: False Appearance.
+    value: ' While the roper remains motionless, it is indistinguishable from a normal
+      cave formation, such as a stalagmite. '
+    category: Traits
+  - name: Grasping Tendrils.
+    value: ' The roper can have up to six tendrils at a time. Each tendril can be
+      attacked (AC 20; 10 hit points; immunity to poison and psychic damage). Destroying
+      a tendril deals no damage to the roper, which can extrude a replacement tendril
+      on its next turn. A tendril can also be broken if a creature takes an action
+      and succeeds on a DC 15 Strength check against it. '
+    category: Traits
+  - name: Spider Climb.
+    value: ' The roper can climb difficult surfaces, including upside down on ceilings,
+      without needing to make an ability check.'
+    category: Traits
+  - name: Multiattack.
+    value: ' The roper makes four attacks with its tendrils, uses Reel, and makes
+      one attack with its bite. '
+    category: Actions
+  - name: Bite.
+    value: ' Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 22 (4d8
+      + 4) piercing damage. '
+    category: Actions
+  - name: Tendril.
+    value: ' Melee Weapon Attack: +7 to hit, reach 50 ft., one creature. Hit: The
+      target is grappled (escape DC 15). Until the grapple ends, the target is restrained
+      and has disadvantage on Strength checks and Strength saving throws, and the
+      roper can''t use the same tendril on another target. '
+    category: Actions
+  - name: Reel.
+    value: ' The roper pulls each creature grappled by it up to 25 feet straight
+      toward it.'
+    category: Actions

@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82db5579500264da819ccf06397100, type: 3}
+  m_Name: Rust Monster
+  m_EditorClassIdentifier: 
+  title: Rust Monster
+  icon: imp-laugh
+  backgroundImage: https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/207/315/315/636252764265020108.jpeg
+  properties:
+  - name: subtitle
+    value: Medium monstrosity, unaligned
+    category: general
+  - name: Armor class
+    value: 14 (Natural Armor)
+    category: stats
+  - name: Hit points
+    value: 27 (5d8 + 5)
+    category: stats
+  - name: Speed
+    value: 40 ft.
+    category: stats
+  - name: STR
+    value: 13
+    category: abilities
+  - name: DEX
+    value: 12
+    category: abilities
+  - name: CON
+    value: 13
+    category: abilities
+  - name: INT
+    value: 2
+    category: abilities
+  - name: WIS
+    value: 13
+    category: abilities
+  - name: CHA
+    value: 6
+    category: abilities
+  - name: Senses
+    value: Darkvision 60 ft.,  Passive Perception 11
+    category: stats
+  - name: Languages
+    value: --
+    category: stats
+  - name: Challenge
+    value: 1/2 (100 XP)
+    category: stats
+  - name: Iron Scent.
+    value: ' The rust monster can pinpoint, by scent, the location of ferrous metal
+      within 30 feet of it.'
+    category: Traits
+  - name: Rust Metal.
+    value: " Any nonmagical weapon made of metal that hits the rust monster corrodes.
+      After dealing damage, the weapon takes a permanent and cumulative \u22121 penalty
+      to damage rolls. If its penalty drops to \u22125, the weapon is destroyed.
+      Nonmagical ammunition made of metal that hits the rust monster is destroyed
+      after dealing damage."
+    category: Traits
+  - name: Bite.
+    value: ' Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8
+      + 1) piercing damage.'
+    category: Actions
+  - name: Antennae.
+    value: ' The rust monster corrodes a nonmagical ferrous metal object it can see
+      within 5 feet of it. If the object isn''t being worn or carried, the touch
+      destroys a 1-foot cube of it. If the object is being worn or carried by a creature,
+      the creature can make a DC 11 Dexterity saving throw to avoid the rust monster''s
+      touch.'
+    category: Actions
+  - name: other
+    value: "f the object touched is either metal armor or a metal shield being worn
+      or carried, it takes a permanent and cumulative \u22121 penalty to the AC it
+      offers. Armor reduced to an AC of 10 or a shield that drops to a +0 bonus is
+      destroyed. If the object touched is a held metal weapon, it rusts as described
+      in the Rust Metal trait."
+    category: Actions
